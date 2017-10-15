@@ -1,0 +1,705 @@
+{
+   "status":"OK",
+   "copyright":"Copyright (c) 2017 Pro Publica Inc. All Rights Reserved.",
+   "results":[
+      {
+         "member_id": "A000360",
+         "num_results": "20",
+         "offset": "0",
+         "votes": [
+           {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "216",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/216.json",
+           "bill": {             "bill_id": "pn523-115",
+             "number": "PN523",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN523-115",
+             "number": "PN523",
+             "name": "Callista L. Gingrich",
+             "agency": "Department of State"
+           },
+           "description": "Callista L. Gingrich, of Virginia, to be Ambassador to the Holy See",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-10-05",
+           "time": "13:42:00",
+           "total": {
+             "yes": 75,
+             "no": 20,
+             "present": 0,
+             "not_voting": 5
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "215",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/215.json",
+           "bill": {             "bill_id": "pn352-115",
+             "number": "PN352",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN352-115",
+             "number": "PN352",
+             "name": "Lee Francis Cissna",
+             "agency": "Department of Homeland Security"
+           },
+           "description": "Lee Francis Cissna, of Maryland, to be Director of United States Citizenship and Immigration Services, Department of Homeland Security",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-10-05",
+           "time": "11:09:00",
+           "total": {
+             "yes": 54,
+             "no": 43,
+             "present": 0,
+             "not_voting": 3
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "214",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/214.json",
+           "bill": {             "bill_id": "pn352-115",
+             "number": "PN352",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN352-115",
+             "number": "PN352",
+             "name": "Lee Francis Cissna",
+             "agency": "Department of Homeland Security"
+           },
+           "description": "Lee Francis Cissna, of Maryland, to be Director of United States Citizenship and Immigration Services, Department of Homeland Security",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-10-05",
+           "time": "10:48:00",
+           "total": {
+             "yes": 54,
+             "no": 43,
+             "present": 0,
+             "not_voting": 3
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "213",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/213.json",
+           "bill": {             "bill_id": "pn734-115",
+             "number": "PN734",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN734-115",
+             "number": "PN734",
+             "name": "Randal Quarles",
+             "agency": "Federal Reserve System"
+           },
+           "description": "Randal Quarles, of Colorado, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2004",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-10-05",
+           "time": "10:09:00",
+           "total": {
+             "yes": 65,
+             "no": 32,
+             "present": 0,
+             "not_voting": 3
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "212",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/212.json",
+           "bill": {             "bill_id": "pn734-115",
+             "number": "PN734",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN734-115",
+             "number": "PN734",
+             "name": "Randal Quarles",
+             "agency": "Federal Reserve System"
+           },
+           "description": "Randal Quarles, of Colorado, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2004",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-10-04",
+           "time": "15:54:00",
+           "total": {
+             "yes": 62,
+             "no": 33,
+             "present": 0,
+             "not_voting": 5
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "211",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/211.json",
+           "bill": {             "bill_id": "pn248-115",
+             "number": "PN248",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN248-115",
+             "number": "PN248",
+             "name": "Eric D. Hargan",
+             "agency": "Department of Health and Human Services"
+           },
+           "description": "Eric D. Hargan, of Illinois, to be Deputy Secretary of Health and Human Services",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-10-04",
+           "time": "15:17:00",
+           "total": {
+             "yes": 57,
+             "no": 38,
+             "present": 0,
+             "not_voting": 5
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "210",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/210.json",
+           "bill": {             "bill_id": "pn248-115",
+             "number": "PN248",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN248-115",
+             "number": "PN248",
+             "name": "Eric D. Hargan",
+             "agency": "Department of Health and Human Services"
+           },
+           "description": "Eric D. Hargan, of Illinois, to be Deputy Secretary of Health and Human Services",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-10-04",
+           "time": "10:59:00",
+           "total": {
+             "yes": 57,
+             "no": 38,
+             "present": 0,
+             "not_voting": 5
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "209",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/209.json",
+           "bill": {             "bill_id": "pn89-115",
+             "number": "PN89",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN89-115",
+             "number": "PN89",
+             "name": "Ajit Varadaraj Pai",
+             "agency": "Federal Communications Commission"
+           },
+           "description": "Ajit Varadaraj Pai, of Kansas, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2016",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-10-02",
+           "time": "17:32:00",
+           "total": {
+             "yes": 52,
+             "no": 41,
+             "present": 0,
+             "not_voting": 7
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "208",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/208.json",
+           "bill": {             "bill_id": "pn89-115",
+             "number": "PN89",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN89-115",
+             "number": "PN89",
+             "name": "Ajit Varadaraj Pai",
+             "agency": "Federal Communications Commission"
+           },
+           "description": "Ajit Varadaraj Pai, of Kansas, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2016",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-09-28",
+           "time": "13:49:00",
+           "total": {
+             "yes": 55,
+             "no": 41,
+             "present": 0,
+             "not_voting": 4
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "207",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/207.json",
+           "bill": {             "bill_id": "pn586-115",
+             "number": "PN586",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN586-115",
+             "number": "PN586",
+             "name": "Ralph R. Erickson",
+             "agency": "The Judiciary"
+           },
+           "description": "Ralph R. Erickson, of North Dakota, to be United States Circuit Judge for the Eighth Circuit",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-09-28",
+           "time": "12:16:00",
+           "total": {
+             "yes": 95,
+             "no": 1,
+             "present": 0,
+             "not_voting": 4
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "206",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/206.json",
+           "bill": {             "bill_id": "pn586-115",
+             "number": "PN586",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN586-115",
+             "number": "PN586",
+             "name": "Ralph R. Erickson",
+             "agency": "The Judiciary"
+           },
+           "description": "Ralph R. Erickson, of North Dakota, to be United States Circuit Judge for the Eighth Circuit",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-09-28",
+           "time": "10:46:00",
+           "total": {
+             "yes": 95,
+             "no": 1,
+             "present": 0,
+             "not_voting": 4
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "205",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/205.json",
+           "bill": {             "bill_id": "pn249-115",
+             "number": "PN249",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN249-115",
+             "number": "PN249",
+             "name": "Makan Delrahim",
+             "agency": "Department of Justice"
+           },
+           "description": "Makan Delrahim, of California, to be an Assistant Attorney General",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-09-27",
+           "time": "17:02:00",
+           "total": {
+             "yes": 73,
+             "no": 21,
+             "present": 0,
+             "not_voting": 6
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "204",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/204.json",
+           "bill": {             "bill_id": "pn173-115",
+             "number": "PN173",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN173-115",
+             "number": "PN173",
+             "name": "Heath P. Tarbert",
+             "agency": "Department of the Treasury"
+           },
+           "description": "Heath P. Tarbert, of Maryland, to be an Assistant Secretary of the Treasury",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-09-27",
+           "time": "16:31:00",
+           "total": {
+             "yes": 87,
+             "no": 8,
+             "present": 0,
+             "not_voting": 5
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "203",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/203.json",
+           "bill": {             "bill_id": "pn725-115",
+             "number": "PN725",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN725-115",
+             "number": "PN725",
+             "name": "William J. Emanuel",
+             "agency": "National Labor Relations Board"
+           },
+           "description": "William J. Emanuel, of California, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2021",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-09-25",
+           "time": "17:30:00",
+           "total": {
+             "yes": 49,
+             "no": 47,
+             "present": 0,
+             "not_voting": 4
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "202",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/202.json",
+           "bill": {             "bill_id": "pn725-115",
+             "number": "PN725",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN725-115",
+             "number": "PN725",
+             "name": "William J. Emanuel",
+             "agency": "National Labor Relations Board"
+           },
+           "description": "William J. Emanuel, of California, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2021",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-09-19",
+           "time": "16:01:00",
+           "total": {
+             "yes": 49,
+             "no": 44,
+             "present": 0,
+             "not_voting": 7
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "201",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/201.json",
+           "bill": {             "bill_id": "pn299-115",
+             "number": "PN299",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN299-115",
+             "number": "PN299",
+             "name": "Noel J. Francisco",
+             "agency": "Department of Justice"
+           },
+           "description": "Noel J. Francisco, of the District of Columbia, to be Solicitor General of the United States",
+           "question": "On the Nomination",
+           "result": "Nomination Confirmed",
+           "date": "2017-09-19",
+           "time": "12:16:00",
+           "total": {
+             "yes": 50,
+             "no": 47,
+             "present": 0,
+             "not_voting": 3
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "200",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/200.json",
+           "bill": {             "bill_id": "pn299-115",
+             "number": "PN299",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+           
+           "nomination": {
+             "nomination_id": "PN299-115",
+             "number": "PN299",
+             "name": "Noel J. Francisco",
+             "agency": "Department of Justice"
+           },
+           "description": "Noel J. Francisco, of the District of Columbia, to be Solicitor General of the United States",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-09-19",
+           "time": "11:01:00",
+           "total": {
+             "yes": 49,
+             "no": 47,
+             "present": 0,
+             "not_voting": 4
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "199",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/199.json",
+           "bill": {
+             "bill_id": "hr2810-115",
+             "number": "H.R.2810",
+             "sponsor_id": "T000238",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr2810.json",
+             "title": "National Defense Authorization Act for Fiscal Year 2018",
+             "latest_action": "The Speaker appointed conferees - from the Committee on Ways and Means for consideration of sec. 701 of the Senate amendment, and modifications committed to conference: Tiberi, Walorski, and Neal."
+           },
+           "amendment": {
+           },
+                     "description": "National Defense Authorization Act for Fiscal Year 2018",
+           "question": "On Passage of the Bill",
+           "result": "Bill Passed",
+           "date": "2017-09-18",
+           "time": "18:21:00",
+           "total": {
+             "yes": 89,
+             "no": 8,
+             "present": 0,
+             "not_voting": 3
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "198",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/198.json",
+           "bill": {
+             "bill_id": "hr2810-115",
+             "number": "H.R.2810",
+             "sponsor_id": "T000238",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr2810.json",
+             "title": "National Defense Authorization Act for Fiscal Year 2018",
+             "latest_action": "The Speaker appointed conferees - from the Committee on Ways and Means for consideration of sec. 701 of the Senate amendment, and modifications committed to conference: Tiberi, Walorski, and Neal."
+           },
+           "amendment": {
+           },
+                     "description": "National Defense Authorization Act for Fiscal Year 2018",
+           "question": "On the Motion",
+           "result": "Motion Agreed to",
+           "date": "2017-09-18",
+           "time": "17:32:00",
+           "total": {
+             "yes": 90,
+             "no": 7,
+             "present": 0,
+             "not_voting": 3
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "A000360",
+           "chamber": "Senate",
+           "congress": "115",
+           "session": "1",
+           "roll_call": "197",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/197.json",
+           "bill": {
+             "bill_id": "hr2810-115",
+             "number": "H.R. 2810",
+             "sponsor_id": "T000238",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr2810.json",
+             "title": "National Defense Authorization Act for Fiscal Year 2018",
+             "latest_action": "The Speaker appointed conferees - from the Committee on Ways and Means for consideration of sec. 701 of the Senate amendment, and modifications committed to conference: Tiberi, Walorski, and Neal."
+           },
+           "amendment": {
+           "number": "S.Amdt. 1003",
+           "api_uri": "https://api.propublica.org/congress/v1/115/amendments/samdt1003.json",
+           "sponsor_id": "M000303",
+           "sponsor": "John McCain",
+           "sponsor_uri": "https://api.propublica.org/congress/v1/members/M000303.json",
+           "sponsor_party": "R",
+           "sponsor_state": "Ariz."
+           },
+                     "description": "National Defense Authorization Act for Fiscal Year 2018",
+           "question": "On the Cloture Motion",
+           "result": "Cloture Motion Agreed to",
+           "date": "2017-09-14",
+           "time": "15:25:00",
+           "total": {
+             "yes": 84,
+             "no": 9,
+             "present": 0,
+             "not_voting": 7
+           },
+           "position": "Yes"
+         }
+       ]
+    }
+  ]
+}

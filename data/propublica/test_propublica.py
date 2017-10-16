@@ -1,11 +1,13 @@
 import unittest
+import pprint as pp
+import pandas as pd
 
 from propublica import *
 
 
 class GetMemberTests(unittest.TestCase):
 
-    maxDiff = None
+    # maxDiff = None
 
     # get Senate members for Congress 115
     def test1(self):
@@ -72,4 +74,7 @@ def main():
     unittest.main()
 
 if __name__ == '__main__':
+    # pull test data with test_propublica.sh
+
+    # run tests
     main()

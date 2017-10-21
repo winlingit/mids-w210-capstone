@@ -24,9 +24,9 @@ def api_call(params):
             raise PropublicaApiError(obj['error']['errorMessage'])
         else:
             return obj
-    except requests.HTTPError, e:
+    except requests.HTTPError as e:
         raise PropublicaApiError(e)
-    except ValueError, e:
+    except ValueError as e:
         raise PropublicaApiError('Invalid Response')
 
 

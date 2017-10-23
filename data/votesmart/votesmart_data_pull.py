@@ -77,29 +77,56 @@ ratingCategoryDf.to_csv('data/rating_categories.csv')
 sigIds = []
 sigNames = []
 sigParents = []
+sigCategories = []
+
+sigArray = []
+
 
 for categoryId in categoryIds:
     for stateId in stateIds:
         try:
             sigs = votesmart.rating.getSigList(categoryId, stateId)
             for sig in sigs:
-                sigIds.append(str(sig.sigId))
-                sigNames.append(str(sig.name))
-                sigParents.append(str(sig.parentId))
+                sigArray.append(sig)
+                sigCategories.append(categoryId)
+            #if type(sigs) == list:
+            #    for sig in sigs:
+            #        sigIds.append(str(sig.sigId))
+            #        sigNames.append(str(sig.name))
+            #        sigParents.append(str(sig.parentId))
+            #        sigCategories.append(str(categoryId))
+            #else:
+            #    sigIds.append(str(sig['sigId']))
+            #    sigNames.append(str(sig['name']))
+            #    sigParents.append(str(sig['parentId']))
+            #    sigCategories.append(str(categoryId))
         except:
             print 'no data for category %s state %s' % (categoryId, stateId)
-        time.sleep(1)
+        #time.sleep(0.5)
+
+for s in sigArray:
+    sigIds.append(s.sigId)
+    sigNames.append(s.name)
+    sigParents.append(s.parentId)
+
+
+
+print(len(sigArray))
+print(len(sigCategories))
+
+
 
 
 
 sigDf = pd.DataFrame({
     'sigId': sigIds,
     'name': sigNames,
-    'sigParentId': sigParents
+    'sigParentId': sigParents,
+    'categoryId': sigCategories
 })
 
 
-sigDf.to_csv('data/sigs.csv')
+sigDf.to_csv('data/votesmart/data/sigs_categories.csv', encoding='utf-8')
 
 # Unique SIGs
 

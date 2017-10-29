@@ -4,7 +4,8 @@
 import pandas as pd
 
 
-candidates = pd.concat([pd.read_csv('data/legislators-current.csv'), pd.read_csv('data/legislators-historical.csv')])
+#candidates = pd.concat([pd.read_csv('data/legislators-current.csv'), pd.read_csv('data/legislators-historical.csv')])
+candidates = pd.read_csv('data/votesmart/data/legislators-current.csv')
 sigs = pd.read_csv('data/sigs.csv')
 sigs_categories = pd.read_csv('data/sigs_categories.csv')
 ratings = pd.read_csv('data/ratings.csv')
@@ -17,7 +18,6 @@ candidates = candidates[['last_name', 'first_name', 'gender', 'type', 'state', '
 
 
 temp1 = candidate_ratings.join(candidates, how='inner', on='candidateId', lsuffix='left')#.join(ratings).head()
-
 
 temp2 = temp1.join(ratings, how='inner', on='ratingId', lsuffix='left')
 

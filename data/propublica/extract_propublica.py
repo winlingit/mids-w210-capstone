@@ -1,11 +1,8 @@
+import os
 import requests
-import urllib2
 import json
 import csv
-import os
 import pandas as pd
-import collections
-import pprint as pp
 import logging
 
 headers = {'X-API-Key': '5dHwl0cO6ak64MN9Q8IwZDkGHg4bGazYhBD83vBs'}
@@ -133,10 +130,6 @@ def mergeMembers(chamber='senate'):
     merged = pd.concat([pd.read_csv('members_%s_%i.csv' % (chamber, i)) for i in range(start,116)], ignore_index=True)
     merged.to_csv('members_%s.csv' % (chamber))
 
-# get new members of current Congress
-# getNewMembers(to_csv=True)
-
-
 # combine members into single file
 def getAllVotes(chamber='senate'):
     # get member IDs from master members file
@@ -152,8 +145,6 @@ def getAllVotes(chamber='senate'):
 def mergeVotes():
     merged = pd.concat([pd.read_csv('raw/%s' % (filename)) for filename in os.listdir('raw') if filename.startswith('member_votes_')], ignore_index=True)
     merged.to_csv('member_votes.csv')
-
-# combine votes into single CSV file
 
 if __name__ == '__main__':
 

@@ -1,7 +1,9 @@
 from flask import Flask
-from itsdangerous import URLSafeTimedSerializer
+
+#from lib.populate_database import populate_database
 
 from flipflop.blueprints.page import page
+from flipflop.blueprints.api import api
 
 from flipflop.extensions import (
     debug_toolbar,
@@ -25,6 +27,7 @@ def create_app(settings_override=None):
         app.config.update(settings_override)
 
     app.register_blueprint(page)
+    app.register_blueprint(api)
     extensions(app)
 
     return app
@@ -41,3 +44,5 @@ def extensions(app):
     db.init_app(app)
 
     return None
+
+

@@ -16,27 +16,21 @@
 {% endblock %}
 
 {% block body %}
-   <section class="content-section-a">
-
+   <section class="content-section-b">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 ml-auto">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Example Section Heading</h2>
-            <p class="lead">Here's where we would put some example text and possibly add in the three options for features below.</p>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-md-4">
-            <h3>Explore</h3>
+            <img src="{{ url_for('static', filename='images/explore-icon.png') }}">
+            <h3>Explore</h3> 
             <p class="lead">Explore the current political landscape</p>
           </div>
           <div class="col-md-4">
+            <img src="{{ url_for('static', filename='images/find-icon.png') }}">
             <h3>Find</h3>
             <p class="lead">Find your representative and discover if they represent your interests</p>
           </div>
           <div class="col-md-4">
+            <img src="{{ url_for('static', filename='images/track-icon.png') }}">
             <h3>Track</h3>
             <p class="lead">Track the status of upcoming bills and see who is on the fence</p>
           </div>

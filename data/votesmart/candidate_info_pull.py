@@ -58,7 +58,7 @@ for candidate in candidates:
 print('Complete!')
 
 candidateDf = pd.DataFrame({
-    'candidate_ids': candidate_ids,
+    'candidateId': candidate_ids,
     'csrpid': csrpids,
     'first_name': first_names,
     'last_name': last_names,

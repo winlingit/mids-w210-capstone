@@ -2,19 +2,21 @@
 # Will be used in ML model, easier than to reaggregate every time
 
 import pandas as pd
+import numpy as np
 
 
 #candidates = pd.concat([pd.read_csv('data/legislators-current.csv'), pd.read_csv('data/legislators-historical.csv')])
-candidates = pd.read_csv('data/votesmart/data/legislators-current.csv')
-sigs = pd.read_csv('data/sigs.csv')
-sigs_categories = pd.read_csv('data/sigs_categories.csv')
-ratings = pd.read_csv('data/ratings.csv')
-rating_categories = pd.read_csv('data/rating_categories.csv')
-candidate_ratings = pd.read_csv('data/candidate_ratings.csv')
+#candidates = pd.read_csv('data/votesmart/data/legislators-current.csv')
+candidates = pd.read_csv('data/votesmart/data/votesmart_candidates.csv')
+sigs = pd.read_csv('data/votesmart/data/sigs.csv')
+sigs_categories = pd.read_csv('data/votesmart/data/sigs_categories.csv')
+ratings = pd.read_csv('data/votesmart/data/ratings.csv')
+rating_categories = pd.read_csv('data/votesmart/data/rating_categories.csv')
+candidate_ratings = pd.read_csv('data/votesmart/data/candidate_ratings.csv')
 
 
-candidates['candidateId'] = candidates['votesmart_id']
-candidates = candidates[['last_name', 'first_name', 'gender', 'type', 'state', 'party', 'candidateId']]
+#candidates['candidateId'] = candidates['votesmart_id'].fillna(0).astype(np.int64)
+#candidates = candidates[['last_name', 'first_name', 'gender', 'type', 'state', 'party', 'candidateId']]
 
 
 temp1 = candidate_ratings.join(candidates, how='inner', on='candidateId', lsuffix='left')#.join(ratings).head()
@@ -27,5 +29,5 @@ temp4 = temp3.join(sigs_categories, how='inner', on='sigId', lsuffix='left2')
 
 temp5 = temp4.join(rating_categories, how='inner', on='categoryId', lsuffix='left')
 
-temp5.to_csv('data/votesmart_denormalized.csv')
+temp5.to_csv('data/votesmart/data/votesmart_denormalized.csv')
 

@@ -1,7 +1,0 @@
-api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
-https://api.propublica.org/congress/v1/members/B000647.json,1989-01-03,1991-01-03,Rudolph,B000647,Boschwitz,Eli,,R,MN,Defeated in general election,101
-https://api.propublica.org/congress/v1/members/W000607.json,1989-01-03,1991-01-03,Pete,W000607,Wilson,,,R,CA,Elected to state or local post,101
-https://api.propublica.org/congress/v1/members/M000346.json,1989-01-03,1991-01-03,James,M000346,McClure,Albertus,,R,ID,Retiring,101
-https://api.propublica.org/congress/v1/members/A000219.json,1989-01-03,1991-01-03,William,A000219,Armstrong,Lester,,R,CO,Retiring,101
-https://api.propublica.org/congress/v1/members/H000951.json,1989-01-03,1991-01-03,Gordon,H000951,Humphrey,John,,R,NH,Elected to state or local post,101
-https://api.propublica.org/congress/v1/members/M000250.json,1989-01-03,1990-04-15,Spark,M000250,Matsunaga,Masayuki,"died on April 15, 1990.",D,HI,Left Congress,101

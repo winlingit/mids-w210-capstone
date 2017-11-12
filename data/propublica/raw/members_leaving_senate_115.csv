@@ -1,4 +1,0 @@
-api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
-https://api.propublica.org/congress/v1/members/F000444.json,2017-01-03,2019-01-03,Jeff,F000444,Flake,,"Announced retirement on Oct. 24, 2017.",R,AZ,Retiring,115
-https://api.propublica.org/congress/v1/members/C001071.json,2017-01-03,2019-01-03,Bob,C001071,Corker,,"Announced retirement on September 26, 2017.",R,TN,Retiring,115
-https://api.propublica.org/congress/v1/members/S001141.json,2017-01-03,2017-02-08,Jeff,S001141,Sessions,,"Resigned on Feb. 8, 2017 to become Attorney General.",R,AL,Appointed to federal post,115

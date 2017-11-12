@@ -1,0 +1,51 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/M000797.json,2001-01-03,2,2002-02-28,Patsy,M000797,Mink,T.,Died 2/28/2002,D,HI,Left Congress,107
+https://api.propublica.org/congress/v1/members/S000463.json,2001-01-03,2,2003-01-03,Joe,S000463,Skeen,,Did not seek reelection,R,NM,Retiring,107
+https://api.propublica.org/congress/v1/members/C000670.json,2001-01-03,18,2003-01-03,Gary,C000670,Condit,,Defeated for renomination,D,CA,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/A000217.json,2001-01-03,26,2003-01-03,Richard,A000217,Armey,K.,Did not seek reelection,R,TX,Retiring,107
+https://api.propublica.org/congress/v1/members/H000621.json,2001-01-03,7,2003-01-03,Earl,H000621,Hilliard,F.,Defeated for renomination,D,AL,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/T000350.json,2001-01-03,17,2002-07-24,James,T000350,Traficant Jr.,A.,"Expelled, 7/24/2002",D,OH,Left Congress,107
+https://api.propublica.org/congress/v1/members/G000547.json,2001-01-03,1,2003-01-03,Felix,G000547,Grucci Jr.,J.,Defeated for reelection,R,NY,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/C000052.json,2001-01-03,1,2003-01-03,Sonny,C000052,Callahan,,Did not seek reelection,R,AL,Retiring,107
+https://api.propublica.org/congress/v1/members/M000212.json,2001-01-03,20,2003-01-03,Frank,M000212,Mascara,,Defeated for renomination,D,PA,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/R000465.json,2001-01-03,5,2003-01-03,Marge,R000465,Roukema,,Did not seek reelection,R,NJ,Retiring,107
+https://api.propublica.org/congress/v1/members/H000789.json,2001-01-03,38,2003-01-03,Stephen,H000789,Horn,,Did not seek reelection,R,CA,Retiring,107
+https://api.propublica.org/congress/v1/members/M000834.json,2001-01-03,9,2001-05-28,Joe,M000834,Moakley,,Died 5/28/2001,D,MA,Left Congress,107
+https://api.propublica.org/congress/v1/members/S000718.json,2001-01-03,2,2001-08-16,Floyd,S000718,Spence,,Died 8/16/2001,R,SC,Left Congress,107
+https://api.propublica.org/congress/v1/members/C000846.json,2001-01-03,14,2003-01-03,William,C000846,Coyne,J.,Did not seek reelection,D,PA,Retiring,107
+https://api.propublica.org/congress/v1/members/B000081.json,2001-01-03,2,2003-01-03,John,B000081,Baldacci,,Did not seek reelection,D,ME,Retiring,107
+https://api.propublica.org/congress/v1/members/S000094.json,2001-01-03,14,2003-01-03,Tom,S000094,Sawyer,,Defeated for renomination,D,OH,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/W000194.json,2001-01-03,3,2003-01-03,Wes,W000194,Watkins,,Did not seek reelection,R,OK,Retiring,107
+https://api.propublica.org/congress/v1/members/H000074.json,2001-01-03,3,2003-01-03,Tony,H000074,Hall,P.,"Appointed U.S. Ambassador, U.N. Agencies for Food and Agriculture, Sept. 9, 2002",D,OH,Elected to federal post,107
+https://api.propublica.org/congress/v1/members/C000286.json,2001-01-03,8,2003-01-03,Saxby,C000286,Chambliss,,Elected to the U.S. Senate,R,GA,Elected to federal post,107
+https://api.propublica.org/congress/v1/members/M000523.json,2001-01-03,4,2003-01-03,Cynthia,M000523,McKinney,,Defeated for renomination,D,GA,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/S001044.json,2001-01-03,3,2003-01-03,Bob,S001044,Stump,,Did not seek reelection,R,AZ,Retiring,107
+https://api.propublica.org/congress/v1/members/E000093.json,2001-01-03,2,2003-01-03,Robert,E000093,Ehrlich,L.,Did not seek reelection,R,MD,Retiring,107
+https://api.propublica.org/congress/v1/members/B000134.json,2001-01-03,5,2003-01-03,James,B000134,Barcia,A.,Did not seek reelection,D,MI,Retiring,107
+https://api.propublica.org/congress/v1/members/H001014.json,2001-01-03,3,2003-01-03,Asa,H001014,Hutchinson,,"Appointed Director, Drug Enforcement Administration, 8/6/2001",R,AR,Elected to federal post,107
+https://api.propublica.org/congress/v1/members/M000941.json,2001-01-03,8,2003-01-03,Constance,M000941,Morella,A.,Defeated for reelection,R,MD,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/W000210.json,2001-01-03,4,2003-01-03,J.C.,W000210,Watts,,Did not seek reelection,R,OK,Retiring,107
+https://api.propublica.org/congress/v1/members/H000172.json,2001-01-03,1,2003-01-03,James,H000172,Hansen,V.,Did not seek reelection,R,UT,Retiring,107
+https://api.propublica.org/congress/v1/members/C000494.json,2001-01-03,1,2003-01-03,Eva,C000494,Clayton,,Did not seek reelection,D,NC,Retiring,107
+https://api.propublica.org/congress/v1/members/M000720.json,2001-01-03,13,2003-01-03,Dan,M000720,Miller,,Did not seek reelection,R,FL,Retiring,107
+https://api.propublica.org/congress/v1/members/S000112.json,2001-01-03,4,2003-01-03,Bob,S000112,Schaffer,,Did not seek reelection,R,CO,Retiring,107
+https://api.propublica.org/congress/v1/members/P000584.json,2001-01-03,19,2003-01-03,David,P000584,Phelps,D.,Defeated for reelection,D,IL,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/S001078.json,2001-01-03,1,2003-01-03,John,S001078,Sununu,E.,Elected to the U.S. Senate,R,NH,Elected to federal post,107
+https://api.propublica.org/congress/v1/members/G000041.json,2001-01-03,4,2003-01-03,Greg,G000041,Ganske,,Did not seek reelection,R,IA,Retiring,107
+https://api.propublica.org/congress/v1/members/B000169.json,2001-01-03,7,2003-01-03,Bob,B000169,Barr,,Defeated for renomination,R,GA,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/K000359.json,2001-01-03,7,2003-01-03,Brian,K000359,Kerns,D.,Defeated for renomination,R,IN,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/B000518.json,2001-01-03,5,2003-01-03,Rod,B000518,Blagojevich,,Did not seek reelection,D,IL,Retiring,107
+https://api.propublica.org/congress/v1/members/L000521.json,2001-01-03,6,2003-01-03,Bill,L000521,Luther,,Defeated for reelection,D,MN,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/R000258.json,2001-01-03,3,2003-01-03,Bob,R000258,Riley,,Did not seek reelection,R,AL,Retiring,107
+https://api.propublica.org/congress/v1/members/S001147.json,2001-01-03,4,2003-01-03,Ronnie,S001147,Shows,,Defeated for reelection,D,MS,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/G000121.json,2001-01-03,17,2003-01-03,George,G000121,Gekas,W.,Defeated for reelection,R,PA,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/R000281.json,2001-01-03,13,2003-01-03,Lynn,R000281,Rivers,N.,Defeated for renomination,D,MI,Defeated in primary election,107
+https://api.propublica.org/congress/v1/members/S000394.json,2001-01-03,9,2001-02-03,Bud,S000394,Shuster,,Resigns from House effective 2/3/2001,R,PA,Left Congress,107
+https://api.propublica.org/congress/v1/members/G000212.json,2001-01-03,20,2003-01-03,Benjamin,G000212,Gilman,A.,Did not seek reelection,R,NY,Retiring,107
+https://api.propublica.org/congress/v1/members/B000619.json,2001-01-03,10,2003-01-03,David,B000619,Bonior,E.,Did not seek reelection,D,MI,Retiring,107
+https://api.propublica.org/congress/v1/members/L000556.json,2001-01-03,29,2003-01-03,John,L000556,LaFalce,J.,Did not seek reelection,D,NY,Retiring,107
+https://api.propublica.org/congress/v1/members/B000644.json,2001-01-03,3,2003-01-03,Robert,B000644,Borski,A.,Did not seek reelection,D,PA,Retiring,107
+https://api.propublica.org/congress/v1/members/M000090.json,2001-01-03,5,2003-01-03,James,M000090,Maloney,H.,Defeated for reelection,D,CT,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/R000385.json,2001-01-03,3,2003-01-03,Tim,R000385,Roemer,,Did not seek reelection,D,IN,Retiring,107
+https://api.propublica.org/congress/v1/members/T000253.json,2001-01-03,5,2003-01-03,Karen,T000253,Thurman,L.,Defeated for reelection,D,FL,Defeated in general election,107
+https://api.propublica.org/congress/v1/members/G000359.json,2001-01-03,3,2003-01-03,Lindsey,G000359,Graham,,Elected to the U.S. Senate,R,SC,Elected to federal post,107

@@ -1,0 +1,14 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/W000092.json,1993-01-05,1995-01-03,Malcolm,W000092,Wallop,,,R,WY,Retiring,103
+https://api.propublica.org/congress/v1/members/B000401.json,1993-01-05,1993-01-20,Lloyd,B000401,Bentsen,Millard,,D,TX,Left Congress,103
+https://api.propublica.org/congress/v1/members/M000811.json,1993-01-05,1995-01-03,George,M000811,Mitchell,John,,D,ME,Retiring,103
+https://api.propublica.org/congress/v1/members/B000639.json,1993-01-05,1994-11-15,David,B000639,Boren,Lyle,34622,D,OK,Left Congress,103
+https://api.propublica.org/congress/v1/members/W000665.json,1993-01-05,1995-01-03,Harris,W000665,Wofford,,,D,PA,Defeated in general election,103
+https://api.propublica.org/congress/v1/members/R000249.json,1993-01-05,1995-01-03,Donald,R000249,Riegle,Wayne,,D,MI,Retiring,103
+https://api.propublica.org/congress/v1/members/M000236.json,1993-01-02,1995-01-03,Harlan,M000236,Mathews,,appointed to replace Al Gore; not a candidate for reelection,D,TN,Retiring,103
+https://api.propublica.org/congress/v1/members/D000030.json,1993-01-05,1995-01-03,John,D000030,Danforth,Claggett,,R,MO,Retiring,103
+https://api.propublica.org/congress/v1/members/S000068.json,1993-01-05,1995-01-03,James,S000068,Sasser,Ralph,,D,TN,Defeated in general election,103
+https://api.propublica.org/congress/v1/members/D000185.json,1993-01-05,1995-01-03,Dennis,D000185,DeConcini,Webster,,D,AZ,Retiring,103
+https://api.propublica.org/congress/v1/members/D000566.json,1993-01-05,1995-01-03,David,D000566,Durenberger,Ferdinand,,R,MN,Retiring,103
+https://api.propublica.org/congress/v1/members/K000333.json,1993-01-21,1993-06-14,Robert,K000333,Krueger,Charles,,D,TX,Left Congress,103
+https://api.propublica.org/congress/v1/members/M000678.json,1993-01-05,1995-01-03,Howard,M000678,Metzenbaum,Morton,,D,OH,Retiring,103

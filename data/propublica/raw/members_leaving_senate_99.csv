@@ -1,0 +1,16 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/C000322.json,1985-01-03,1987-01-03,Eugene,C000322,Chappie,A.,,R,WA,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/H000374.json,1985-01-03,1987-01-03,Paula,H000374,Hawkins,,,R,FL,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/D000259.json,1985-01-03,1987-01-03,Jeremiah,D000259,Denton,Andrew,,R,AL,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/G000333.json,1985-01-03,1987-01-03,Slade,G000333,Gorton,,,R,WA,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/A000208.json,1985-01-03,1987-01-03,Mark,A000208,Andrews,,,R,ND,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/H000287.json,1985-01-03,1987-01-03,Gary,H000287,Hart,Warren,,D,CO,Retiring,99
+https://api.propublica.org/congress/v1/members/L000148.json,1985-01-03,1987-01-03,Paul,L000148,Laxalt,Dominque,,R,NV,Retiring,99
+https://api.propublica.org/congress/v1/members/L000428.json,1985-01-03,1987-01-03,Russell,L000428,Long,Billiu,,D,LA,Retiring,99
+https://api.propublica.org/congress/v1/members/B000966.json,1985-01-03,1987-01-03,James,B000966,Broyhill,Thomas,,R,NC,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/M000241.json,1985-01-03,1987-01-03,Charles,M000241,Mathias,McCurdy,,R,MD,Retiring,99
+https://api.propublica.org/congress/v1/members/A000009.json,1985-01-03,1987-01-03,James,A000009,Abdnor,,,R,SD,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/E000004.json,1985-01-03,1987-01-03,Thomas,E000004,Eagleton,Francis,,D,MO,Retiring,99
+https://api.propublica.org/congress/v1/members/M000257.json,1985-01-03,1987-01-03,Mack,M000257,Mattingly,Francis,,R,GA,Defeated in general election,99
+https://api.propublica.org/congress/v1/members/G000267.json,1985-01-03,1987-01-03,Barry,G000267,Goldwater,Morris,,R,AZ,Retiring,99
+https://api.propublica.org/congress/v1/members/E000017.json,1985-01-03,1987-01-03,John,E000017,East,Porter,,R,NC,Left Congress,99

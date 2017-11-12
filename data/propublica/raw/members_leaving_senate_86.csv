@@ -1,0 +1,12 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/B000982.json,1959-01-07,1961-01-03,Clarence,B000982,Brunsdale,Norman,,R,ND,Retiring,86
+https://api.propublica.org/congress/v1/members/M000199.json,1959-01-07,1961-01-03,Thomas,M000199,Martin,Ellsworth,,R,IA,Retiring,86
+https://api.propublica.org/congress/v1/members/N000053.json,1959-01-07,1961-01-03,Richard,N000053,Neuberger,Lewis,,D,OR,Left Congress,86
+https://api.propublica.org/congress/v1/members/F000356.json,1959-01-07,1961-01-03,Joseph,F000356,Frear,Allen,,D,DE,Defeated in general election,86
+https://api.propublica.org/congress/v1/members/L000520.json,1959-01-07,1961-01-03,Hall,L000520,Lusk,Stoner,,D,OR,Appointed to state or local post,86
+https://api.propublica.org/congress/v1/members/G000418.json,1959-01-07,1961-01-03,Theodore,G000418,Green,Francis,,D,RI,Retiring,86
+https://api.propublica.org/congress/v1/members/H000502.json,1959-01-07,1961-01-03,Thomas,H000502,Hennings,Carey,,D,MO,Left Congress,86
+https://api.propublica.org/congress/v1/members/K000107.json,1959-01-07,1961-01-03,John,K000107,Kennedy,Fitzgerald,,D,MA,Elected to federal post,86
+https://api.propublica.org/congress/v1/members/L000070.json,1959-01-07,1961-01-03,William,L000070,Langer,,,R,ND,Left Congress,86
+https://api.propublica.org/congress/v1/members/M001108.json,1959-01-07,1961-01-03,James,M001108,Murray,Edward,,D,MT,Retiring,86
+https://api.propublica.org/congress/v1/members/O000088.json,1959-01-07,1961-01-03,Joseph,O000088,O?Mahoney,Christopher,,D,WY,Retiring,86

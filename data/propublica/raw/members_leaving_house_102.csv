@@ -1,0 +1,110 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/L000479.json,1991-01-03,41,1993-01-03,William,L000479,Lowery,David,,R,CA,Retiring,102
+https://api.propublica.org/congress/v1/members/N000094.json,1991-01-03,5,1993-01-03,Richard,N000094,Nichols,,,R,KS,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/M000736.json,1991-01-03,1,1993-01-03,John,M000736,Miller,Ripin,,R,WA,Retiring,102
+https://api.propublica.org/congress/v1/members/D000131.json,1991-01-03,11,1993-01-03,Robert,D000131,Davis,William,,R,MI,Retiring,102
+https://api.propublica.org/congress/v1/members/M000139.json,1991-01-03,At-Large,1993-01-03,Ronald,M000139,Marlenee,Charles,,R,MT,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/J000256.json,1991-01-03,1,1993-01-03,Walter,J000256,Jones,Beaman,,D,NC,Left Congress,102
+https://api.propublica.org/congress/v1/members/M000573.json,1991-01-03,4,1993-01-03,Charles,M000573,McMillen,Thomas,,D,MD,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/T000184.json,1991-01-03,1,1993-01-03,Robert,T000184,Thomas,Lindsay,Did not run for reelection,D,GA,Retiring,102
+https://api.propublica.org/congress/v1/members/M001057.json,1991-01-03,3,1993-01-03,Robert,M001057,Mrazek,Jan,,D,NY,Retiring,102
+https://api.propublica.org/congress/v1/members/W000682.json,1991-01-03,3,1993-01-03,Howard,W000682,Wolpe,Eliot,,D,MI,Retiring,102
+https://api.propublica.org/congress/v1/members/S000479.json,1991-01-03,7,1991-11-05,Daniel,S000479,Slaughter,French,,R,VA,Retiring,102
+https://api.propublica.org/congress/v1/members/V000027.json,1991-01-03,9,1993-01-03,Guy,V000027,Vander Jagt,Adrian,,R,MI,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/E000031.json,1991-01-03,11,1993-01-03,Dennis,E000031,Eckart,Edward,,D,OH,Retiring,102
+https://api.propublica.org/congress/v1/members/B000153.json,1991-01-03,10,1993-01-03,Druie,B000153,Barnard,Douglas,,D,GA,Retiring,102
+https://api.propublica.org/congress/v1/members/L000226.json,1991-01-03,17,1993-01-03,William,L000226,Lehman,,,D,FL,Retiring,102
+https://api.propublica.org/congress/v1/members/C000077.json,1991-01-03,3,1993-01-03,Ben,C000077,Campbell,Nighthorse,,D,CO,Elected to federal post,102
+https://api.propublica.org/congress/v1/members/F000041.json,1991-01-03,19,1993-01-03,Dante,F000041,Fascell,Bruno,,D,FL,Retiring,102
+https://api.propublica.org/congress/v1/members/R000252.json,1991-01-03,1,1993-01-03,Frank,R000252,Riggs,,,R,CA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/P000574.json,1991-01-03,2,1993-01-03,Carl,P000574,Pursell,Duane,,R,MI,Retiring,102
+https://api.propublica.org/congress/v1/members/R000543.json,1991-01-03,3,1993-01-03,Martin,R000543,Russo,Anthony,,D,IL,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/J000211.json,1991-01-03,4,1993-01-03,Ben,J000211,Jones,,,D,GA,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/B001172.json,1991-01-03,23,1993-01-03,Albert,B001172,Bustamante,Garza,,D,TX,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/T000034.json,1991-01-03,6,1993-01-03,Robert,T000034,Tallon,Mooneyhan,,D,SC,Retiring,102
+https://api.propublica.org/congress/v1/members/F000059.json,1991-01-03,19,1993-01-03,Edward,F000059,Feighan,Farrell,,D,OH,Retiring,102
+https://api.propublica.org/congress/v1/members/J000047.json,1991-01-03,4,1993-01-03,Craig,J000047,James,T.,,R,FL,Retiring,102
+https://api.propublica.org/congress/v1/members/W000237.json,1991-01-03,2,1993-01-03,John,W000237,Weber,Vincent,,R,MN,Retiring,102
+https://api.propublica.org/congress/v1/members/M000432.json,1991-01-03,6,1993-01-03,Bob,M000432,McEwen,,,R,OH,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/D000592.json,1991-01-03,31,1993-01-03,Mervyn,D000592,Dymally,Malcolm,,D,CA,Retiring,102
+https://api.propublica.org/congress/v1/members/M000174.json,1991-01-03,26,1993-01-03,David,M000174,Martin,O?Brien,,R,NY,Retiring,102
+https://api.propublica.org/congress/v1/members/H000776.json,1991-01-03,6,1993-01-03,Larry,H000776,Hopkins,Jones,,R,KY,Retiring,102
+https://api.propublica.org/congress/v1/members/H000901.json,1991-01-03,5,1993-01-03,Thomas,H000901,Huckaby,Jerald,,D,LA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/K000319.json,1991-01-03,8,1993-01-03,Peter,K000319,Kostmayer,Houston,,D,PA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/P000112.json,1991-01-03,4,1993-01-03,Elizabeth,P000112,Patterson,J.,,D,SC,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/R000189.json,1991-01-03,1,1993-01-03,John,R000189,Rhodes,Jacob,,R,AZ,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/H000788.json,1991-01-03,2,1993-01-03,Joan,H000788,Horn,Kelly,,D,MO,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/B000711.json,1991-01-03,6,1993-01-03,Barbara,B000711,Boxer,,,D,CA,Elected to federal post,102
+https://api.propublica.org/congress/v1/members/M000458.json,1991-01-03,5,1993-01-03,Raymond,M000458,McGrath,Joseph,,R,NY,Retiring,102
+https://api.propublica.org/congress/v1/members/S000407.json,1991-01-03,6,1993-01-03,Gerald,S000407,Sikorski,Edward,,D,MN,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/E000201.json,1991-01-03,6,1993-01-03,Ben,E000201,Erdreich,,,D,AL,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/G000402.json,1991-01-03,2,1993-01-03,William,G000402,Gray,Herbert,,D,PA,Retiring,102
+https://api.propublica.org/congress/v1/members/M000041.json,1991-01-03,15,1993-01-03,Edward,M000041,Madigan,Rell,,R,IL,Appointed to federal post,102
+https://api.propublica.org/congress/v1/members/Y000014.json,1991-01-03,6,1993-01-03,Gus,Y000014,Yatron,,,D,PA,Retiring,102
+https://api.propublica.org/congress/v1/members/G000511.json,1991-01-03,14,1993-01-03,Frank,G000511,Guarini,Joseph,,D,NJ,Retiring,102
+https://api.propublica.org/congress/v1/members/E000077.json,1991-01-03,5,1993-01-03,Marvin,E000077,Edwards,Henry,,R,OK,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/G000105.json,1991-01-03,20,1993-01-03,Joseph,G000105,Gaydos,Matthew,,D,PA,Retiring,102
+https://api.propublica.org/congress/v1/members/B000551.json,1991-01-03,At-Large,1993-01-03,Ben,B000551,Blaz,Garrido,,R,GU,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/R000485.json,1991-01-03,25,1993-01-03,Edward,R000485,Roybal,Ross,,D,CA,Retiring,102
+https://api.propublica.org/congress/v1/members/H000340.json,1991-01-03,2,1993-01-03,Charles,H000340,Hatcher,Floyd,,D,GA,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/H000236.json,1991-01-03,7,1993-01-03,Claude,H000236,Harris,,,D,AL,Retiring,102
+https://api.propublica.org/congress/v1/members/L000507.json,1991-01-03,1,1993-01-03,Charles,L000507,Luken,J.,,D,OH,Retiring,102
+https://api.propublica.org/congress/v1/members/A000226.json,1991-01-03,5,1993-01-03,Chester,A000226,Atkins,Greenough,,D,MA,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/U000001.json,1991-01-03,2,1993-01-03,Morris,U000001,Udall,King,,D,AZ,Retiring,102
+https://api.propublica.org/congress/v1/members/A000121.json,1991-01-03,7,1993-01-03,George,A000121,Allen,Felix,,R,VA,Retiring,102
+https://api.propublica.org/congress/v1/members/B000371.json,1991-01-03,3,1993-01-03,Charles,B000371,Bennett,Edward,,D,FL,Retiring,102
+https://api.propublica.org/congress/v1/members/J000083.json,1991-01-03,9,1993-01-03,Edgar,J000083,Jenkins,Lanier,,D,GA,Retiring,102
+https://api.propublica.org/congress/v1/members/B000971.json,1991-01-03,19,1993-01-03,Terry,B000971,Bruce,Lee,,D,IL,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/C000174.json,1991-01-03,At-Large,1993-01-03,Thomas,C000174,Carper,R.,,D,DE,Elected to state or local post,102
+https://api.propublica.org/congress/v1/members/D000586.json,1991-01-03,6,1993-01-03,Bernard,D000586,Dwyer,James,,D,NJ,Retiring,102
+https://api.propublica.org/congress/v1/members/C000618.json,1991-01-03,6,1993-01-03,Earl,C000618,Coleman,Thomas,,R,MO,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/S000673.json,1991-01-03,13,1993-01-03,Stephen,S000673,Solarz,Joshua,,D,NY,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/P000170.json,1991-01-03,13,1993-01-03,Donald,P000170,Pease,James,,D,OH,Retiring,102
+https://api.propublica.org/congress/v1/members/G000417.json,1991-01-03,15,1993-01-03,Sedgwick,G000417,Green,William,,R,NY,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/S000146.json,1991-01-03,5,1993-01-03,Richard,S000146,Schulze,Taylor,,R,PA,Retiring,102
+https://api.propublica.org/congress/v1/members/H000124.json,1991-01-03,3,1993-01-03,John,H000124,Hammerschmidt,Paul,,R,AR,Retiring,102
+https://api.propublica.org/congress/v1/members/D000326.json,1991-01-03,2,1993-01-03,William,D000326,Dickinson,Louis,,R,AL,Retiring,102
+https://api.propublica.org/congress/v1/members/B000890.json,1991-01-03,18,1993-01-03,William,B000890,Broomfield,S.,,R,MI,Retiring,102
+https://api.propublica.org/congress/v1/members/A000189.json,1991-01-03,32,1993-01-03,Glenn,A000189,Anderson,Malcolm,,D,CA,Retiring,102
+https://api.propublica.org/congress/v1/members/B001220.json,1991-01-03,6,1993-01-03,Beverly,B001220,Byron,Barton Butcher,,D,MD,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/D000471.json,1991-01-03,2,1993-01-03,Thomas,D000471,Downey,Joseph,,D,NY,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/H000388.json,1991-01-03,1,1993-01-03,Charles,H000388,Hayes,Arthur,,D,IL,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/I000029.json,1991-01-03,10,1993-01-03,Andrew,I000029,Ireland,Poysell,,R,FL,Retiring,102
+https://api.propublica.org/congress/v1/members/A000103.json,1991-01-03,1,1993-01-03,William,A000103,Alexander,Vollie,,D,AR,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/S000779.json,1991-01-03,2,1993-01-03,Harley,S000779,Staggers,Orrin,,D,WV,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/L000243.json,1991-01-03,4,1993-01-03,Norman,L000243,Lent,Frederick,,R,NY,Retiring,102
+https://api.propublica.org/congress/v1/members/C000836.json,1991-01-03,16,1993-01-03,John,C000836,Cox,W.,,D,IL,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/S000586.json,1991-01-03,16,1993-01-03,Lawrence,S000586,Smith,Jack,,D,FL,Retiring,102
+https://api.propublica.org/congress/v1/members/O000069.json,1991-01-03,6,1993-01-03,James,O000069,Olin,R.,,D,VA,Retiring,102
+https://api.propublica.org/congress/v1/members/R000262.json,1991-01-03,7,1993-01-03,Matthew,R000262,Rinaldo,John,,R,NJ,Retiring,102
+https://api.propublica.org/congress/v1/members/W000258.json,1991-01-03,17,1993-01-03,Theodore,W000258,Weiss,S.,,D,NY,Left Congress,102
+https://api.propublica.org/congress/v1/members/C000709.json,1991-01-03,1,1991-02-08,Silvio,C000709,Conte,Ottavio,"Died on Feb. 8, 1991",R,MA,Left Congress,102
+https://api.propublica.org/congress/v1/members/L000020.json,1991-01-03,19,1993-01-03,Robert,L000020,Lagomarsino,John,,R,CA,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/R000383.json,1991-01-03,8,1993-01-03,Robert,R000383,Roe,A.,,D,NJ,Retiring,102
+https://api.propublica.org/congress/v1/members/M000264.json,1991-01-03,6,1993-01-03,Nicholas,M000264,Mavroules,James,,D,MA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/A000213.json,1991-01-03,4,1993-01-03,Beryl,A000213,Anthony,Franklin,,D,AR,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/P000229.json,1991-01-03,7,1993-01-03,Carl,P000229,Perkins,Christopher,,D,KY,Retiring,102
+https://api.propublica.org/congress/v1/members/A000212.json,1991-01-03,11,1993-01-03,Frank,A000212,Annunzio,,,D,IL,Retiring,102
+https://api.propublica.org/congress/v1/members/T000356.json,1991-01-03,8,1993-01-03,Jerome,T000356,Traxler,Bob,,D,MI,Retiring,102
+https://api.propublica.org/congress/v1/members/H000547.json,1991-01-03,14,1993-01-03,Dennis,H000547,Hertel,Mark,,D,MI,Retiring,102
+https://api.propublica.org/congress/v1/members/D000432.json,1991-01-03,At-Large,1993-01-03,Byron,D000432,Dorgan,L.,,D,ND,Elected to federal post,102
+https://api.propublica.org/congress/v1/members/F000435.json,1991-01-03,At-Large,1993-01-03,Jaime,F000435,Fuster,B.,,D,PR,Retiring,102
+https://api.propublica.org/congress/v1/members/H000878.json,1991-01-03,1,1993-01-03,Carroll,H000878,Hubbard,,,D,KY,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/E000013.json,1991-01-03,3,1993-01-03,Joseph,E000013,Early,Daniel,,D,MA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/N000003.json,1991-01-03,3,1993-01-03,David,N000003,Nagle,Ray,,D,IA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/R000277.json,1991-01-03,15,1993-01-03,Donald,R000277,Ritter,Lawrence,,R,PA,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/W000781.json,1991-01-03,15,1993-01-03,Chalmers,W000781,Wylie,Pangburn,,R,OH,Retiring,102
+https://api.propublica.org/congress/v1/members/M000718.json,1991-01-03,10,1993-01-03,Clarence,M000718,Miller,E.,,R,OH,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/H000797.json,1991-01-03,29,1993-01-03,Frank,H000797,Horton,Jefferson,,R,NY,Retiring,102
+https://api.propublica.org/congress/v1/members/N000163.json,1991-01-03,33,1993-01-03,Henry,N000163,Nowak,James,,D,NY,Retiring,102
+https://api.propublica.org/congress/v1/members/J000265.json,1991-01-03,5,1993-01-03,James,J000265,Jontz,Prather,,D,IN,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/H000729.json,1991-01-03,8,1993-01-03,Clyde,H000729,Holloway,Cecil,,R,LA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/B000204.json,1991-01-03,3,1993-01-03,Harry,B000204,Bartlett,Stephen,,R,TX,Elected to state or local post,102
+https://api.propublica.org/congress/v1/members/C000807.json,1991-01-03,13,1993-01-03,Robert,C000807,Coughlin,Lawrence,,R,PA,Retiring,102
+https://api.propublica.org/congress/v1/members/K000307.json,1991-01-03,4,1993-01-03,Joseph,K000307,Kolter,Paul,,D,PA,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/S000081.json,1991-01-03,2,1993-01-03,Gus,S000081,Savage,,,D,IL,Defeated in primary election,102
+https://api.propublica.org/congress/v1/members/R000080.json,1991-01-03,3,1993-01-03,Richard,R000080,Ray,Belmont,,D,GA,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/D000416.json,1991-01-03,11,1993-01-03,Brian,D000416,Donnelly,Joseph,,D,MA,Retiring,102
+https://api.propublica.org/congress/v1/members/S000124.json,1991-01-03,8,1993-01-03,James,S000124,Scheuer,Haas,,D,NY,Retiring,102
+https://api.propublica.org/congress/v1/members/O000001.json,1991-01-03,20,1993-01-03,Mary,O000001,Oakar,Rose,,D,OH,Defeated in general election,102
+https://api.propublica.org/congress/v1/members/M000473.json,1991-01-03,28,1993-01-03,Matthew,M000473,McHugh,Francis,,D,NY,Retiring,102

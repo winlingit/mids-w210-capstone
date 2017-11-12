@@ -1,0 +1,64 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/L000043.json,2007-01-04,22,2009-01-03,Nicholas,L000043,Lampson,V.,,D,TX,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/G000210.json,2007-01-04,5,2007-09-05,Paul,G000210,Gillmor,E.,Died 9/5/2007,R,OH,Left Congress,110
+https://api.propublica.org/congress/v1/members/N000159.json,2007-01-04,10,2007-02-13,Charles,N000159,Norwood,W.,Died 2/13/2007,R,GA,Left Congress,110
+https://api.propublica.org/congress/v1/members/S001144.json,2007-01-04,4,2009-01-03,Christopher,S001144,Shays,H.,,R,CT,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/D000605.json,2007-01-04,2,2009-01-03,Thelma,D000605,Drake,D.,,R,VA,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/W000798.json,2007-01-04,7,2009-01-03,Tim,W000798,Walberg,,,R,MI,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/B000072.json,2007-01-04,6,2008-02-02,Richard,B000072,Baker,Hugh,"Resigned from the House on Feb. 2, 2008",R,LA,Left Congress,110
+https://api.propublica.org/congress/v1/members/M000714.json,2007-01-04,37,2007-04-22,Juanita,M000714,Millender-McDonald,,Died 4/22/2007,D,CA,Left Congress,110
+https://api.propublica.org/congress/v1/members/K000288.json,2007-01-04,9,2009-01-03,Joseph,K000288,Knollenberg,K.,,R,MI,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/R000569.json,2007-01-04,26,2009-01-03,Thomas,R000569,Reynolds,M.,,R,NY,Retiring,110
+https://api.propublica.org/congress/v1/members/W000273.json,2007-01-04,11,2009-01-03,Gerald,W000273,Weller,C.,,R,IL,Retiring,110
+https://api.propublica.org/congress/v1/members/F000447.json,2007-01-04,24,2009-01-03,Tom,F000447,Feeney,C.,,R,FL,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/D000136.json,2007-01-04,11,2008-11-24,Thomas,D000136,Davis,M.,,R,VA,Retiring,110
+https://api.propublica.org/congress/v1/members/G000280.json,2007-01-03,5,2009-01-03,Virgil,G000280,Goode,H.,,R,VA,Retiring,110
+https://api.propublica.org/congress/v1/members/B001258.json,2007-01-04,2,2009-01-03,Nancy,B001258,Boyda,E.,,D,KS,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/L000090.json,2007-01-04,12,2008-02-11,Tom,L000090,Lantos,,"Died on Feb. 11, 2008",D,CA,Left Congress,110
+https://api.propublica.org/congress/v1/members/H000323.json,2007-01-04,14,2007-11-26,J. Dennis,H000323,Hastert,,Resigned from the House effective 11/26/2007,R,IL,Left Congress,110
+https://api.propublica.org/congress/v1/members/P000263.json,2007-01-04,5,2009-01-03,John,P000263,Peterson,E.,,R,PA,Retiring,110
+https://api.propublica.org/congress/v1/members/S001167.json,2007-01-04,1,2009-01-03,Bill,S001167,Sali,,,R,ID,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/D000606.json,2007-01-04,1,2009-01-03,David,D000606,Davis,,,R,TN,Defeated in primary election,110
+https://api.propublica.org/congress/v1/members/D000429.json,2007-01-04,4,2009-01-03,John,D000429,Doolittle,T.,,R,CA,Retiring,110
+https://api.propublica.org/congress/v1/members/M001152.json,2007-01-04,4,2009-01-03,Marilyn,M001152,Musgrave,N.,,R,CO,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/K000361.json,2007-01-04,8,2009-01-03,Ric,K000361,Keller,,,R,FL,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/R000574.json,2007-01-04,1,2009-01-03,Rick,R000574,Renzi,,,R,AZ,Retiring,110
+https://api.propublica.org/congress/v1/members/W000437.json,2007-01-04,1,2007-12-31,Roger,W000437,Wicker,,"appointed to Senate on Dec. 31, 2007 to fill seat vacated by Sen. Trent Lott.",R,MS,Appointed to federal post,110
+https://api.propublica.org/congress/v1/members/F000452.json,2007-01-04,At-Large,2009-01-03,Luis,F000452,Fortuno,G.,Ran for governor,R,PR,Elected to state or local post,110
+https://api.propublica.org/congress/v1/members/L000293.json,2007-01-04,2,2009-01-03,Ron,L000293,Lewis,,,R,KY,Retiring,110
+https://api.propublica.org/congress/v1/members/H000666.json,2007-01-04,7,2009-01-03,David,H000666,Hobson,Lee,,R,OH,Retiring,110
+https://api.propublica.org/congress/v1/members/P000323.json,2007-01-04,3,2009-01-03,Charles,P000323,Pickering,W.,Announced retirement at end of 110th Congress,R,MS,Retiring,110
+https://api.propublica.org/congress/v1/members/T000458.json,2007-01-04,6,2009-01-03,Thomas,T000458,Tancredo,G.,Announced retirement at end of 110th Congress,R,CO,Retiring,110
+https://api.propublica.org/congress/v1/members/E000187.json,2007-01-04,3,2009-01-03,Phil,E000187,English,,Defeated in general election,R,PA,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/C001073.json,2008-05-06,6,2009-01-03,Donald,C001073,Cazayoux Jr.,J.,"Replaced Richard Baker, defeated in general election.",D,LA,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/C000116.json,2007-01-04,3,2009-01-03,Christopher,C000116,Cannon,B.,,R,UT,Defeated in primary election,110
+https://api.propublica.org/congress/v1/members/M001164.json,2007-01-04,16,2009-01-03,Tim,M001164,Mahoney,,,D,FL,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/K000364.json,2007-01-04,29,2009-01-03,John,K000364,Kuhl,R.,,R,NY,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/S000097.json,2007-01-04,3,2009-01-03,H. James,S000097,Saxton,,,R,NJ,Retiring,110
+https://api.propublica.org/congress/v1/members/W000784.json,2007-01-04,4,2008-05-31,Albert,W000784,Wynn,Russell,Defeated for renomination by Donna Edwards; resigned.,D,MD,Defeated in primary election,110
+https://api.propublica.org/congress/v1/members/G000180.json,2007-01-04,1,2009-01-03,Wayne,G000180,Gilchrest,T.,,R,MD,Defeated in primary election,110
+https://api.propublica.org/congress/v1/members/D000597.json,2007-01-04,1,2007-10-06,Jo Ann,D000597,Davis,S.,Died 10/6/2007,R,VA,Left Congress,110
+https://api.propublica.org/congress/v1/members/C000191.json,2007-01-04,7,2007-12-15,Julia,C000191,Carson,M.,Died 12/15/2007,D,IN,Left Congress,110
+https://api.propublica.org/congress/v1/members/L000552.json,2007-01-04,18,2009-01-03,Ray,L000552,LaHood,H.,,R,IL,Retiring,110
+https://api.propublica.org/congress/v1/members/H000762.json,2007-01-04,5,2009-01-03,Darlene,H000762,Hooley,,,D,OR,Retiring,110
+https://api.propublica.org/congress/v1/members/P000555.json,2007-01-04,15,2009-01-03,Deborah,P000555,Pryce,D.,,R,OH,Retiring,110
+https://api.propublica.org/congress/v1/members/U000038.json,2007-01-04,2,2009-01-03,Mark,U000038,Udall,,Elected to Senate,D,CO,Elected to federal post,110
+https://api.propublica.org/congress/v1/members/E000268.json,2007-01-04,2,2009-01-03,Terry,E000268,Everett,,Announced retirement at end of 110th Congress,R,AL,Retiring,110
+https://api.propublica.org/congress/v1/members/P000589.json,2007-01-04,3,2009-01-03,Jon,P000589,Porter,Christopher,,R,NV,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/U000039.json,2007-01-04,3,2009-01-03,Tom,U000039,Udall,,Elected to Senate,D,NM,Elected to federal post,110
+https://api.propublica.org/congress/v1/members/E000287.json,2007-01-04,5,2009-01-03,Rahm,E000287,Emanuel,,Became White House chief of staff,D,IL,Appointed to federal post,110
+https://api.propublica.org/congress/v1/members/C000266.json,2007-01-04,1,2009-01-03,Steven,C000266,Chabot,J.,,R,OH,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/M000388.json,2007-01-04,4,2009-01-03,Jim,M000388,McCrery,O.,Announced retirement at end of 110th Congress,R,LA,Retiring,110
+https://api.propublica.org/congress/v1/members/H001029.json,2007-01-04,8,2009-01-03,Robin,H001029,Hayes,C.,,R,NC,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/M000590.json,2007-01-04,21,2009-01-03,Michael,M000590,McNulty,R.,,D,NY,Retiring,110
+https://api.propublica.org/congress/v1/members/J000284.json,2007-01-04,11,2008-08-20,Stephanie,J000284,Jones,Tubbs,Died after suffering a brain hemorrhage.,D,OH,Left Congress,110
+https://api.propublica.org/congress/v1/members/R000033.json,2007-01-04,3,2009-01-03,James,R000033,Ramstad,M.,,R,MN,Retiring,110
+https://api.propublica.org/congress/v1/members/W000099.json,2007-01-04,25,2009-01-03,James,W000099,Walsh,T.,,R,NY,Retiring,110
+https://api.propublica.org/congress/v1/members/F000440.json,2007-01-04,13,2009-01-03,Vito,F000440,Fossella,J.,,R,NY,Retiring,110
+https://api.propublica.org/congress/v1/members/C000868.json,2007-01-04,5,2009-01-03,Robert,C000868,Cramer,E.,,D,AL,Retiring,110
+https://api.propublica.org/congress/v1/members/W000267.json,2007-01-04,15,2009-01-03,David,W000267,Weldon,J.,,R,FL,Retiring,110
+https://api.propublica.org/congress/v1/members/F000443.json,2007-01-04,7,2009-01-03,Michael,F000443,Ferguson,,,R,NJ,Retiring,110
+https://api.propublica.org/congress/v1/members/C000962.json,2007-01-04,At-Large,2009-01-03,Barbara,C000962,Cubin,L.,,R,WY,Retiring,110
+https://api.propublica.org/congress/v1/members/M000627.json,2007-01-04,5,2007-07-01,Martin,M000627,Meehan,T.,Appointed chancellor of the University of Massachusetts at Lowell; resigned 7/1/2007,D,MA,Retiring,110
+https://api.propublica.org/congress/v1/members/J000287.json,2007-01-04,1,2008-01-14,Bobby,J000287,Jindal,,Elected governor of Louisiana; resigned as of 1/14/2008,R,LA,Elected to state or local post,110
+https://api.propublica.org/congress/v1/members/R000141.json,2007-01-04,16,2009-01-03,Ralph,R000141,Regula,,,R,OH,Retiring,110

@@ -1,0 +1,14 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/M000311.json,1969-01-03,1971-01-03,Eugene,M000311,McCarthy,Joseph,,I,MN,Retiring,91
+https://api.propublica.org/congress/v1/members/R000536.json,1969-01-03,1971-01-03,Richard,R000536,Russell,Brevard,,D,GA,Left Congress,91
+https://api.propublica.org/congress/v1/members/G000282.json,1969-01-03,1971-01-03,Charles,G000282,Goodell,Ellsworth,,R,NY,Defeated in general election,91
+https://api.propublica.org/congress/v1/members/Y000053.json,1969-01-03,1971-01-03,Stephen,Y000053,Young,Marvin,,D,OH,Retiring,91
+https://api.propublica.org/congress/v1/members/W000518.json,1969-01-03,1971-01-03,John,W000518,Williams,James,,R,DE,Retiring,91
+https://api.propublica.org/congress/v1/members/T000445.json,1969-01-03,1971-01-03,Joseph,T000445,Tydings,Davies,,D,MD,Defeated in general election,91
+https://api.propublica.org/congress/v1/members/D000360.json,1969-01-03,1971-01-03,Everett,D000360,Dirksen,McKinley,,R,IL,Left Congress,91
+https://api.propublica.org/congress/v1/members/D000390.json,1969-01-03,1971-01-03,Thomas,D000390,Dodd,Joseph,,D,CT,Defeated in general election,91
+https://api.propublica.org/congress/v1/members/G000320.json,1969-01-03,1971-01-03,Albert,G000320,Gore,Arnold,,D,TN,Defeated in general election,91
+https://api.propublica.org/congress/v1/members/H000720.json,1969-01-03,1971-01-03,Spessard,H000720,Holland,Lindsey,,D,FL,Retiring,91
+https://api.propublica.org/congress/v1/members/S000602.json,1969-01-03,1971-01-03,Ralph,S000602,Smith,Tyler,,R,IL,Defeated in general election,91
+https://api.propublica.org/congress/v1/members/Y000006.json,1969-01-03,1971-01-03,Ralph,Y000006,Yarborough,Webster,,D,TX,Defeated in primary election,91
+https://api.propublica.org/congress/v1/members/M001092.json,1969-01-03,1971-01-03,George,M001092,Murphy,Lloyd,,R,CA,Defeated in general election,91

@@ -1,0 +1,21 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/B000820.json,1957-01-03,1959-01-03,John,B000820,Bricker,William,,R,OH,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/H000665.json,1957-01-03,1959-01-03,John,H000665,Hoblitzell,Dempsey,,R,WV,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/B000176.json,1957-01-03,1959-01-03,Frank,B000176,Barrett,Aloysius,,R,WY,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/W000190.json,1957-01-03,1959-01-03,Arthur,W000190,Watkins,Vivian,,R,UT,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/M000177.json,1957-01-03,1959-01-03,Edward,M000177,Martin,,,R,PA,Retiring,85
+https://api.propublica.org/congress/v1/members/S000187.json,1957-01-03,1959-01-03,William,S000187,Scott,Kerr,,D,NC,Left Congress,85
+https://api.propublica.org/congress/v1/members/D000036.json,1957-01-03,1959-01-03,Marion,D000036,Daniel,Price,,D,TX,Elected to state or local post,85
+https://api.propublica.org/congress/v1/members/P000150.json,1957-01-03,1959-01-03,Frederick,P000150,Payne,George,,R,ME,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/T000259.json,1957-01-03,1959-01-03,Edward,T000259,Thye,John,,R,MN,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/M000086.json,1957-01-03,1959-01-03,George,M000086,Malone,Wilson,,R,NV,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/N000023.json,1957-01-03,1959-01-03,Matthew,N000023,Neely,Mansfield,,D,WV,Left Congress,85
+https://api.propublica.org/congress/v1/members/P000575.json,1957-01-03,1959-01-03,William,P000575,Purtell,Arthur,,R,CT,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/J000093.json,1957-01-03,1959-01-03,William,J000093,Jenner,Ezra,,R,IN,Retiring,85
+https://api.propublica.org/congress/v1/members/M000315.json,1957-01-03,1959-01-03,Joseph,M000315,McCarthy,Raymond,,R,WI,Left Congress,85
+https://api.propublica.org/congress/v1/members/S000553.json,1957-01-03,1959-01-03,Howard,S000553,Smith,Alexander,,R,NJ,Retiring,85
+https://api.propublica.org/congress/v1/members/P000460.json,1957-01-03,1959-01-03,Charles,P000460,Potter,Edward,,R,MI,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/I000050.json,1957-01-03,1959-01-03,Irving,I000050,Ives,McNeil,,R,NY,Retiring,85
+https://api.propublica.org/congress/v1/members/B000536.json,1957-01-03,1959-01-03,William,B000536,Blakley,Arvis,,D,TX,Retiring,85
+https://api.propublica.org/congress/v1/members/R000167.json,1957-01-03,1959-01-03,William,R000167,Revercomb,Chapman,,R,WV,Defeated in general election,85
+https://api.propublica.org/congress/v1/members/F000190.json,1957-01-03,1959-01-03,Ralph,F000190,Flanders,Edward,,R,VT,Retiring,85

@@ -1,0 +1,72 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/H000707.json,1995-01-04,10,1997-01-03,Martin,H000707,Hoke,R.,Defeated for reelection,R,OH,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/F000111.json,1995-01-04,8,1997-01-03,Jack,F000111,Fields,Milton,Did not seek reelection,R,TX,Retiring,104
+https://api.propublica.org/congress/v1/members/R000122.json,1995-01-04,2,1997-01-03,Jack,R000122,Reed,,Elected to the U.S. Senate,D,RI,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/M000684.json,1995-01-04,3,1997-01-03,Jan,M000684,Meyers,,Did not seek reelection,R,KS,Retiring,104
+https://api.propublica.org/congress/v1/members/C000621.json,1995-01-04,16,1997-01-03,Ronald,C000621,Coleman,D.,Did not seek reelection,D,TX,Retiring,104
+https://api.propublica.org/congress/v1/members/T000314.json,1995-01-04,6,1997-01-03,Peter,T000314,Torkildsen,Gerard,Defeated for reelection,R,MA,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/A000109.json,1995-01-04,4,1997-01-03,Wayne,A000109,Allard,A.,Elected to the U.S. Senate,R,CO,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/F000187.json,1995-01-03,5,1997-01-03,Michael,F000187,Flanagan,P.,,R,IL,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/S001040.json,1995-01-04,10,1997-01-03,Gerry,S001040,Studds,Eastman,Did not seek reelection,D,MA,Retiring,104
+https://api.propublica.org/congress/v1/members/P000152.json,1995-01-04,5,1997-01-03,Lewis,P000152,Payne Jr.,F.,Did not seek reelection,D,VA,Retiring,104
+https://api.propublica.org/congress/v1/members/D000563.json,1995-01-04,20,1997-01-03,Richard,D000563,Durbin,J.,Elected to the U.S. Senate,D,IL,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/W000520.json,1995-01-04,At-Large,1997-01-03,John,W000520,Williams,Patrick,Did not seek reelection,D,MT,Retiring,104
+https://api.propublica.org/congress/v1/members/B001063.json,1995-01-04,5,1997-01-03,Jim,B001063,Bunn,,Defeated for reelection,R,OR,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/L000119.json,1995-06-26,14,1997-01-03,Gregory,L000119,Laughlin,H.,Defeated for renomination,R,TX,Defeated in primary election,104
+https://api.propublica.org/congress/v1/members/G000524.json,1995-01-04,3,1997-01-03,Steve,G000524,Gunderson,,Did not seek reelection,R,WI,Retiring,104
+https://api.propublica.org/congress/v1/members/H001015.json,1995-01-04,3,1997-01-03,Tim,H001015,Hutchinson,,Elected to the U.S. Senate,R,AR,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/F000261.json,1995-01-04,9,1997-01-03,Harold,F000261,Ford,E.,Did not seek reelection,D,TN,Retiring,104
+https://api.propublica.org/congress/v1/members/R000178.json,1995-01-04,2,1995-10-01,Mel,R000178,Reynolds,,Resigned 10/1/1995,D,IL,Left Congress,104
+https://api.propublica.org/congress/v1/members/M000687.json,1995-01-04,7,1996-02-15,Kweisi,M000687,Mfume,,"Became CEO of the NAACP, 2/15/1996",D,MD,Left Congress,104
+https://api.propublica.org/congress/v1/members/C000633.json,1995-01-04,15,1997-01-03,Barbara-Rose,C000633,Collins,,Defeated for renomination,D,MI,Defeated in primary election,104
+https://api.propublica.org/congress/v1/members/T000317.json,1995-01-04,9,1997-01-03,Robert,T000317,Torricelli,G.,Elected to the U.S. Senate,D,NJ,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/B000078.json,1995-01-04,10,1997-01-03,Bill,B000078,Baker,,Defeated for reelection,R,CA,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/L000431.json,1995-01-04,1,1997-01-03,James,L000431,Longley,,Defeated for reelection,R,ME,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/H000151.json,1995-01-04,7,1997-01-03,Melton,H000151,Hancock,D.,Did not seek reelection,R,MO,Retiring,104
+https://api.propublica.org/congress/v1/members/T000048.json,1995-01-04,9,1997-01-03,Randy,T000048,Tate,J.,Defeated for reelection,R,WA,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/P000259.json,1995-01-04,2,1997-01-03,Douglas,P000259,Peterson,Brian,Did not seek reelection,D,FL,Retiring,104
+https://api.propublica.org/congress/v1/members/E000174.json,1995-01-04,8,1996-06-22,Bill,E000174,Emerson,,Died 6/22/1996,R,MO,Left Congress,104
+https://api.propublica.org/congress/v1/members/W000570.json,1995-01-04,2,1997-01-03,Charles,W000570,Wilson,,Did not seek reelection,D,TX,Retiring,104
+https://api.propublica.org/congress/v1/members/C000385.json,1995-01-04,8,1997-01-03,Dick,C000385,Chrysler,,Defeated for reelection,R,MI,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/R000307.json,1995-01-04,1,1997-01-03,Pat,R000307,Roberts,,Elected to the U.S. Senate,R,KS,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/M000794.json,1995-01-04,15,1995-10-10,Norman,M000794,Mineta,Y.,Resigned 10/10/1995,D,CA,Left Congress,104
+https://api.propublica.org/congress/v1/members/C000634.json,1995-01-04,7,1997-01-03,Cardiss,C000634,Collins,,Did not seek reelection,D,IL,Retiring,104
+https://api.propublica.org/congress/v1/members/T000405.json,1995-01-04,37,1995-12-15,Walter,T000405,Tucker III,R.,Resigned 12/15/1995,D,CA,Left Congress,104
+https://api.propublica.org/congress/v1/members/B000318.json,1995-01-04,24,1997-01-03,Anthony,B000318,Beilenson,C.,Did not seek reelection,D,CA,Retiring,104
+https://api.propublica.org/congress/v1/members/J000033.json,1995-01-04,10,1997-01-03,Andrew,J000033,Jacobs Jr.,,Did not seek reelection,D,IN,Retiring,104
+https://api.propublica.org/congress/v1/members/F000348.json,1995-01-04,5,1997-01-03,Gary,F000348,Franks,A.,Defeated for reelection,R,CT,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/Q000013.json,1995-01-04,1,1997-01-03,James,Q000013,Quillen,Henry,Did not seek reelection,R,TN,Retiring,104
+https://api.propublica.org/congress/v1/members/F000110.json,1995-01-04,4,1997-01-03,Cleo,F000110,Fields,,Did not seek reelection,D,LA,Retiring,104
+https://api.propublica.org/congress/v1/members/W000779.json,1995-01-04,3,1996-02-05,Ron,W000779,Wyden,,"Elected to the U.S. Senate, 2/6/1996",D,OR,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/C000523.json,1995-01-04,5,1997-01-03,William,C000523,Clinger Jr.,F.,Did not seek reelection,R,PA,Retiring,104
+https://api.propublica.org/congress/v1/members/M000207.json,1995-01-04,8,1997-01-03,William,M000207,Martini,J.,Defeated for reelection,R,NJ,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/H000452.json,1995-01-04,4,1997-01-03,Fred,H000452,Heineman,,Defeated for reelection,R,NC,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/T000243.json,1995-01-04,2,1997-01-03,Raymond,T000243,Thornton,Hoyt,Did not seek reelection,D,AR,Retiring,104
+https://api.propublica.org/congress/v1/members/J000177.json,1995-01-04,At-Large,1997-01-03,Tim,J000177,Johnson,,Elected to the U.S. Senate,D,SD,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/F000387.json,1995-01-04,4,1997-01-03,Dan,F000387,Frisa,,Defeated for reelection,R,NY,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/R000436.json,1995-01-04,7,1997-01-03,Charles,R000436,Rose,Grandison,Did not seek reelection,D,NC,Retiring,104
+https://api.propublica.org/congress/v1/members/M000865.json,1995-01-04,3,1997-01-03,Sonny,M000865,Montgomery,,Did not seek reelection,D,MS,Retiring,104
+https://api.propublica.org/congress/v1/members/C000737.json,1995-01-04,2,1997-01-03,Wes,C000737,Cooley,,Did not seek reelection,R,OR,Retiring,104
+https://api.propublica.org/congress/v1/members/V000112.json,1995-01-04,9,1997-01-03,Harold,V000112,Volkmer,Lee,Defeated for reelection,D,MO,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/B000431.json,1995-01-04,4,1997-01-03,Tom,B000431,Bevill,,Did not seek reelection,D,AL,Retiring,104
+https://api.propublica.org/congress/v1/members/M000926.json,1995-01-04,27,1997-01-03,Carlos,M000926,Moorhead,John,Did not seek reelection,R,CA,Retiring,104
+https://api.propublica.org/congress/v1/members/C000903.json,1995-01-04,6,1997-01-03,Frank,C000903,Cremeans,,Defeated for reelection,R,OH,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/V000124.json,1995-01-04,2,1997-01-03,Barbara,V000124,Vucanovich,Farrell,Did not seek reelection,R,NV,Retiring,104
+https://api.propublica.org/congress/v1/members/B000576.json,1995-01-04,3,1997-01-03,Peter,B000576,Blute,I.,Defeated for reelection,R,MA,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/J000187.json,1995-01-04,19,1997-01-03,Harry,J000187,Johnston,A.,Did not seek reelection,D,FL,Retiring,104
+https://api.propublica.org/congress/v1/members/F000426.json,1995-01-04,2,1997-01-03,David,F000426,Funderburk,,Defeated for reelection,R,NC,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/R000459.json,1995-01-04,8,1997-01-03,Toby,R000459,Roth,A.,Did not seek reelection,R,WI,Retiring,104
+https://api.propublica.org/congress/v1/members/L000035.json,1995-01-04,1,1997-01-03,Blanche,L000035,Lincoln,,Did not seek reelection,D,AR,Retiring,104
+https://api.propublica.org/congress/v1/members/G000134.json,1995-01-04,12,1997-01-03,Pete,G000134,Geren,,Did not seek reelection,D,TX,Retiring,104
+https://api.propublica.org/congress/v1/members/S000142.json,1995-01-04,1,1997-01-03,Patricia,S000142,Schroeder,Scott,Did not seek reelection,D,CO,Retiring,104
+https://api.propublica.org/congress/v1/members/M001130.json,1995-01-04,7,1997-01-03,John,M001130,Myers,T.,Did not seek reelection,R,IN,Retiring,104
+https://api.propublica.org/congress/v1/members/D000203.json,1995-01-04,15,1997-01-03,Eligio,D000203,de la Garza,'Kiki',Did not seek reelection,D,TX,Retiring,104
+https://api.propublica.org/congress/v1/members/W000068.json,1995-01-04,16,1997-01-03,Robert,W000068,Walker,Smith,Did not seek reelection,R,PA,Retiring,104
+https://api.propublica.org/congress/v1/members/B000817.json,1995-01-04,3,1997-01-03,Bill,B000817,Brewster,K.,Did not seek reelection,D,OK,Retiring,104
+https://api.propublica.org/congress/v1/members/D000435.json,1995-01-04,46,1997-01-03,Robert,D000435,Dornan,K.,Defeated for reelection,R,CA,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/W000139.json,1995-01-04,3,1997-01-03,Michael,W000139,Ward,Delavan,Defeated for reelection,D,KY,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/B000953.json,1995-01-04,2,1997-01-03,Sam,B000953,Brownback,,Elected to the U.S. Senate,R,KS,Elected to federal post,104
+https://api.propublica.org/congress/v1/members/L000119.json,1995-01-04,14,1995-06-26,Gregory,L000119,Laughlin,H.,Defeated for renomination,D,TX,Defeated in primary election,104
+https://api.propublica.org/congress/v1/members/G000153.json,1995-01-04,11,1997-01-03,Sam,G000153,Gibbons,,Did not seek reelection,D,FL,Retiring,104
+https://api.propublica.org/congress/v1/members/S000213.json,1995-01-04,22,1997-01-03,Andrea,S000213,Seastrand,,Defeated for reelection,R,CA,Defeated in general election,104
+https://api.propublica.org/congress/v1/members/O000108.json,1995-01-04,3,1997-01-03,William,O000108,Orton,,Defeated for reelection,D,UT,Defeated in general election,104

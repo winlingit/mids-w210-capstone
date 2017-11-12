@@ -1,0 +1,7 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/H000384.json,1981-01-05,1983-01-03,Samuel,H000384,Hayakawa,Ichiye,,R,CA,Retiring,97
+https://api.propublica.org/congress/v1/members/S000132.json,1981-01-05,1983-01-03,Harrison,S000132,Schmitt,Hagan,,R,NM,Defeated in general election,97
+https://api.propublica.org/congress/v1/members/C000120.json,1981-01-05,1983-01-03,Howard,C000120,Cannon,Walter,,D,NV,Defeated in general election,97
+https://api.propublica.org/congress/v1/members/B001209.json,1981-01-05,1983-01-03,Harry,B001209,Byrd,Flood,,I,VA,Retiring,97
+https://api.propublica.org/congress/v1/members/B000756.json,1981-01-05,1983-01-03,Nicholas,B000756,Brady,Frederick,,R,NJ,Retiring,97
+https://api.propublica.org/congress/v1/members/W000502.json,1981-01-05,1983-01-03,Harrison,W000502,Williams,Arlington,,D,NJ,Retiring,97

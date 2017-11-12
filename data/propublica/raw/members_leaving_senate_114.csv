@@ -1,0 +1,8 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/A000368.json,2015-01-06,2017-01-03,Kelly,A000368,Ayotte,,Lost general election to Maggie Hassan.,R,NH,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/K000360.json,2015-01-06,2017-01-03,Mark,K000360,Kirk,Steven,Lost in general election.,R,IL,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/V000127.json,2015-01-06,2017-01-03,David,V000127,Vitter,,"Announced retirement on Nov. 21, 2015",R,LA,Retiring,114
+https://api.propublica.org/congress/v1/members/R000146.json,2015-01-06,2017-01-03,Harry,R000146,Reid,,"Announced retirement on March 27, 2015",D,NV,Retiring,114
+https://api.propublica.org/congress/v1/members/C000542.json,2015-01-06,2017-01-03,Daniel,C000542,Coats,,"Announced retirement on March 24, 2015",R,IN,Retiring,114
+https://api.propublica.org/congress/v1/members/M000702.json,2015-01-06,2017-01-03,Barbara,M000702,Mikulski,A.,"Announced retirement on March 2, 2015",D,MD,Retiring,114
+https://api.propublica.org/congress/v1/members/B000711.json,2015-01-06,2017-01-03,Barbara,B000711,Boxer,,"Announced retirement on Jan. 8, 2015",D,CA,Retiring,114

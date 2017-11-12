@@ -1,0 +1,8 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/B000780.json,2003-01-07,2005-01-03,John,B000780,Breaux,B.,,D,LA,Retiring,108
+https://api.propublica.org/congress/v1/members/C000077.json,2003-01-07,2005-01-03,Ben,C000077,Campbell,Nighthorse,,R,CO,Retiring,108
+https://api.propublica.org/congress/v1/members/D000064.json,2003-01-07,2005-01-03,Thomas,D000064,Daschle,A.,,D,SD,Defeated in general election,108
+https://api.propublica.org/congress/v1/members/F000442.json,2003-01-07,2005-01-03,Peter,F000442,Fitzgerald,G.,,R,IL,Retiring,108
+https://api.propublica.org/congress/v1/members/H000725.json,2003-01-07,2005-01-03,Ernest,H000725,Hollings,F.,,D,SC,Retiring,108
+https://api.propublica.org/congress/v1/members/M001141.json,2003-01-07,2005-01-03,Zell,M001141,Miller,Bryan,,D,GA,Retiring,108
+https://api.propublica.org/congress/v1/members/N000102.json,2003-01-07,2005-01-03,Don,N000102,Nickles,,,R,OK,Retiring,108

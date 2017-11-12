@@ -1,0 +1,9 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/J000101.json,1983-01-03,1985-01-03,Roger,J000101,Jepsen,William,,R,IA,Defeated in general election,98
+https://api.propublica.org/congress/v1/members/P000222.json,1983-01-03,1985-01-03,Charles,P000222,Percy,Harting,,R,IL,Defeated in general election,98
+https://api.propublica.org/congress/v1/members/H000905.json,1983-01-03,1985-01-03,Walter,H000905,Huddleston,Darlington,,D,KY,Defeated in general election,98
+https://api.propublica.org/congress/v1/members/T000322.json,1983-01-03,1985-01-03,John,T000322,Tower,Goodwin,,R,TX,Retiring,98
+https://api.propublica.org/congress/v1/members/J000013.json,1983-01-03,1985-01-03,Henry,J000013,Jackson,Martin,,D,WA,Left Congress,98
+https://api.propublica.org/congress/v1/members/T000393.json,1983-01-03,1985-01-03,Paul,T000393,Tsongas,Efthemios,,D,MA,Retiring,98
+https://api.propublica.org/congress/v1/members/B000063.json,1983-01-03,1985-01-03,Howard,B000063,Baker,Henry,,R,TN,Retiring,98
+https://api.propublica.org/congress/v1/members/R000046.json,1983-01-03,1985-01-03,Jennings,R000046,Randolph,,,D,WV,Retiring,98

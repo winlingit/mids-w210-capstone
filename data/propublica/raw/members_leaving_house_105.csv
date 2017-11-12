@@ -1,0 +1,39 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/F000434.json,1997-01-07,1,1999-01-03,Elizabeth,F000434,Furse,,Did not seek reelection,D,OR,Retiring,105
+https://api.propublica.org/congress/v1/members/M000843.json,1997-01-07,13,1997-08-02,Susan,M000843,Molinari,,"Resigned, 8/2/1997",R,NY,Left Congress,105
+https://api.propublica.org/congress/v1/members/S000607.json,1997-01-07,2,1999-01-03,Robert,S000607,Smith,F.,Did not seek reelection,R,OR,Retiring,105
+https://api.propublica.org/congress/v1/members/B000622.json,1997-01-07,44,1998-01-05,Sonny,B000622,Bono,,Died 1/5/1998,R,CA,Left Congress,105
+https://api.propublica.org/congress/v1/members/M000117.json,1997-01-07,7,1999-01-03,Thomas,M000117,Manton,J.,Did not seek reelection,D,NY,Retiring,105
+https://api.propublica.org/congress/v1/members/S000125.json,1997-01-07,1,1998-03-25,Steven,S000125,Schiff,,Died 3/25/1998,R,NM,Left Congress,105
+https://api.propublica.org/congress/v1/members/Y000013.json,1997-01-07,9,1999-01-03,Sidney,Y000013,Yates,R.,Did not seek reelection,D,IL,Retiring,105
+https://api.propublica.org/congress/v1/members/F000184.json,1997-01-07,6,1997-11-17,Floyd,F000184,Flake,H.,"Resigned, 11/17/1997",D,NY,Left Congress,105
+https://api.propublica.org/congress/v1/members/B001066.json,1997-01-07,4,1999-01-03,Jim,B001066,Bunning,,Elected to the U.S. Senate,R,KY,Elected to federal post,105
+https://api.propublica.org/congress/v1/members/G000225.json,1997-01-07,6,1999-01-03,Newt,G000225,Gingrich,,Did not seek reelection,R,GA,Retiring,105
+https://api.propublica.org/congress/v1/members/P000049.json,1997-01-07,12,1999-01-03,Michael,P000049,Pappas,,Defeated for reelection,R,NJ,Defeated in general election,105
+https://api.propublica.org/congress/v1/members/S000662.json,1997-01-07,3,1999-01-03,Vince,S000662,Snowbarger,,Defeated for reelection,R,KS,Defeated in general election,105
+https://api.propublica.org/congress/v1/members/M000399.json,1997-01-07,10,1999-01-03,Joseph,M000399,McDade,M.,Did not seek reelection,R,PA,Retiring,105
+https://api.propublica.org/congress/v1/members/S000148.json,1997-01-07,9,1999-01-03,Charles,S000148,Schumer,E.,Elected to the U.S. Senate,D,NY,Elected to federal post,105
+https://api.propublica.org/congress/v1/members/F000235.json,1997-01-07,1,1999-01-03,Tom,F000235,Foglietta,,"Appointed U.S. Ambassador to Italy, 11/11/1997",D,PA,Elected to federal post,105
+https://api.propublica.org/congress/v1/members/G000272.json,1997-01-07,20,1999-01-03,Henry,G000272,Gonzalez,B.,Did not seek reelection,D,TX,Retiring,105
+https://api.propublica.org/congress/v1/members/P000148.json,1997-01-07,27,1999-01-03,Bill,P000148,Paxon,,Did not seek reelection,R,NY,Retiring,105
+https://api.propublica.org/congress/v1/members/S000675.json,1997-01-07,22,1999-01-03,Gerald,S000675,Solomon,B.H.,Did not seek reelection,R,NY,Retiring,105
+https://api.propublica.org/congress/v1/members/C000134.json,1997-01-07,22,1997-10-28,Walter,C000134,Capps,,Died 10/28/97,D,CA,Left Congress,105
+https://api.propublica.org/congress/v1/members/M000466.json,1997-01-07,15,1999-01-03,Paul,M000466,McHale,,Did not seek reelection,D,PA,Retiring,105
+https://api.propublica.org/congress/v1/members/S000462.json,1997-01-07,2,1999-01-03,David,S000462,Skaggs,E.,Did not seek reelection,D,CO,Retiring,105
+https://api.propublica.org/congress/v1/members/F000332.json,1997-01-07,13,1999-01-03,Jon,F000332,Fox,D.,Defeated for reelection,R,PA,Defeated in general election,105
+https://api.propublica.org/congress/v1/members/H000448.json,1997-01-07,8,1999-01-03,Bill,H000448,Hefner,,Did not seek reelection,D,NC,Retiring,105
+https://api.propublica.org/congress/v1/members/R000229.json,1997-01-07,3,1999-01-03,Bill,R000229,Richardson,,"Appointed ambassador to the U.N., 1/13/1997",D,NM,Elected to federal post,105
+https://api.propublica.org/congress/v1/members/S000948.json,1997-01-07,11,1999-01-03,Louis,S000948,Stokes,,Did not seek reelection,D,OH,Retiring,105
+https://api.propublica.org/congress/v1/members/C000880.json,1997-01-07,2,1999-01-03,Michael,C000880,Crapo,D.,Elected to the U.S. Senate,R,ID,Elected to federal post,105
+https://api.propublica.org/congress/v1/members/T000113.json,1997-01-03,28,1997-01-30,Frank,T000113,Tejeda,,Died 1/30/1997,D,TX,Left Congress,105
+https://api.propublica.org/congress/v1/members/D000222.json,1997-01-07,9,1998-02-06,Ronald,D000222,Dellums,V.,Resigned 2/6/1998,D,CA,Left Congress,105
+https://api.propublica.org/congress/v1/members/J000149.json,1997-01-07,8,1999-01-03,Jay,J000149,Johnson,W.,Defeated for reelection,D,WI,Defeated in general election,105
+https://api.propublica.org/congress/v1/members/R000252.json,1997-01-07,1,1999-01-03,Frank,R000252,Riggs,,Did not seek reelection,R,CA,Retiring,105
+https://api.propublica.org/congress/v1/members/K000110.json,1997-01-07,8,1999-01-03,Joseph,K000110,Kennedy II,P.,Did not seek reelection,D,MA,Retiring,105
+https://api.propublica.org/congress/v1/members/R000567.json,1997-01-07,3,1999-01-03,Bill,R000567,Redmond,,Defeated for reelection,R,NM,Defeated in general election,105
+https://api.propublica.org/congress/v1/members/T000316.json,1997-01-07,34,1999-01-03,Esteban,T000316,Torres,Edward,Did not seek reelection,D,CA,Retiring,105
+https://api.propublica.org/congress/v1/members/F000049.json,1997-01-07,13,1999-01-03,Harris,F000049,Fawell,W.,Did not seek reelection,R,IL,Retiring,105
+https://api.propublica.org/congress/v1/members/F000053.json,1997-01-07,3,1999-01-03,Vic,F000053,Fazio,,Did not seek reelection,D,CA,Retiring,105
+https://api.propublica.org/congress/v1/members/K000181.json,1997-01-07,41,1999-01-03,Jay,K000181,Kim,,Defeated for renomination,R,CA,Defeated in primary election,105
+https://api.propublica.org/congress/v1/members/S000109.json,1997-01-07,6,1999-01-03,Dan,S000109,Schaefer,,Did not seek reelection,R,CO,Retiring,105
+https://api.propublica.org/congress/v1/members/W000391.json,1997-01-07,1,1999-01-03,Rick,W000391,White,,Defeated for reelection,R,WA,Defeated in general election,105

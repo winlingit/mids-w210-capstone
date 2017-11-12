@@ -1,0 +1,12 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/T000024.json,2005-01-04,2007-01-03,James,T000024,Talent,M.,Defeated for reelection,R,MO,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/A000121.json,2005-01-04,2007-01-03,George,A000121,Allen,Felix,Defeated for reelection,R,VA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/J000072.json,2005-01-04,2007-01-03,James,J000072,Jeffords,M.,Caucuses with the Ds; retired,I,VT,Retiring,109
+https://api.propublica.org/congress/v1/members/B001126.json,2005-01-04,2007-01-03,Conrad,B001126,Burns,,Defeated for reelection,R,MT,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/S000059.json,2005-01-04,2007-01-03,Richard,S000059,Santorum,J.,Defeated for reelection,R,PA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/C001040.json,2005-01-04,2007-01-03,Lincoln,C001040,Chafee,D.,Defeated for reelection,R,RI,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/S000064.json,2005-01-04,2007-01-03,Paul,S000064,Sarbanes,S.,Retired,D,MD,Retiring,109
+https://api.propublica.org/congress/v1/members/C001042.json,2005-01-04,2007-01-03,Jon,C001042,Corzine,Stevens,"Elected governor of NJ, 1/17/2006",D,NJ,Elected to state or local post,109
+https://api.propublica.org/congress/v1/members/D000294.json,2005-01-04,2007-01-03,Michael,D000294,DeWine,,Defeated for reelection,R,OH,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/D000596.json,2005-01-04,2007-01-03,Mark,D000596,Dayton,,Retired,D,MN,Retiring,109
+https://api.propublica.org/congress/v1/members/F000439.json,2005-01-04,2007-01-03,William,F000439,Frist,H.,Retired,R,TN,Retiring,109

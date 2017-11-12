@@ -1,0 +1,13 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/R000295.json,1999-01-06,2001-01-03,Charles,R000295,Robb,S.,,D,VA,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/A000355.json,1999-01-06,2001-01-03,Spencer,A000355,Abraham,,,R,MI,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/L000123.json,1999-01-06,2001-01-03,Frank,L000123,Lautenberg,R.,,D,NJ,Retiring,106
+https://api.propublica.org/congress/v1/members/B000993.json,1999-01-06,2001-01-03,Richard,B000993,Bryan,H.,,D,NV,Retiring,106
+https://api.propublica.org/congress/v1/members/R000460.json,1999-01-06,2001-01-03,William,R000460,Roth Jr.,V.,,R,DE,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/M000019.json,1999-01-06,2001-01-03,Connie,M000019,Mack,,,R,FL,Retiring,106
+https://api.propublica.org/congress/v1/members/C000269.json,1999-01-06,1999-10-24,John,C000269,Chafee,H.,Died 1999,R,RI,Left Congress,106
+https://api.propublica.org/congress/v1/members/M001054.json,1999-01-06,2001-01-03,Daniel,M001054,Moynihan,Patrick,,D,NY,Retiring,106
+https://api.propublica.org/congress/v1/members/C000813.json,1999-01-06,2000-07-18,Paul,C000813,Coverdell,,"Died, 7/18/2000",R,GA,Left Congress,106
+https://api.propublica.org/congress/v1/members/G000333.json,1999-01-06,2001-01-03,Slade,G000333,Gorton,,,R,WA,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/G000367.json,1999-01-06,2001-01-03,Rod,G000367,Grams,,,R,MN,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/K000146.json,1999-01-06,2001-01-03,J. Robert,K000146,Kerrey,,,D,NE,Retiring,106

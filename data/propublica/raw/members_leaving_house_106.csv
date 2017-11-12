@@ -1,0 +1,38 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/D000046.json,1999-01-06,6,2001-01-03,Pat,D000046,Danner,,Did not seek reelection,D,MO,Retiring,106
+https://api.propublica.org/congress/v1/members/A000215.json,1999-01-06,7,2001-01-03,Bill,A000215,Archer,,Did not seek reelection,R,TX,Retiring,106
+https://api.propublica.org/congress/v1/members/S000051.json,1999-01-06,1,2001-01-03,Mark,S000051,Sanford,,Did not seek reelection,R,SC,Retiring,106
+https://api.propublica.org/congress/v1/members/K000357.json,1999-01-06,36,2001-01-03,Steven,K000357,Kuykendall,T.,Defeated for reelection,R,CA,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/G000291.json,1999-01-06,19,2001-01-03,William,G000291,Goodling,F.,Did not seek reelection,R,PA,Retiring,106
+https://api.propublica.org/congress/v1/members/C000488.json,1999-01-06,1,2001-01-03,William,C000488,Clay,,Did not seek reelection,D,MO,Retiring,106
+https://api.propublica.org/congress/v1/members/P000444.json,1999-01-06,10,2001-01-03,John,P000444,Porter,Edward,Did not seek reelection,R,IL,Retiring,106
+https://api.propublica.org/congress/v1/members/D000312.json,1999-01-06,4,2001-01-03,Jay,D000312,Dickey,,Defeated for reelection,R,AR,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/B000179.json,1999-01-06,3,2001-01-03,Bill,B000179,Barrett,,Did not seek reelection,R,NE,Retiring,106
+https://api.propublica.org/congress/v1/members/S000770.json,1999-01-06,8,2001-01-03,Debbie,S000770,Stabenow,,Elected to the U.S. Senate,D,MI,Elected to federal post,106
+https://api.propublica.org/congress/v1/members/M000206.json,1999-01-06,31,2000-07-27,Matthew,M000206,Martinez,G.,Changed from D to R on 7/27/2000,D,CA,Defeated in primary election,106
+https://api.propublica.org/congress/v1/members/H000605.json,1999-01-06,At-Large,2001-01-03,Rick,H000605,Hill,,Did not seek reelection,R,MT,Retiring,106
+https://api.propublica.org/congress/v1/members/C000560.json,1999-01-06,2,2001-01-03,Tom,C000560,Coburn,,Did not seek reelection,R,OK,Retiring,106
+https://api.propublica.org/congress/v1/members/R000386.json,1999-01-06,27,2001-01-03,James,R000386,Rogan,E.,Defeated for reelection,R,CA,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/B000229.json,1999-01-06,1,2000-09-11,Herbert,B000229,Bateman,H.,"Died, 9/11/2000",R,VA,Left Congress,106
+https://api.propublica.org/congress/v1/members/V000087.json,1999-01-06,4,2000-10-10,Bruce,V000087,Vento,F.,Died 10/10/2000,D,MN,Left Congress,106
+https://api.propublica.org/congress/v1/members/M000669.json,1999-01-06,2,2001-01-03,Jack,M000669,Metcalf,,Did not seek reelection,R,WA,Retiring,106
+https://api.propublica.org/congress/v1/members/D000373.json,1999-01-06,32,2000-12-08,Julian,D000373,Dixon,C.,"Died, 12/8/2000",D,CA,Left Congress,106
+https://api.propublica.org/congress/v1/members/S000018.json,1999-01-06,1,2001-01-03,Matt,S000018,Salmon,,Did not seek reelection,R,AZ,Retiring,106
+https://api.propublica.org/congress/v1/members/K000016.json,1999-01-06,12,2001-01-03,John,K000016,Kasich,R.,Did not seek reelection,R,OH,Retiring,106
+https://api.propublica.org/congress/v1/members/C000722.json,1999-01-06,2,2001-01-03,Merrill,C000722,Cook,,Did not seek reelection,R,UT,Retiring,106
+https://api.propublica.org/congress/v1/members/E000282.json,1999-01-06,15,2001-01-03,Thomas,E000282,Ewing,W.,Did not seek reelection,R,IL,Retiring,106
+https://api.propublica.org/congress/v1/members/B000461.json,1999-01-06,49,2001-01-03,Brian,B000461,Bilbray,P.,Defeated for reelection,R,CA,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/W000654.json,1999-01-06,2,2001-01-03,Robert,W000654,Wise Jr.,E.,Elected governor,D,WV,Elected to state or local post,106
+https://api.propublica.org/congress/v1/members/M000795.json,1999-01-06,2,2001-01-03,David,M000795,Minge,,Defeated for reelection,D,MN,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/F000257.json,1999-01-06,1,1999-07-17,Michael,F000257,Forbes,P.,Defeated for renomination; changed party to D in 1999,R,NY,Defeated in primary election,106
+https://api.propublica.org/congress/v1/members/B000556.json,1999-01-06,7,2001-01-03,Tom,B000556,Bliley,,Did not seek reelection,R,VA,Retiring,106
+https://api.propublica.org/congress/v1/members/F000257.json,1999-07-17,1,2001-01-03,Michael,F000257,Forbes,P.,,D,NY,Defeated in primary election,106
+https://api.propublica.org/congress/v1/members/P000005.json,1999-01-06,48,2001-01-03,Ron,P000005,Packard,,Did not seek reelection,R,CA,Retiring,106
+https://api.propublica.org/congress/v1/members/F000328.json,1999-01-06,4,2001-01-03,Tillie,F000328,Fowler,K.,Did not seek reelection,R,FL,Retiring,106
+https://api.propublica.org/congress/v1/members/B000918.json,1999-01-06,42,1999-06-05,George,B000918,Brown,E.,"Died, 6/5/1999",D,CA,Left Congress,106
+https://api.propublica.org/congress/v1/members/M000206.json,2000-07-27,31,2001-01-03,Matthew,M000206,Martinez,G.,,R,CA,Defeated in primary election,106
+https://api.propublica.org/congress/v1/members/P000171.json,1999-01-06,7,2001-01-03,Edward,P000171,Pease,A.,Did not seek reelection,R,IN,Retiring,106
+https://api.propublica.org/congress/v1/members/G000120.json,1999-01-06,2,2001-01-03,Sam,G000120,Gejdenson,,Defeated for reelection,D,CT,Defeated in general election,106
+https://api.propublica.org/congress/v1/members/C000107.json,1999-01-06,12,2001-01-03,Charles,C000107,Canady,T.,Did not seek reelection,R,FL,Retiring,106
+https://api.propublica.org/congress/v1/members/L000371.json,1999-01-03,1,1999-03-01,Bob,L000371,Livingston,,Resigned.,R,LA,Left Congress,106
+https://api.propublica.org/congress/v1/members/P000326.json,1999-01-06,2,2001-01-03,Owen,P000326,Pickett,B.,Did not seek reelection,D,VA,Retiring,106

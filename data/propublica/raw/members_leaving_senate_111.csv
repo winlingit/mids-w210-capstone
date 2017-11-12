@@ -1,0 +1,24 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/L000572.json,2009-09-10,2011-01-03,George,L000572,LeMieux,S.,,R,FL,Retiring,111
+https://api.propublica.org/congress/v1/members/K000105.json,2009-01-06,2009-08-25,Edward,K000105,Kennedy,M.,"Died on August 25, 2009",D,MA,Left Congress,111
+https://api.propublica.org/congress/v1/members/B000382.json,2009-01-06,2011-01-03,Robert,B000382,Bennett,F.,,R,UT,Defeated in primary election,111
+https://api.propublica.org/congress/v1/members/B001266.json,2009-01-15,2010-11-29,Roland,B001266,Burris,W.,replaced Obama,D,IL,Retiring,111
+https://api.propublica.org/congress/v1/members/D000432.json,2009-01-06,2011-01-03,Byron,D000432,Dorgan,L.,Announced retirement at end of 111th Congress.,D,ND,Retiring,111
+https://api.propublica.org/congress/v1/members/B000611.json,2009-01-06,2011-01-03,Christopher,B000611,Bond,S.,Announced retirement at end of 111th Congress.,R,MO,Retiring,111
+https://api.propublica.org/congress/v1/members/K000374.json,2009-09-25,2010-02-04,Paul,K000374,Kirk Jr.,G.,Appointed to replace Sen. Edward Kennedy,D,MA,Retiring,111
+https://api.propublica.org/congress/v1/members/L000035.json,2009-01-06,2011-01-03,Blanche,L000035,Lincoln,,,D,AR,Defeated in general election,111
+https://api.propublica.org/congress/v1/members/F000061.json,2009-01-06,2011-01-03,Russ,F000061,Feingold,,,D,WI,Defeated in general election,111
+https://api.propublica.org/congress/v1/members/K000373.json,2009-01-16,2010-11-15,Edward,K000373,Kaufman,E.,appointed to replace Biden,D,DE,Retiring,111
+https://api.propublica.org/congress/v1/members/G000561.json,2010-07-20,2010-11-15,Carte,G000561,Goodwin,P.,Replaced the late Sen. Robert C. Byrd.,D,WV,Retiring,111
+https://api.propublica.org/congress/v1/members/M001162.json,2009-01-06,2009-09-09,Mel,M001162,Martinez,,"Announced retirement on August 8, 2009",R,FL,Left Congress,111
+https://api.propublica.org/congress/v1/members/B001066.json,2009-01-06,2011-01-03,Jim,B001066,Bunning,,,R,KY,Retiring,111
+https://api.propublica.org/congress/v1/members/S000709.json,2009-04-30,2011-01-03,Arlen,S000709,Specter,,changed to Democratic Party,D,PA,Defeated in primary election,111
+https://api.propublica.org/congress/v1/members/G000445.json,2009-01-06,2011-01-03,Judd,G000445,Gregg,,,R,NH,Retiring,111
+https://api.propublica.org/congress/v1/members/B001210.json,2009-01-06,2010-06-28,Robert,B001210,Byrd,C.,"Died on June 28, 2010.",D,WV,Left Congress,111
+https://api.propublica.org/congress/v1/members/S000709.json,2009-01-06,2009-04-29,Arlen,S000709,Specter,,"Announced party switch to Democrat on April 28, 2009.",R,PA,Defeated in primary election,111
+https://api.propublica.org/congress/v1/members/S001163.json,2009-01-06,2009-01-19,Ken,S001163,Salazar,,Became Secretary of the Interior,D,CO,Appointed to federal post,111
+https://api.propublica.org/congress/v1/members/B001233.json,2009-01-06,2011-01-03,Evan,B001233,Bayh,,"Announced retirement on Feb. 15, 2010",D,IN,Retiring,111
+https://api.propublica.org/congress/v1/members/V000126.json,2009-01-06,2011-01-03,George,V000126,Voinovich,V.,Announced retirement at end of 111th Congress.,R,OH,Retiring,111
+https://api.propublica.org/congress/v1/members/C001041.json,2009-01-06,2009-01-21,Hillary,C001041,Clinton,Rodham,resigned to become secretary of state,D,NY,Appointed to federal post,111
+https://api.propublica.org/congress/v1/members/B000444.json,2009-01-06,2009-01-15,Joseph,B000444,Biden Jr.,R.,Resigned to become Vice President,D,DE,Elected to federal post,111
+https://api.propublica.org/congress/v1/members/D000388.json,2009-01-06,2011-01-03,Christopher,D000388,Dodd,J.,Announced retirement at end of 111th Congress.,D,CT,Retiring,111

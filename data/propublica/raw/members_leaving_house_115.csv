@@ -1,0 +1,34 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/G000289.json,2017-01-03,6,2019-01-03,Robert,G000289,Goodlatte,W.,"Announced retirement on Nov. 9, 2017.",R,VA,Retiring,115
+https://api.propublica.org/congress/v1/members/L000554.json,2017-01-03,2,2019-01-03,Frank,L000554,LoBiondo,A.,"Announced retirement on Nov. 7, 2017.",R,NJ,Retiring,115
+https://api.propublica.org/congress/v1/members/P000592.json,2017-01-03,2,2019-01-03,Ted,P000592,Poe,,"Announced retirement on Nov. 7, 2017.",R,TX,Retiring,115
+https://api.propublica.org/congress/v1/members/S000583.json,2017-01-03,21,2019-01-03,Lamar,S000583,Smith,,"Announced retirement on Nov. 2, 2017.",R,TX,Retiring,115
+https://api.propublica.org/congress/v1/members/H001036.json,2017-01-03,5,2019-01-03,Jeb,H001036,Hensarling,,"Announced retirement on Oct. 31, 2017.",R,TX,Retiring,115
+https://api.propublica.org/congress/v1/members/T000462.json,2017-01-03,12,2018-01-31,Pat,T000462,Tiberi,,"Announced intention to leave Congress on Oct. 19, 2017.",R,OH,Left Congress,115
+https://api.propublica.org/congress/v1/members/M001151.json,2017-01-03,18,2017-10-21,Tim,M001151,Murphy,,"Resigned from Congress effective Oct. 21, 2017.",R,PA,Retiring,115
+https://api.propublica.org/congress/v1/members/B001243.json,2017-01-03,7,2019-01-03,Marsha,B001243,Blackburn,,Running for Senate.,R,TN,Seeking another office,115
+https://api.propublica.org/congress/v1/members/T000475.json,2017-01-03,11,2019-01-03,Dave,T000475,Trott,,"Announced retirement on Sept. 11, 2017.",R,MI,Retiring,115
+https://api.propublica.org/congress/v1/members/D000604.json,2017-01-03,15,2019-01-03,Charlie,D000604,Dent,,"Announced retirement on Sept. 7, 2017.",R,PA,Retiring,115
+https://api.propublica.org/congress/v1/members/R000578.json,2017-01-03,8,2019-01-03,Dave,R000578,Reichert,,"Announced retirement on Sept. 6, 2017.",R,WA,Retiring,115
+https://api.propublica.org/congress/v1/members/T000465.json,2017-01-03,3,2019-01-03,Niki,T000465,Tsongas,,"Announced retirement on Aug. 9, 2017.",D,MA,Retiring,115
+https://api.propublica.org/congress/v1/members/B001273.json,2017-01-03,6,2019-01-03,Diane,B001273,Black,,Running for governor.,R,TN,Seeking another office,115
+https://api.propublica.org/congress/v1/members/D000533.json,2017-01-03,2,2019-01-03,John,D000533,Duncan Jr.,J.,"Announced retirement on July 31, 2017.",R,TN,Retiring,115
+https://api.propublica.org/congress/v1/members/D000620.json,2017-01-03,6,2019-01-03,John,D000620,Delaney,,"Announced presidential bid on July 28, 2017",D,MD,Retiring,115
+https://api.propublica.org/congress/v1/members/P000588.json,2017-01-03,2,2019-01-03,Steve,P000588,Pearce,,Running for governor.,R,NM,Seeking another office,115
+https://api.propublica.org/congress/v1/members/R000608.json,2017-01-03,3,2019-01-03,Jacky,R000608,Rosen,,Running for Senate.,D,NV,Seeking another office,115
+https://api.propublica.org/congress/v1/members/P000598.json,2017-01-03,2,2019-01-03,Jared,P000598,Polis,,Running for governor,D,CO,Seeking another office,115
+https://api.propublica.org/congress/v1/members/J000297.json,2017-01-03,3,2019-01-03,Evan,J000297,Jenkins,,Running for Senate.,R,WV,Seeking another office,115
+https://api.propublica.org/congress/v1/members/R000435.json,2017-01-03,27,2019-01-03,Ileana,R000435,Ros-Lehtinen,,"Announced retirement on April 30, 2017.",R,FL,Retiring,115
+https://api.propublica.org/congress/v1/members/C001076.json,2017-01-03,3,2017-06-30,Jason,C001076,Chaffetz,,"Resigned from the House on June 30, 2017.",R,UT,Retiring,115
+https://api.propublica.org/congress/v1/members/O000170.json,2017-01-03,16,2019-01-03,Beto,O000170,O'Rourke,,Running for Senate.,D,TX,Seeking another office,115
+https://api.propublica.org/congress/v1/members/W000799.json,2017-01-03,1,2019-01-03,Tim,W000799,Walz,,Running for governor.,D,MN,Seeking another office,115
+https://api.propublica.org/congress/v1/members/R000586.json,2017-01-03,16,2019-01-03,Jim,R000586,Renacci,,Running for governor.,R,OH,Seeking another office,115
+https://api.propublica.org/congress/v1/members/Z000018.json,2017-01-03,At-Large,2017-03-01,Ryan,Z000018,Zinke,,Confirmed as Interior Secretary.,R,MT,Appointed to federal post,115
+https://api.propublica.org/congress/v1/members/M001182.json,2017-01-03,5,2017-02-16,Mick,M001182,Mulvaney,,Appointed OMB Director.,R,SC,Appointed to federal post,115
+https://api.propublica.org/congress/v1/members/P000591.json,2017-01-03,6,2017-02-10,Tom,P000591,Price,,Confirmed as Secretary of Health and Human Services.,R,GA,Appointed to federal post,115
+https://api.propublica.org/congress/v1/members/J000290.json,2017-01-03,2,2019-01-03,Lynn,J000290,Jenkins,,"Announced retirement on Jan. 25, 2017.",R,KS,Retiring,115
+https://api.propublica.org/congress/v1/members/B000287.json,2017-01-03,34,2017-01-24,Xavier,B000287,Becerra,,"Resigned on Jan. 24, 2017 to become Attorney General of California.",D,CA,Appointed to state or local post,115
+https://api.propublica.org/congress/v1/members/P000602.json,2017-01-03,4,2017-01-23,Mike,P000602,Pompeo,,"Was confirmed as CIA director on Jan. 23, 2017.",R,KS,Appointed to federal post,115
+https://api.propublica.org/congress/v1/members/J000174.json,2017-01-03,3,2019-01-03,Sam,J000174,Johnson,,Announced retirement in email to supporters.,R,TX,Retiring,115
+https://api.propublica.org/congress/v1/members/L000580.json,2017-01-03,1,2019-01-03,Michelle,L000580,Lujan Grisham,,Running for governor.,D,NM,Seeking another office,115
+https://api.propublica.org/congress/v1/members/N000184.json,2017-01-03,At-Large,2019-01-03,Kristi,N000184,Noem,,Running for governor.,R,SD,Seeking another office,115

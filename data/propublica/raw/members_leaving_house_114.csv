@@ -1,0 +1,60 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/A000373.json,2015-01-06,2,2017-01-03,Brad,A000373,Ashford,,Lost general election.,D,NE,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/H001034.json,2015-01-06,17,2017-01-03,Michael,H001034,Honda,M.,Lost general election.,D,CA,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/J000296.json,2015-01-06,13,2017-01-03,David,J000296,Jolly,W.,Lost general election.,R,FL,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/D000613.json,2015-01-06,10,2017-01-03,Robert,D000613,Dold,,Lost general election.,R,IL,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/G000548.json,2015-01-06,5,2017-01-03,Scott,G000548,Garrett,,Lost general election.,R,NJ,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/G000570.json,2015-01-06,1,2017-01-03,Frank,G000570,Guinta,,Lost general election.,R,NH,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/H001070.json,2015-01-06,4,2017-01-03,Cresent,H001070,Hardy,,Lost general election.,R,NV,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/M000689.json,2015-01-06,7,2017-01-03,John,M000689,Mica,L.,Lost general election.,R,FL,Defeated in general election,114
+https://api.propublica.org/congress/v1/members/W000413.json,2015-01-06,1,2016-09-06,Edward,W000413,Whitfield,,"Announced resignation effective Sept. 6, 2016.",R,KY,Left Congress,114
+https://api.propublica.org/congress/v1/members/B000911.json,2015-01-06,5,2017-01-03,Corrine,B000911,Brown,,"Lost primary election on Aug. 30, 2016.",D,FL,Defeated in primary election,114
+https://api.propublica.org/congress/v1/members/H001057.json,2015-01-06,1,2017-01-03,Tim,H001057,Huelskamp,,"Lost primary election on Aug. 2, 2016.",R,KS,Defeated in primary election,114
+https://api.propublica.org/congress/v1/members/F000043.json,2015-01-06,2,2016-06-23,Chaka,F000043,Fattah,,"Resigned effective June 23, 2016.",D,PA,Left Congress,114
+https://api.propublica.org/congress/v1/members/F000445.json,2015-01-06,4,2017-01-03,J.,F000445,Forbes,Randy,Lost primary election.,R,VA,Defeated in primary election,114
+https://api.propublica.org/congress/v1/members/E000291.json,2015-01-06,2,2017-01-03,Renee,E000291,Ellmers,,Lost primary election.,R,NC,Defeated in primary election,114
+https://api.propublica.org/congress/v1/members/C001102.json,2015-01-06,19,2017-01-03,Curt,C001102,Clawson,,"Announced retirement on May 19, 2016.",R,FL,Retiring,114
+https://api.propublica.org/congress/v1/members/T000473.json,2015-01-06,1,2016-07-20,Mark,T000473,Takai,,"Died on July 20, 2016.",D,HI,Left Congress,114
+https://api.propublica.org/congress/v1/members/G000575.json,2015-01-06,2,2017-01-03,Gwen,G000575,Graham,,"Announced retirement on April 21, 2016.",D,FL,Retiring,114
+https://api.propublica.org/congress/v1/members/C001045.json,2015-01-06,4,2017-01-03,Ander,C001045,Crenshaw,,"Announced retirement on April 13, 2016",R,FL,Retiring,114
+https://api.propublica.org/congress/v1/members/M001144.json,2015-01-06,1,2017-01-03,Jeff,M001144,Miller,,"Announced retirement on March 10, 2016",R,FL,Retiring,114
+https://api.propublica.org/congress/v1/members/S000018.json,2015-01-06,5,2017-01-03,Matt,S000018,Salmon,,"Announced retirement on Feb. 25, 2016.",R,AZ,Retiring,114
+https://api.propublica.org/congress/v1/members/F000458.json,2015-01-06,8,2017-01-03,Stephen,F000458,Fincher,,"Announced retirement on Feb. 1, 2016",R,TN,Retiring,114
+https://api.propublica.org/congress/v1/members/R000587.json,2015-01-06,8,2017-01-03,Reid,R000587,Ribble,,"Announced retirement on Jan. 31, 2016",R,WI,Retiring,114
+https://api.propublica.org/congress/v1/members/R000589.json,2015-01-06,2,2017-01-03,Scott,R000589,Rigell,,"Announced retirement on Jan. 14, 2016",R,VA,Retiring,114
+https://api.propublica.org/congress/v1/members/W000796.json,2015-01-06,3,2017-01-03,Lynn,W000796,Westmoreland,,"Announced retirement on Jan. 7, 2016",R,GA,Retiring,114
+https://api.propublica.org/congress/v1/members/I000057.json,2015-01-06,3,2017-01-03,Steve,I000057,Israel,,"Announced retirement on Jan. 5, 2016",D,NY,Retiring,114
+https://api.propublica.org/congress/v1/members/M000404.json,2015-01-06,7,2017-01-03,Jim,M000404,McDermott,,"Announced retirement on Jan. 4, 2016",D,WA,Retiring,114
+https://api.propublica.org/congress/v1/members/H001060.json,2015-01-06,5,2017-01-03,Robert,H001060,Hurt,,"Announced retirement on Dec. 23, 2015",R,VA,Retiring,114
+https://api.propublica.org/congress/v1/members/H001051.json,2015-01-06,22,2017-01-03,Richard,H001051,Hanna,,"Announced retirement on Dec. 20, 2015",R,NY,Retiring,114
+https://api.propublica.org/congress/v1/members/B001255.json,2015-01-06,3,2017-01-03,Charles,B001255,Boustany Jr.,,Running for Senate,R,LA,Seeking another office,114
+https://api.propublica.org/congress/v1/members/F000456.json,2015-01-06,4,2017-01-03,John,F000456,Fleming,,Running for Senate,R,LA,Seeking another office,114
+https://api.propublica.org/congress/v1/members/C001083.json,2015-01-06,At-Large,2017-01-03,John,C001083,Carney,,Running for governor,D,DE,Seeking another office,114
+https://api.propublica.org/congress/v1/members/P000596.json,2015-01-06,At-Large,2017-01-03,Pedro,P000596,Pierluisi,,Running for governor,D,PR,Seeking another office,114
+https://api.propublica.org/congress/v1/members/H000636.json,2015-01-06,15,2017-01-03,Rubén,H000636,Hinojosa,,"Announced retirement on Nov. 13, 2015",D,TX,Retiring,114
+https://api.propublica.org/congress/v1/members/L000571.json,2015-01-06,At-Large,2017-01-03,Cynthia,L000571,Lummis,M.,"Announced retirement on Nov. 12, 2015",R,WY,Retiring,114
+https://api.propublica.org/congress/v1/members/F000030.json,2015-01-06,20,2017-01-03,Sam,F000030,Farr,,"Announced retirement on Nov. 12, 2015",D,CA,Retiring,114
+https://api.propublica.org/congress/v1/members/P000373.json,2015-01-06,16,2017-01-03,Joe,P000373,Pitts,,"Announced retirement on Nov. 6, 2015",R,PA,Retiring,114
+https://api.propublica.org/congress/v1/members/N000185.json,2015-01-06,11,2017-01-03,Richard,N000185,Nugent,,"Announced retirement on Nov. 2, 2015",R,FL,Retiring,114
+https://api.propublica.org/congress/v1/members/R000053.json,2015-01-06,13,2017-01-03,Charles,R000053,Rangel,B.,"Announced retirement on Oct. 30, 2015",D,NY,Retiring,114
+https://api.propublica.org/congress/v1/members/B000589.json,2015-01-06,8,2015-10-31,John,B000589,Boehner,A.,"Announced resignation effective Oct. 31, 2015",R,OH,Left Congress,114
+https://api.propublica.org/congress/v1/members/N000182.json,2015-01-06,19,2017-01-03,Randy,N000182,Neugebauer,,"Announced retirement on Sept. 17, 2015",R,TX,Retiring,114
+https://api.propublica.org/congress/v1/members/B001271.json,2015-01-06,1,2017-01-03,Dan,B001271,Benishek,,"Announced retirement on Sept. 17, 2015",R,MI,Retiring,114
+https://api.propublica.org/congress/v1/members/K000363.json,2015-01-06,2,2017-01-03,John,K000363,Kline,,"Announced retirement on Sept. 3, 2015",R,MN,Retiring,114
+https://api.propublica.org/congress/v1/members/Y000064.json,2015-01-06,9,2017-01-03,Todd,Y000064,Young,,Elected to Senate,R,IN,Elected to federal post,114
+https://api.propublica.org/congress/v1/members/G000556.json,2015-01-06,9,2017-01-03,Alan,G000556,Grayson,,Running for Senate,D,FL,Seeking another office,114
+https://api.propublica.org/congress/v1/members/H001055.json,2015-01-06,3,2017-01-03,Joe,H001055,Heck,,Running for Senate,R,NV,Seeking another office,114
+https://api.propublica.org/congress/v1/members/K000368.json,2015-01-06,1,2017-01-03,Ann,K000368,Kirkpatrick,,Running for Senate,D,AZ,Seeking another office,114
+https://api.propublica.org/congress/v1/members/S000030.json,2015-01-06,46,2017-01-03,Loretta,S000030,Sánchez,,Running for Senate,D,CA,Seeking another office,114
+https://api.propublica.org/congress/v1/members/S001188.json,2015-01-06,3,2017-01-03,Marlin,S001188,Stutzman,,Running for Senate,R,IN,Seeking another office,114
+https://api.propublica.org/congress/v1/members/C001036.json,2015-01-06,24,2017-01-03,Lois,C001036,Capps,,"Announced retirement on April 8, 2015",D,CA,Retiring,114
+https://api.propublica.org/congress/v1/members/D000622.json,2015-01-06,8,2017-01-03,Tammy,D000622,Duckworth,,Elected to Senate.,D,IL,Elected to federal post,114
+https://api.propublica.org/congress/v1/members/S001179.json,2015-01-06,18,2015-03-31,Aaron,S001179,Schock,,"Announced resignation effective March 31, 2015",R,IL,Left Congress,114
+https://api.propublica.org/congress/v1/members/E000290.json,2015-01-06,4,2017-01-03,Donna,E000290,Edwards,,Lost Democratic primary for Senate,D,MD,Seeking another office,114
+https://api.propublica.org/congress/v1/members/M001150.json,2015-01-06,10,2016-12-31,Candice,M001150,Miller,S.,"Announced retirement on March 6, 2015",R,MI,Retiring,114
+https://api.propublica.org/congress/v1/members/V000128.json,2015-01-06,8,2017-01-03,Chris,V000128,Van Hollen,,Elected to Senate,D,MD,Elected to federal post,114
+https://api.propublica.org/congress/v1/members/H001063.json,2015-01-06,44,2016-12-04,Janice,H001063,Hahn,,Running for county supervisor,D,CA,Elected to state or local post,114
+https://api.propublica.org/congress/v1/members/N000186.json,2015-01-06,1,2015-02-06,Alan,N000186,Nunnelee,,"Died on Feb. 6, 2015",R,MS,Left Congress,114
+https://api.propublica.org/congress/v1/members/G000564.json,2015-01-06,19,2017-01-03,Chris,G000564,Gibson,,"Announced retirement on Jan. 6, 2015",R,NY,Retiring,114
+https://api.propublica.org/congress/v1/members/G000569.json,2015-01-05,11,2015-01-05,Mike,G000569,Grimm,,"Resigned from the House on Jan. 5, 2015",R,NY,Left Congress,114
+https://api.propublica.org/congress/v1/members/F000451.json,2015-01-06,8,2017-01-03,Michael,F000451,Fitzpatrick,G.,"Announced retirement on Nov. 10, 2014",R,PA,Retiring,114

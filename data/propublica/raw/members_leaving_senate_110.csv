@@ -1,0 +1,10 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/A000109.json,2007-01-04,2009-01-03,Wayne,A000109,Allard,A.,Announced retirement at end of Congress,R,CO,Retiring,110
+https://api.propublica.org/congress/v1/members/S001142.json,2007-01-04,2009-01-03,Gordon,S001142,Smith,Harold,,R,OR,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/D000601.json,2007-01-04,2009-01-03,Elizabeth,D000601,Dole,H.,,R,NC,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/T000162.json,2007-01-04,2007-06-04,Craig,T000162,Thomas,,Died on 6/4/2007,R,WY,Left Congress,110
+https://api.propublica.org/congress/v1/members/H001028.json,2007-01-04,2009-01-03,Chuck,H001028,Hagel,T.,,R,NE,Retiring,110
+https://api.propublica.org/congress/v1/members/L000447.json,2007-01-04,2007-12-18,Trent,L000447,Lott,,Resigned on 12/18/2007,R,MS,Left Congress,110
+https://api.propublica.org/congress/v1/members/O000167.json,2007-01-04,2008-11-16,Barack,O000167,Obama,,Elected to Presidency,D,IL,Elected to federal post,110
+https://api.propublica.org/congress/v1/members/S000888.json,2007-01-04,2009-01-03,Ted,S000888,Stevens,F.,,R,AK,Defeated in general election,110
+https://api.propublica.org/congress/v1/members/S001078.json,2007-01-04,2009-01-03,John,S001078,Sununu,E.,,R,NH,Defeated in general election,110

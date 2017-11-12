@@ -1,0 +1,50 @@
+api_uri,begin_date,district,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/O000159.json,2005-01-04,11,2007-01-03,Major,O000159,Owens,R.,Did not seek reelection,D,NY,Retiring,109
+https://api.propublica.org/congress/v1/members/S001146.json,2005-01-04,10,2007-01-03,Donald,S001146,Sherwood,L.,Defeated for reelection,R,PA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/E000250.json,2005-01-04,17,2007-01-03,Lane,E000250,Evans,A.,Did not seek reelection,D,IL,Retiring,109
+https://api.propublica.org/congress/v1/members/B000220.json,2005-01-04,2,2007-01-03,Charles,B000220,Bass,F.,Defeated for reelection,R,NH,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/J000082.json,2005-01-04,1,2007-01-03,William,J000082,Jenkins,Lewis,Did not seek reelection,R,TN,Retiring,109
+https://api.propublica.org/congress/v1/members/S001166.json,2006-11-13,22,2007-01-03,Shelley,S001166,Sekula-Gibbs,,replaced Rep. Tom DeLay in special election,R,TX,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/H000807.json,2005-01-04,8,2007-01-03,John,H000807,Hostettler,Nathan,Defeated for reelection,R,IN,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/C000994.json,2005-01-04,50,2005-12-01,Randy,C000994,Cunningham,'Duke',Resigned 12/1/2005,R,CA,Left Congress,109
+https://api.propublica.org/congress/v1/members/M000639.json,2005-01-04,13,2007-01-03,Robert,M000639,Menendez,,Appointed to the U.S. Senate 1/18/2006,D,NJ,Elected to federal post,109
+https://api.propublica.org/congress/v1/members/S000033.json,2005-01-04,1,2007-01-03,Bernard,S000033,Sanders,,Elected to the U.S. Senate,I,VT,Elected to federal post,109
+https://api.propublica.org/congress/v1/members/J000163.json,2005-01-04,5,2007-01-03,Nancy,J000163,Johnson,Lee,Defeated for reelection,R,CT,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/O000163.json,2005-01-04,4,2007-01-03,Michael,O000163,Oxley,G.,Did not seek reelection,R,OH,Retiring,109
+https://api.propublica.org/congress/v1/members/S001149.json,2005-01-04,20,2007-01-03,John,S001149,Sweeney,E.,Defeated for reelection,R,NY,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/F000238.json,2005-01-04,16,2006-09-29,Mark,F000238,Foley,Adam,Resigned 9/29/2006,R,FL,Left Congress,109
+https://api.propublica.org/congress/v1/members/B000586.json,2005-01-04,24,2007-01-03,Sherwood,B000586,Boehlert,L.,Did not seek reelection,R,NY,Retiring,109
+https://api.propublica.org/congress/v1/members/S000303.json,2005-01-04,22,2007-01-03,E. Clay,S000303,Shaw,,Defeated for reelection,R,FL,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/H000323.json,2005-01-04,14,2007-01-03,J. Dennis,H000323,Hastert,,party lost majority in 2006 elections,R,IL,Left Congress,109
+https://api.propublica.org/congress/v1/members/H001022.json,2005-01-04,6,2007-01-03,Henry,H001022,Hyde,John,Did not seek reelection,R,IL,Retiring,109
+https://api.propublica.org/congress/v1/members/C001052.json,2005-01-04,2,2007-01-03,Chris,C001052,Chocola,,Defeated for reelection,R,IN,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/N000081.json,2005-01-04,18,2006-11-03,Robert,N000081,Ney,William,Resigned 11/3/2006,R,OH,Left Congress,109
+https://api.propublica.org/congress/v1/members/S001160.json,2005-01-04,9,2007-01-03,Michael,S001160,Sodrel,E.,Defeated for reelection,R,IN,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/F000451.json,2005-01-04,8,2007-01-03,Michael,F000451,Fitzpatrick,G.,Defeated for reelection,R,PA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/B000617.json,2005-01-04,23,2007-01-03,Henry,B000617,Bonilla,,Defeated for reelection,R,TX,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/K000078.json,2005-01-04,19,2007-01-03,Sue,K000078,Kelly,W.,Defeated for reelection,R,NY,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/O000166.json,2005-01-04,1,2007-01-03,C.L.,O000166,Otter,,Elected governor,R,ID,Elected to state or local post,109
+https://api.propublica.org/congress/v1/members/H001033.json,2005-01-04,4,2007-01-03,Melissa,H001033,Hart,A.,Defeated for reelection,R,PA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/D000217.json,2005-01-04,22,2006-06-09,Thomas,D000217,DeLay,Dale,Resigned 6/9/2006,R,TX,Left Congress,109
+https://api.propublica.org/congress/v1/members/N000143.json,2005-01-04,3,2007-01-03,Anne,N000143,Northup,Meagher,Defeated for reelection,R,KY,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/S001004.json,2005-01-04,6,2007-01-03,Ted,S001004,Strickland,,Elected governor,D,OH,Elected to state or local post,109
+https://api.propublica.org/congress/v1/members/P000419.json,2005-01-04,11,2007-01-03,Richard,P000419,Pombo,W.,Defeated for reelection,R,CA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/S001161.json,2005-01-04,7,2007-01-03,John,S001161,Schwarz,J.H.,Defeated for renomination,R,MI,Defeated in primary election,109
+https://api.propublica.org/congress/v1/members/G000152.json,2005-01-04,2,2007-01-03,James,G000152,Gibbons,A.,Elected governor,R,NV,Elected to state or local post,109
+https://api.propublica.org/congress/v1/members/B000944.json,2005-01-04,13,2007-01-03,Sherrod,B000944,Brown,,Elected to the U.S. Senate,D,OH,Elected to federal post,109
+https://api.propublica.org/congress/v1/members/K000306.json,2005-01-04,8,2007-01-03,James,K000306,Kolbe,T.,Did not seek reelection,R,AZ,Retiring,109
+https://api.propublica.org/congress/v1/members/B001246.json,2005-01-04,1,2007-01-03,Jeb,B001246,Bradley,E.,Defeated for reelection,R,NH,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/L000169.json,2005-01-04,2,2007-01-03,James,L000169,Leach,A.,Defeated for reelection,R,IA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/P000449.json,2005-01-04,2,2007-01-03,Rob,P000449,Portman,,"Appointed U.S. Trade Representative, 4/29/2005",R,OH,Elected to federal post,109
+https://api.propublica.org/congress/v1/members/T000067.json,2005-01-04,11,2007-01-03,Charles,T000067,Taylor,H.,Defeated for reelection,R,NC,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/G000536.json,2005-01-04,1,2007-01-03,Gilbert,G000536,Gutknecht,W.,Defeated for reelection,R,MN,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/R000566.json,2005-01-04,2,2007-01-03,Jim,R000566,Ryun,R.,Defeated for reelection,R,KS,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/T000188.json,2005-01-04,22,2007-01-03,William,T000188,Thomas,M.,Did not seek reelection,R,CA,Retiring,109
+https://api.propublica.org/congress/v1/members/H000413.json,2005-01-04,5,2007-01-03,John,H000413,Hayworth,D.,Defeated for reelection,R,AZ,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/C000141.json,2005-01-04,3,2007-01-03,Benjamin,C000141,Cardin,L.,Elected to the U.S. Senate,D,MD,Elected to federal post,109
+https://api.propublica.org/congress/v1/members/M000249.json,2005-01-04,4,2005-01-01,Robert,M000249,Matsui,T.,"Died 1/1/2005, before the convening of the 109th Congress",D,CA,Left Congress,109
+https://api.propublica.org/congress/v1/members/C000830.json,2005-01-04,48,2007-01-03,Christopher,C000830,Cox,,"Appointed chair, SEC, 8/2/2005",R,CA,Elected to federal post,109
+https://api.propublica.org/congress/v1/members/M000523.json,2005-01-04,4,2007-01-03,Cynthia,M000523,McKinney,,Defeated for renomination,D,GA,Defeated in primary election,109
+https://api.propublica.org/congress/v1/members/S000005.json,2005-01-04,5,2007-01-03,Martin,S000005,Sabo,Olav,Did not seek reelection,D,MN,Retiring,109
+https://api.propublica.org/congress/v1/members/W000268.json,2005-01-04,7,2007-01-03,W. Curtis,W000268,Weldon,,Defeated for reelection,R,PA,Defeated in general election,109
+https://api.propublica.org/congress/v1/members/H000444.json,2005-01-04,5,2007-01-03,Joel,H000444,Hefley,,Did not seek reelection,R,CO,Retiring,109

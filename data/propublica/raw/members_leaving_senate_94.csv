@@ -1,0 +1,20 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/M000851.json,1975-01-14,1977-01-03,Walter,M000851,Mondale,Frederick,,I,MN,Elected to federal post,94
+https://api.propublica.org/congress/v1/members/M001033.json,1975-01-14,1977-01-03,Frank,M001033,Moss,Edward,,D,UT,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/B000851.json,1975-01-14,1977-01-03,William,B000851,Brock,Emerson,,R,TN,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/H000875.json,1975-01-14,1977-01-03,Roman,H000875,Hruska,Lee,,R,NE,Retiring,94
+https://api.propublica.org/congress/v1/members/S001136.json,1975-01-14,1977-01-03,William,S001136,Symington,Stuart,,D,MO,Retiring,94
+https://api.propublica.org/congress/v1/members/B000272.json,1975-01-14,1977-01-03,John,B000272,Beall,Glenn,,R,MD,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/S000174.json,1975-01-14,1977-01-03,Hugh,S000174,Scott,Doggett,,R,PA,Retiring,94
+https://api.propublica.org/congress/v1/members/F000245.json,1975-01-14,1977-01-03,Hiram,F000245,Fong,Leong,,R,HI,Retiring,94
+https://api.propublica.org/congress/v1/members/B001026.json,1975-01-14,1977-01-03,James,B001026,Buckley,Lane,,I,NY,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/C000802.json,1975-01-14,1977-01-03,Norris,C000802,Cotton,H.,,R,NH,Retiring,94
+https://api.propublica.org/congress/v1/members/T000010.json,1975-01-14,1977-01-03,Robert,T000010,Taft,,,R,OH,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/H000297.json,1975-01-14,1977-01-03,Rupert,H000297,Hartke,Vance,,D,IN,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/P000100.json,1975-01-14,1977-01-03,John,P000100,Pastore,Orlando,,D,RI,Retiring,94
+https://api.propublica.org/congress/v1/members/M000445.json,1975-01-14,1977-01-03,Gale,M000445,McGee,William,,D,WY,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/H000291.json,1975-01-14,1977-01-03,Philip,H000291,Hart,Aloysius,,D,MI,Left Congress,94
+https://api.propublica.org/congress/v1/members/T000410.json,1975-01-14,1977-01-03,John,T000410,Tunney,Varick,,D,CA,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/M000113.json,1975-01-14,1977-01-03,Michael,M000113,Mansfield,Joseph,,D,MT,Appointed to federal post,94
+https://api.propublica.org/congress/v1/members/M000876.json,1975-01-14,1977-01-03,Joseph,M000876,Montoya,Manuel,,D,NM,Defeated in general election,94
+https://api.propublica.org/congress/v1/members/F000013.json,1975-01-14,1977-01-03,Paul,F000013,Fannin,Jones,,R,AZ,Retiring,94

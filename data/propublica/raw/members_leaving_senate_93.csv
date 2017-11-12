@@ -1,0 +1,13 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/G000531.json,1973-01-03,1975-01-03,Edward,G000531,Gurney,John,,R,FL,Retiring,93
+https://api.propublica.org/congress/v1/members/M000678.json,1973-01-03,1975-01-03,Howard,M000678,Metzenbaum,Morton,,D,OH,Defeated in primary election,93
+https://api.propublica.org/congress/v1/members/B000384.json,1973-01-03,1975-01-03,Wallace,B000384,Bennett,Foster,,R,UT,Retiring,93
+https://api.propublica.org/congress/v1/members/A000062.json,1973-01-03,1975-01-03,George,A000062,Aiken,David,,R,VT,Retiring,93
+https://api.propublica.org/congress/v1/members/W000782.json,1973-01-03,1975-01-03,Louis,W000782,Wyman,Crosby,,R,NH,Defeated in general election,93
+https://api.propublica.org/congress/v1/members/C000721.json,1973-01-03,1975-01-03,Marlow,C000721,Cook,Webster,,R,KY,Defeated in general election,93
+https://api.propublica.org/congress/v1/members/B000436.json,1973-01-03,1975-01-03,Alan,B000436,Bible,Harvey,,D,NV,Retiring,93
+https://api.propublica.org/congress/v1/members/F000401.json,1973-01-03,1975-01-03,James,F000401,Fulbright,William,,D,AR,Defeated in primary election,93
+https://api.propublica.org/congress/v1/members/E000210.json,1973-01-03,1975-01-03,Joseph,E000210,Ervin,Wilson,,D,NC,Retiring,93
+https://api.propublica.org/congress/v1/members/H000922.json,1973-01-03,1975-01-03,Harold,H000922,Hughes,Everett,,D,IA,Retiring,93
+https://api.propublica.org/congress/v1/members/D000409.json,1973-01-03,1975-01-03,Peter,D000409,Dominick,Hoyt,,R,CO,Defeated in general election,93
+https://api.propublica.org/congress/v1/members/S000096.json,1973-01-03,1975-01-03,William,S000096,Saxbe,Bart,,R,OH,Appointed to federal post,93

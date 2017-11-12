@@ -1,0 +1,9 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/B001057.json,1997-01-07,1999-01-03,Dale,B001057,Bumpers,,,D,AR,Retiring,105
+https://api.propublica.org/congress/v1/members/D000018.json,1997-01-03,1999-01-03,Alfonse,D000018,D'Amato,M.,,R,NY,Defeated in general election,105
+https://api.propublica.org/congress/v1/members/C000542.json,1997-01-07,1999-01-03,Daniel,C000542,Coats,,,R,IN,Retiring,105
+https://api.propublica.org/congress/v1/members/F000268.json,1997-01-07,1999-01-03,Wendell,F000268,Ford,H.,,D,KY,Retiring,105
+https://api.propublica.org/congress/v1/members/F000437.json,1997-01-07,1999-01-03,Lauch,F000437,Faircloth,,,R,NC,Defeated in general election,105
+https://api.propublica.org/congress/v1/members/G000236.json,1997-01-07,1999-01-03,John,G000236,Glenn Jr.,H.,,D,OH,Retiring,105
+https://api.propublica.org/congress/v1/members/K000088.json,1997-01-07,1999-01-03,Dirk,K000088,Kempthorne,,,R,ID,Retiring,105
+https://api.propublica.org/congress/v1/members/M001025.json,1997-01-03,1999-01-03,Carol,M001025,Moseley-Braun,,,D,IL,Defeated in general election,105

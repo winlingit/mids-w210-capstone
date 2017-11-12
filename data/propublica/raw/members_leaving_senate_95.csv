@@ -1,0 +1,25 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/E000018.json,1977-01-04,1979-01-03,James,E000018,Eastland,Oliver,,D,MS,Retiring,95
+https://api.propublica.org/congress/v1/members/H000317.json,1977-01-04,1979-01-03,Floyd,H000317,Haskell,Kirk,,D,CO,Defeated in general election,95
+https://api.propublica.org/congress/v1/members/B000871.json,1977-01-04,1979-01-03,Edward,B000871,Brooke,William,,R,MA,Defeated in general election,95
+https://api.propublica.org/congress/v1/members/A000139.json,1977-01-04,1979-01-03,Maryon,A000139,Allen,Pittman,,D,AL,Defeated in primary election,95
+https://api.propublica.org/congress/v1/members/P000166.json,1977-01-04,1979-01-03,James,P000166,Pearson,Blackwood,,R,KS,Retiring,95
+https://api.propublica.org/congress/v1/members/H000170.json,1977-01-04,1979-01-03,Clifford,H000170,Hansen,Peter,,R,WY,Retiring,95
+https://api.propublica.org/congress/v1/members/M000486.json,1977-01-04,1979-01-03,Thomas,M000486,McIntyre,James,,D,NH,Defeated in general election,95
+https://api.propublica.org/congress/v1/members/A000127.json,1977-01-04,1979-01-03,James,A000127,Allen,Browning,,D,AL,Left Congress,95
+https://api.propublica.org/congress/v1/members/G000465.json,1977-01-04,1979-01-03,Robert,G000465,Griffin,Paul,,R,MI,Defeated in general election,95
+https://api.propublica.org/congress/v1/members/M000332.json,1977-01-04,1979-01-03,John,M000332,McClellan,Little,,D,AR,Left Congress,95
+https://api.propublica.org/congress/v1/members/H000953.json,1977-01-04,1979-01-03,Hubert,H000953,Humphrey,Horatio,,I,MN,Left Congress,95
+https://api.propublica.org/congress/v1/members/H000346.json,1977-01-04,1979-01-03,William,H000346,Hathaway,Dodd,,D,ME,Defeated in general election,95
+https://api.propublica.org/congress/v1/members/S000189.json,1977-01-04,1979-01-03,William,S000189,Scott,Lloyd,,R,VA,Retiring,95
+https://api.propublica.org/congress/v1/members/C000220.json,1977-01-04,1979-01-03,Clifford,C000220,Case,Philip,,R,NJ,Defeated in primary election,95
+https://api.propublica.org/congress/v1/members/M000671.json,1977-01-04,1979-01-03,Lee,M000671,Metcalf,Warren,,D,MT,Left Congress,95
+https://api.propublica.org/congress/v1/members/H000956.json,1977-01-04,1979-01-03,Muriel,H000956,Humphrey,Buck,,I,MN,Retiring,95
+https://api.propublica.org/congress/v1/members/B000200.json,1977-01-04,1979-01-03,Dewey,B000200,Bartlett,Follett,,R,OK,Retiring,95
+https://api.propublica.org/congress/v1/members/C000448.json,1977-01-04,1979-01-03,Richard,C000448,Clark,Clarence,,D,IA,Defeated in general election,95
+https://api.propublica.org/congress/v1/members/H000344.json,1977-01-04,1979-01-03,Paul,H000344,Hatfield,Gerhart,,D,MT,Defeated in primary election,95
+https://api.propublica.org/congress/v1/members/A000202.json,1977-01-04,1979-01-03,Wendell,A000202,Anderson,Richard,,I,MN,Defeated in general election,95
+https://api.propublica.org/congress/v1/members/C001006.json,1977-01-04,1979-01-03,Carl,C001006,Curtis,Thomas,,R,NE,Retiring,95
+https://api.propublica.org/congress/v1/members/S000701.json,1977-01-04,1979-01-03,John,S000701,Sparkman,Jackson,,D,AL,Retiring,95
+https://api.propublica.org/congress/v1/members/A000017.json,1977-01-04,1979-01-03,James,A000017,Abourezk,George,,D,SD,Retiring,95
+https://api.propublica.org/congress/v1/members/H000675.json,1977-01-04,1979-01-03,Kaneaster,H000675,Hodges,,,D,AR,Retiring,95

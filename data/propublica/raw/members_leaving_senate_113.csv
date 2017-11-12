@@ -1,0 +1,19 @@
+api_uri,begin_date,end_date,first_name,id,last_name,middle_name,note,party,state,status,session
+https://api.propublica.org/congress/v1/members/L000550.json,2013-01-03,2015-01-02,Mary,L000550,Landrieu,L.,Defeated in general runoff election.,D,LA,Defeated in general election,113
+https://api.propublica.org/congress/v1/members/U000038.json,2013-01-03,2015-01-02,Mark,U000038,Udall,,Defeated in general election.,D,CO,Defeated in general election,113
+https://api.propublica.org/congress/v1/members/P000590.json,2013-01-03,2015-01-02,Mark,P000590,Pryor,,Defeated in general election.,D,AR,Defeated in general election,113
+https://api.propublica.org/congress/v1/members/H001049.json,2013-01-03,2015-01-02,Kay,H001049,Hagan,,Defeated in general election.,D,NC,Defeated in general election,113
+https://api.propublica.org/congress/v1/members/W000818.json,2014-02-11,2015-01-03,John,W000818,Walsh,,"Appointed to replace Max S. Baucus; sworn in on Feb. 11, 2014.",D,MT,Retiring,113
+https://api.propublica.org/congress/v1/members/C000560.json,2013-01-03,2015-01-03,Tom,C000560,Coburn,,Announced that he would leave office at the end of 2014.,R,OK,Retiring,113
+https://api.propublica.org/congress/v1/members/C001099.json,2013-02-07,2013-07-15,William,C001099,Cowan,,"Appointed to Senate on Feb. 1, 2013, to replace John Kerry. Replaced by Edward J. Markey on July 16, 2013.",D,MA,Left Congress,113
+https://api.propublica.org/congress/v1/members/L000123.json,2013-01-03,2013-06-03,Frank,L000123,Lautenberg,R.,"Died on June 3, 2013.",D,NJ,Left Congress,113
+https://api.propublica.org/congress/v1/members/B000243.json,2013-01-03,2014-02-06,Max,B000243,Baucus,,"Announced retirement on April 23, 2013. Appointed ambassador to China and resigned on Feb. 6, 2014.",D,MT,Appointed to federal post,113
+https://api.propublica.org/congress/v1/members/J000177.json,2013-01-03,2015-01-02,Tim,J000177,Johnson,,"Announced retirement on March 26, 2013.",D,SD,Retiring,113
+https://api.propublica.org/congress/v1/members/L000261.json,2013-01-03,2015-01-02,Carl,L000261,Levin,,"Announced retirement on March 7, 2013.",D,MI,Retiring,113
+https://api.propublica.org/congress/v1/members/J000291.json,2013-01-03,2015-01-02,Mike,J000291,Johanns,,"Announced retirement on Feb. 18, 2013.",R,NE,Retiring,113
+https://api.propublica.org/congress/v1/members/K000148.json,2013-01-03,2013-02-01,John,K000148,Kerry,,"Resigned on Feb. 1, 2013 to become Secretary of State.",D,MA,Appointed to federal post,113
+https://api.propublica.org/congress/v1/members/H000206.json,2013-01-03,2015-01-02,Tom,H000206,Harkin,,"Announced retirement on Jan. 26, 2013.",D,IA,Retiring,113
+https://api.propublica.org/congress/v1/members/C000286.json,2013-01-03,2015-01-03,Saxby,C000286,Chambliss,,"Announced retirement on Jan. 25, 2013.",R,GA,Retiring,113
+https://api.propublica.org/congress/v1/members/R000361.json,2013-01-03,2015-01-02,John,R000361,Rockefeller IV,D.,"Announced retirement on Jan. 11, 2013.",D,WV,Retiring,113
+https://api.propublica.org/congress/v1/members/B001265.json,2013-01-03,2015-01-02,Mark,B001265,Begich,,Defeated by Dan Sullivan.,D,AK,Defeated in general election,113
+https://api.propublica.org/congress/v1/members/C001100.json,2013-06-10,2013-10-30,Jeffrey,C001100,Chiesa,S.,Filled vacancy created by the death of Democrat Frank R. Lautenberg. Replaced by Cory Booker.,R,NJ,Left Congress,113

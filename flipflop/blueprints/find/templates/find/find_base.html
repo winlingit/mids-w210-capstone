@@ -1,0 +1,24 @@
+{% extends 'layouts/app.html' %}
+{% import "macros/form.html" as f with context %}
+
+{% block title %}Find{% endblock %}
+{% block meta_description %}Holding Congress accountable{% endblock %}
+
+{% block body %}
+<section class="content-section-b">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <br>
+         <br>
+         <p class="lead">Find your representative and discover if they represent your interests</p>
+         {% call f.form_tag('find.find_page', method='get') %}
+             {% call f.form_group(form.zipcode, css_class='margin-bottom') %}
+             {% endcall %}
+             <button type="submit" class="btn btn-primary">Find Respresentative</button>
+         {% endcall %}
+       </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

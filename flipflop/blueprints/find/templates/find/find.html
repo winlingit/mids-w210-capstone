@@ -1,11 +1,51 @@
 {% extends 'layouts/app.html' %}
+{% import "macros/form.html" as f with context %}
 
 {% block title %}Find{% endblock %}
 {% block meta_description %}Holding Congress accountable{% endblock %}
 
-{% block heading %}
-{% endblock %}
-
 {% block body %}
-
+<section class="content-section-b">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <p class="lead">Find your representative and discover if they represent your interests</p>
+         {% call f.form_tag('find.find_page', method='get') %}
+             {% call f.form_group(form.zipcode, css_class='margin-bottom') %}
+             {% endcall %}
+             <button type="submit" class="btn btn-primary">Find Respresentative</button>
+         {% endcall %}
+       </div>
+       <div class="col-md-8">
+           <table class="table table-bordered">
+               <thead>
+               <tr>
+                   <th>First Name</th>
+                   <th>Last Name</th>
+                   <th>State</th>
+                   <th>Party</th>
+                   <th>Position</th>
+                   <th>Birth Date</th>
+                   <th>Gender</th>
+                   <th>District</th>
+              </tr>
+          </thead>
+          {%- for member in members %}
+          <tbody>
+               <tr>
+                   <td>{{ member.first_name }}</td>
+                   <td>{{ member.last_name }}</td>
+                   <td>{{ member.state_abbrev }}</td>
+                   <td>{{ member.party }}</td>
+                   <td>{{ member.mem_type }}</td>
+                   <td>{{ member.birth_date }}</td>
+                   <td>{{ member.gender }}</td>
+                   <td>{{ member.district }}</td>
+               </tr>
+           </tbody>
+          {%- endfor %}
+       </div>
+   </div>
+</div>
+</section>
 {% endblock %}

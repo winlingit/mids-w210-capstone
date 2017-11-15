@@ -21,12 +21,16 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <img src="{{ url_for('static', filename='images/explore-icon.png') }}">
+            <a href="#">
+                <img src="{{ url_for('static', filename='images/explore-icon.png') }}">
+            </a>
             <h3>Explore</h3>
             <p class="lead">Explore the current political landscape</p>
           </div>
           <div class="col-md-4">
-            <img src="{{ url_for('static', filename='images/find-icon.png') }}">
+            <a href="{{ url_for('find.find_page')}}">
+                <img src="{{ url_for('static', filename='images/find-icon.png') }}">
+            </a>
             <h3>Find</h3>
             <p class="lead">Find your representative and discover if they represent your interests</p>
             {% call f.form_tag('find.find_page', method='get') %}
@@ -36,7 +40,9 @@
             {% endcall %}
           </div>
           <div class="col-md-4">
-            <img src="{{ url_for('static', filename='images/track-icon.png') }}">
+            <a href="#">
+                <img src="{{ url_for('static', filename='images/track-icon.png') }}">
+            </a>
             <h3>Track</h3>
             <p class="lead">Track the status of upcoming bills and see who is on the fence</p>
           </div>

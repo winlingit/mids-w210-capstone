@@ -7,52 +7,43 @@
 {% endblock %}
 
 {% block body %}
-   <section class="content-section-b">
+<section class="content-section-b">
       <div class="container">
-        <div class="row">
-          <div class="cold-md-4"></div>
-          <div class="col-md-4">
-            <br>
-            <br>
-            <img src="{{ url_for('static', filename='images/logo-large.png') }}", class="img-responsive center-block">
-          </div>
-          <div class="cold-md-4"></div>
-        <div class="row">
-          <div class="col">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Who We Are</h2>
-            <p class="lead">We are a team of students in the Master of Information and Data Science program at UC Berkeley.</p>
+
+        <div class="row spacer-10">
+          <div class="col-sm-12">
+            <h2>ABOUT</h2>
+            <p class="lead">We developed sweep for our Capstone Project under the Master’s of Information and Data Science (MIDS) Program at UC Berkeley.  Thank you to the MIDS faculty and administration, fellow students, partner organizations, and our families and friends for helping us on this journey.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="content-section-b">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-              <div class="clearfix"></div>
-              <h3 class="section-heading">Matthew Burke</h3>
-              <p class="lead">Placeholder. Probably put in email, github, etc</p>
+      <!-- search -->
+          <div class="row spacer-30">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+              <table class="table table-hover">
+                <tbody  id="myTable">
+                  <tr>
+                    <td class="col-xs-5">
+                        <p>Steve Pelkey<br><a href="mailto:spelkey@ischool.berkeley.edu">Email</a>  |  <a href="#">LinkedIn</a></p>
+                    </td>
+                    <td class="col-xs-5">
+                        <p>Matthew Burke<br><a href="mailto:matthew.burke@ischool.berkeley.edu">Email</a>  |  <a href="#">LinkedIn</a></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="col-xs-5">
+                        <p>Nick Stamatakis<br><a href="mailto:nickstamatakis@ischool.berkeley.edu">Email</a>  |  <a href="#">LinkedIn</a></p>
+                    </td>
+                    <td class="col-xs-5">
+                        <p>Winston Lin<br><a href="mailto:winlin@ischool.berkeley.edu">Email</a>  |  <a href="#">LinkedIn</a></p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="col-md-3">
-              <div class="clearfix"></div>
-              <h3 class="section-heading">Winston Lin</h3>
-              <p class="lead">Placeholder. Probably put in email, github, etc</p>
-            </div>
-            <div class="col-md-3">
-              <div class="clearfix"></div>
-              <h3 class="section-heading">Steve Pelkey</h3>
-              <p class="lead">Placeholder. Probably put in email, github, etc</p>
-            </div>
-            <div class="col-md-3">
-              <div class="clearfix"></div>
-              <h3 class="section-heading">Nick Stamatakis</h3>
-              <p class="lead">Placeholder. Probably put in email, github, etc</p>
-            </div>
+            <div class="col-sm-2"></div>
         </div>
       </div>
       <!-- /.container -->
-   </section>
+    </section>
 {% endblock %}

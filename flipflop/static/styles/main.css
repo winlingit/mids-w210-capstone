@@ -9,9 +9,18 @@ body, html {
   height: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.fat-text {
+  font-weight: 500;
 }
 
 .intro-header {
@@ -25,8 +34,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message {
   position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 10%;
+  padding-bottom: 40%;
 }
 
 .intro-message>h1 {
@@ -82,7 +91,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section-b {
-  padding: 50px 0;
+  padding: 75px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
 }
@@ -149,4 +158,100 @@ footer {
 
 p.copyright {
   margin: 15px 0 0;
+}
+
+.button-image:before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: text-top;
+    background-color: transparent;
+    background-position : center center;
+    background-repeat:no-repeat;
+}
+
+.explore:before{
+  background-image: url("images/explore-icon.png");
+}
+
+.btn-custom-light {
+  color: #4f88e2;
+  background-color: #f2f2f2;
+  border-color: #4f88e2;
+}
+
+.btn-custom-light:hover {
+  color: #4f88e2;
+  background-color: #ffffff;
+  border-color: #4f88e2;
+}
+
+.btn-custom-light:focus, .btn-custom.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-custom-light.disabled, .btn-custom-light:disabled {
+  background-color: #f2f2f2;
+  border-color: #4f88e2;
+}
+
+.btn-custom-light:not([disabled]):not(.disabled):active, .btn-custom-light:not([disabled]):not(.disabled).active,
+.show > .btn-custom-light.dropdown-toggle {
+  color: #4f88e2;
+  background-color: #ffffff;
+  border-color: #4f88e2;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.highlight-box {
+  margin: 15px;
+  padding-top: 5px;
+  border-color: #649cfc;
+  background-color: #d6e5ff;
+}
+
+.info-box {
+  margin: 15px;
+  border-color: #c4c4c4;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.side-table {
+  margin-top: 5px;
+  vertical-align: center;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+}
+
+.yes {
+  color: #30a36b;
+}
+
+.no {
+  color: #a02c2c;
+}
+
+.borderless tr, .borderless td, .borderless th {
+    border: none;
+}
+
+.date {
+    width: 100px;
+}
+
+.spacer-10 {
+    margin-top: 10px;
+}
+
+.spacer-30 {
+    margin-top: 30px;
+}
+
+.spacer-50 {
+    margin-top: 50px;
 }

@@ -43,6 +43,10 @@ def populate(app):
                 birth_date = datetime.strptime(res[2], '%m/%d/%Y')
                 gender = res[3]
                 mem_type = res[4]
+                if mem_type == 'sen':
+                    mem_type = 'Senator'
+                else:
+                    mem_type = 'Representative'
                 state_abbrev = res[5]
                 if res[6] == '':
                     district = None
@@ -52,6 +56,9 @@ def populate(app):
                 url = res[8]
                 phone = res[10]
                 contact_form = res[11]
+                twitter = res[13]
+                facebook = res[14]
+                bioguide = res[17]
                 opensecrets_id = res[19]
                 if res[23] == '':
                     votesmart_id = None
@@ -70,6 +77,9 @@ def populate(app):
                 	url = url,
                 	phone = phone,
                 	contact_form = contact_form,
+                    twitter = twitter,
+                    facebook = facebook,
+                    bioguide = bioguide,
                 	opensecrets_id = opensecrets_id,
                 	votesmart_id = votesmart_id
                 )

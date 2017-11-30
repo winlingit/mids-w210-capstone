@@ -1,50 +1,46 @@
 {% extends 'layouts/app.html' %}
 {% import "macros/form.html" as f with context %}
 
-{% block title %}Flip Floppers{% endblock %}
-{% block meta_description %}Holding Congress accountable{% endblock %}
+{% block title %}sweep{% endblock %}
+{% block meta_description %}Keep Congress clean{% endblock %}
 
 {% block heading %}
     <header class="intro-header">
       <div class="container">
         <div class="intro-message">
-          <h1>Congressional Flip Floppers</h1>
+          <img src="{{ url_for('static', filename='images/sweep-logo.png') }}">
           <hr class="intro-divider">
-          <h3>MIDS W210 Capstone Project</h3>
+          <h3>Quick, easy tools to help us</h3>
+          <h3>keep Congress clean</h3>
         </div>
       </div>
     </header>
 {% endblock %}
 
 {% block body %}
-   <section class="content-section-b">
+<section class="content-section-b">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <a href="#">
-                <img src="{{ url_for('static', filename='images/explore-icon.png') }}">
+          <div class="col-md-4 text-center">
+            <a class="btn btn-info", href="/#">
+              <img src="{{ url_for('static', filename='images/track-icon.png') }}">
+              <h3>TRACK</h3>
             </a>
-            <h3>Explore</h3>
-            <p class="lead">Explore the current political landscape</p>
-          </div>
-          <div class="col-md-4">
-            <a href="{{ url_for('find.find_page')}}">
-                <img src="{{ url_for('static', filename='images/find-icon.png') }}">
-            </a>
-            <h3>Find</h3>
-            <p class="lead">Find your representative and discover if they represent your interests</p>
-            {% call f.form_tag('find.find_page', method='get') %}
-                {% call f.form_group(form.zipcode, css_class='margin-bottom') %}
-                {% endcall %}
-                <button type="submit" class="btn btn-primary">Find Respresentative</button>
-            {% endcall %}
-          </div>
-          <div class="col-md-4">
-            <a href="#">
-                <img src="{{ url_for('static', filename='images/track-icon.png') }}">
-            </a>
-            <h3>Track</h3>
             <p class="lead">Track the status of upcoming bills and see who is on the fence</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <a class="btn btn-info", href="{{ url_for('find.find_page') }}">
+              <img src="{{ url_for('static', filename='images/find-icon.png') }}">
+              <h3>ENGAGE</h3>
+            </a>
+            <p class="lead">Find your representative and discover if they represent your interests</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <button class="btn btn-info">
+              <img src="{{ url_for('static', filename='images/explore-icon.png') }}">
+              <h3>EXPLORE</h3>
+            </button>
+            <p class="lead">Explore the current political landscape</p>
           </div>
       </div>
       <!-- /.container -->

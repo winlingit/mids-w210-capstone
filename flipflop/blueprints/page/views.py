@@ -17,3 +17,7 @@ def home():
 @page.route('/about')
 def about():
     return render_template('page/about.html')
+
+@page.route('/contribute')
+def contribute():
+	return render_template('page/contribute.html')

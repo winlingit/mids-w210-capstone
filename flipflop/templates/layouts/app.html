@@ -1,28 +1,30 @@
 {% extends 'layouts/base.html' %}
 
 {% block navbar %}
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="{{ url_for('page.home') }}">Congressional Flip Floppers</a>
         <a class="navbar-brand" href="{{ url_for('page.home') }}">
-          <img src="{{ url_for('static', filename='images/logo-small.png') }}", height="30px">
+          <img src="{{ url_for('static', filename='images/sweep-logo.png') }}", height="45px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse fat-text" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Explore</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('find.find_page') }}">Find</a>
-            </li>
             <li class=-"nav-item">
-            <a class="nav-link" href="#">Track</a>
+            <a class="nav-link" href="#">TRACK</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('page.about') }}">About</a>
+              <a class="nav-link" href="{{ url_for('find.find_page') }}">ENGAGE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">EXPLORE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('page.contribute') }}">CONTRIBUTE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('page.about') }}">ABOUT</a>
             </li>
           </ul>
         </div>

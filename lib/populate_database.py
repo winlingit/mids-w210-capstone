@@ -1,11 +1,18 @@
 from flipflop.blueprints.find.models import District, State, Member
+from flipflop.blueprints.track.models import Bill, BillVote, BillPrediction, Model
 from flipflop.extensions import db
 from datetime import datetime
 import os
+import csv
+import sys
+import re
+
+csv.field_size_limit(sys.maxsize)
 
 def populate(app):
     # Populate db with states
 
+    # Need to set session context within which to 
     with app.test_request_context():
         db.drop_all()
         db.create_all()
@@ -18,6 +25,7 @@ def populate(app):
                 db.session.add(ins_state)
             db.session.commit()
         print('Number of states: %s' % str(db.session.query(State.state).count()))
+        
         # Populate db with districts
         count = 1
         with open('data/general/zip_districts.csv') as f:
@@ -33,6 +41,7 @@ def populate(app):
                         count += 1
             db.session.commit()
         print('Number of districts: %s' % str(db.session.query(District.district).count()))
+        
         # Populate db with members
         with open('data/legislators-current.csv') as f:
             next(f)
@@ -41,7 +50,7 @@ def populate(app):
                 last_name = res[0]
                 first_name = res[1]
                 birth_date = datetime.strptime(res[2], '%m/%d/%Y')
-                gender = res[3]
+                #gender = res[3]
                 mem_type = res[4]
                 if mem_type == 'sen':
                     mem_type = 'Senator'
@@ -56,14 +65,16 @@ def populate(app):
                 url = res[8]
                 phone = res[10]
                 contact_form = res[11]
+                if contact_form is None:
+                    contact_form = url
                 twitter = res[13]
                 facebook = res[14]
-                bioguide = res[17]
-                opensecrets_id = res[19]
-                if res[23] == '':
-                    votesmart_id = None
-                else:
-                    votesmart_id = res[23]
+                member_id = res[17]
+                #opensecrets_id = res[19]
+                #if res[23] == '':
+                #    votesmart_id = None
+                #else:
+                #    votesmart_id = res[23]
 
                 ins_mem = Member(
                 	last_name = last_name,
@@ -79,13 +90,100 @@ def populate(app):
                 	contact_form = contact_form,
                     twitter = twitter,
                     facebook = facebook,
-                    bioguide = bioguide,
-                	opensecrets_id = opensecrets_id,
-                	votesmart_id = votesmart_id
+                    member_id = member_id
+                	#opensecrets_id = opensecrets_id,
+                	#votesmart_id = votesmart_id
                 )
                 db.session.add(ins_mem)
             db.session.commit()
         print('Number of members: %s' % str(db.session.query(Member.opensecrets_id).count()))
+
+        # Populate db with sample bills
+        with open('data/propublica/sample_bills.csv') as f:
+            next(f)
+            bill_reader = csv.reader(f, delimiter=',', quotechar='"')
+            for line in bill_reader:
+                bill_id = line[3]
+                session = line[2]
+                title = line[12]
+                bill_number = line[11]
+                sponsor_id = line[10]
+                # Extract number of cosponsors
+                cosponsors = re.sub('[\[\]]','',line[8])
+                if len(cosponsors) == 0:
+                    num_cosponsors = 0
+                else:
+                    num_cosponsors = len(cosponsors.split(','))
+                committee = line[16]
+                introduced_date = line[26]
+                primary_subject = line[9]
+                url = line[23]
+                latest_major_action = line[33]
+                sample = line[34]
+                if primary_subject == '':
+                    primary_subject = '-'
+                ins_bill = Bill(
+                    bill_id = bill_id,
+                    session = session,
+                    title = title,
+                    bill_number = bill_number,
+                    sponsor_id = sponsor_id,
+                    cosponsors = cosponsors,
+                    num_cosponsors = num_cosponsors,
+                    committee = committee,
+                    introduced_date = introduced_date,
+                    primary_subject = primary_subject,
+                    url = url,
+                    latest_major_action = latest_major_action,
+                    sample = sample
+                )
+                db.session.add(ins_bill)
+            db.session.commit()
+        print('Number of sample bills: %s' % str(db.session.query(Bill.bill_id).count()))
+
+        # Populate db with models
+        db.session.add(Model(model_id=1, model='PAC Industry'))
+        db.session.add(Model(model_id=2, model='PAC General'))
+        db.session.commit()
+        print('Number of models: %s' % str(db.session.query(Model.model_id).count()))
+
+        # Populate db with bill_votes
+        with open('propublica/sample_bill_votes.csv') as f:
+            next(f)
+            for line in f:
+                full_set_id = line[1]
+                member_id = line[2]
+                vote_position = line[3]
+                bill_id = line[4]
+                broke_from_party = line[7]
+                ins_bill_vote = BillVote(
+                    full_set_id = full_set_id,
+                    member_id = member_id,
+                    vote_position = vote_position,
+                    bill_id = bill_id,
+                    broke_from_party = broke_from_party
+                )
+                db.session.add(ins_bill_vote)
+            db.session.commit()
+        print('Number of sample bill votes: %s' % str(db.session.query(BillVote.full_set_id).count()))
+
+        # Populate db with bill predictions
+        with open('propublica/sample_bill_predictions.csv') as f:
+            next(f)
+            for line in f:
+                bill_pred_id = line[0]
+                pred_probs = line[2]
+                model_id = line[3]
+                bill_id = line[4]
+                ins_bill_pred = BillPrediction(
+                    bill_pred_id = bill_pred_id,
+                    pred_probs = pred_probs,
+                    model_id = model_id,
+                    bill_id = bill_id
+                )
+                db.session.add(ins_bill_pred)
+            db.session.commit()
+        print('Number of sample bill predictions: %s' % str(db.session.query(BillPrediction.bill_pred_id).count()))
 
     return None
 

@@ -15,7 +15,7 @@ class Member(db.Model):
     first_name = db.Column(db.String(50), nullable=False)
     birth_date = db.Column(db.DateTime, nullable=False)
     mem_type = db.Column(db.String(20), nullable=False)
-    gender = db.Column(db.String(1), nullable=False)
+    #gender = db.Column(db.String(1), nullable=False)
     state_abbrev = db.Column(db.String(5), db.ForeignKey('state.state_abbrev'), nullable=False)
     district = db.Column(db.Integer)
     party = db.Column(db.String(25), nullable=False)
@@ -24,9 +24,9 @@ class Member(db.Model):
     contact_form = db.Column(db.String(200))
     twitter = db.Column(db.String(100))
     facebook = db.Column(db.String(100))
-    bioguide = db.Column(db.String(100))
-    opensecrets_id = db.Column(db.String(20), primary_key=True)
-    votesmart_id = db.Column(db.Integer)
+    member_id = db.Column(db.String(100), primary_key=True, unique=True)
+    #opensecrets_id = db.Column(db.String(20), primary_key=True)
+    #votesmart_id = db.Column(db.Integer)
 
 class District(db.Model):
     __tablename__ = 'district'

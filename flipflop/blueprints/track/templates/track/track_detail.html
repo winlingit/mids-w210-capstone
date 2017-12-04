@@ -1,0 +1,60 @@
+{% extends 'layouts/app.html' %}
+{% import "macros/form.html" as f with context %}
+
+{% block title %}Bill Details{% endblock %}
+{% block meta_description %}Holding Congress accountable{% endblock %}
+
+{% block body %}
+<section class="content-section-b">
+   <div class="container">
+    <div class="row">
+       <div class="col-sm-12 spacer-10">
+          <a href="{{ url_for('track.track_page') }}"><< Back to Track Upcoming Bills</a>
+          <h2>{{ bill_info.bill_number }}</h2>
+       </div>
+     </div>
+     <div class="row spacer-10">
+      <div class="col-md-6">
+        <h3>Bill Details</h3>
+        <ul class="lead">
+          <li><b>Bill Title: </b><p>{{ bill_info.title }}</p></li>
+          <li><b>Latest Major Action: </b><p>{{ bill_info.latest_major_action }}</p></li>
+          <li><b>Introduced By: </b><p><a href="{{ url_for('find.find_page', member_id=sponsor.member_id) }}"> {{ sponsor.first_name }} {{ sponsor.last_name }} ({{ sponsor.state_abbrev }})</a> on {{ bill_info.introduced_date.strftime('%m/%d/%Y')}}</p></li>
+          <li><b>Co-sponsored By: </b><p>
+            {%- for cosponsor in cosponsors %}
+              <a href="{{ url_for('find.find_page', member_id=cosponsor.member_id) }}">
+              {{ cosponsor.first_name }} {{ cosponsor.last_name }} ({{ cosponsor.state_abbrev }}) 
+              </a></p>
+            {%- endfor %}
+          </li>
+          <li><b>Summary:</b><p> {{ bill_info.summary }}</p></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Who's on the Fence?</h3>
+        <h5>Top Predicted Swing Voters</h5>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+              <th>LEGISLATOR</th>
+              <th>SWING PROBABILITY</th>
+              <th>PREDICTIVE MODEL</th>
+            </tr>
+            </thead>
+          <tbody id="myTable">
+            {%- for prediction in top_predictions %}
+            <tr>
+              <td><a href="{{ url_for('find.find_page', member_id=prediction.member_id) }}">{{ prediction.first_name }} {{ prediction.last_name }}</a>
+              </td>
+              <td>{{ prediction.pred_probs }}
+              </td>
+              <td>{{ prediction.model }}</td>
+            </tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+     </div>
+
+</div>
+</section>
+{% endblock %}

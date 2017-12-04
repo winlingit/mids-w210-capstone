@@ -43,14 +43,13 @@ def populate(app):
         print('Number of districts: %s' % str(db.session.query(District.district).count()))
         
         # Populate db with members
-        with open('data/legislators-current.csv') as f:
+        with open('data/propublica/sample_members.csv') as f:
             next(f)
             for line in f:
                 res = line.strip().split(',')
-                last_name = res[0]
-                first_name = res[1]
-                birth_date = datetime.strptime(res[2], '%m/%d/%Y')
-                #gender = res[3]
+                last_name = res[1]
+                first_name = res[2]
+                birth_date = datetime.strptime(re.sub('"','',res[3]), '%m/%d/%Y')
                 mem_type = res[4]
                 if mem_type == 'sen':
                     mem_type = 'Senator'
@@ -63,13 +62,14 @@ def populate(app):
                     district = res[6]
                 party = res[7]
                 url = res[8]
-                phone = res[10]
-                contact_form = res[11]
+                phone = res[9]
+                contact_form = res[10]
                 if contact_form is None:
                     contact_form = url
-                twitter = res[13]
-                facebook = res[14]
-                member_id = res[17]
+                twitter = res[11]
+                facebook = res[12]
+                member_id = res[13]
+                sample = res[14]
                 #opensecrets_id = res[19]
                 #if res[23] == '':
                 #    votesmart_id = None
@@ -80,7 +80,6 @@ def populate(app):
                 	last_name = last_name,
                 	first_name = first_name,
                 	birth_date = birth_date,
-                	gender = gender,
                     mem_type = mem_type,
                 	state_abbrev = state_abbrev,
                 	district = district,
@@ -90,13 +89,14 @@ def populate(app):
                 	contact_form = contact_form,
                     twitter = twitter,
                     facebook = facebook,
-                    member_id = member_id
+                    member_id = member_id,
+                    sample = sample
                 	#opensecrets_id = opensecrets_id,
                 	#votesmart_id = votesmart_id
                 )
                 db.session.add(ins_mem)
             db.session.commit()
-        print('Number of members: %s' % str(db.session.query(Member.opensecrets_id).count()))
+        print('Number of members: %s' % str(db.session.query(Member.member_id).count()))
 
         # Populate db with sample bills
         with open('data/propublica/sample_bills.csv') as f:
@@ -114,10 +114,13 @@ def populate(app):
                     num_cosponsors = 0
                 else:
                     num_cosponsors = len(cosponsors.split(','))
-                committee = line[16]
+                summary = line[14]
+                if len(summary) > 2000:
+                    summary = summary[0:1999]
+                committee = line[15]
                 introduced_date = line[26]
                 primary_subject = line[9]
-                url = line[23]
+                url = line[24]
                 latest_major_action = line[33]
                 sample = line[34]
                 if primary_subject == '':
@@ -130,6 +133,7 @@ def populate(app):
                     sponsor_id = sponsor_id,
                     cosponsors = cosponsors,
                     num_cosponsors = num_cosponsors,
+                    summary = summary,
                     committee = committee,
                     introduced_date = introduced_date,
                     primary_subject = primary_subject,
@@ -148,9 +152,10 @@ def populate(app):
         print('Number of models: %s' % str(db.session.query(Model.model_id).count()))
 
         # Populate db with bill_votes
-        with open('propublica/sample_bill_votes.csv') as f:
+        with open('data/propublica/sample_bill_votes.csv') as f:
             next(f)
-            for line in f:
+            vote_reader = csv.reader(f, delimiter=',', quotechar='"')
+            for line in vote_reader:
                 full_set_id = line[1]
                 member_id = line[2]
                 vote_position = line[3]
@@ -168,17 +173,20 @@ def populate(app):
         print('Number of sample bill votes: %s' % str(db.session.query(BillVote.full_set_id).count()))
 
         # Populate db with bill predictions
-        with open('propublica/sample_bill_predictions.csv') as f:
+        with open('data/propublica/sample_pac_predictions.csv') as f:
             next(f)
-            for line in f:
+            predict_reader = csv.reader(f, delimiter=',', quotechar='"')
+            for line in predict_reader:
                 bill_pred_id = line[0]
-                pred_probs = line[2]
                 model_id = line[3]
+                pred_probs = line[2]
+                full_set_id = line[1]
                 bill_id = line[4]
                 ins_bill_pred = BillPrediction(
                     bill_pred_id = bill_pred_id,
                     pred_probs = pred_probs,
                     model_id = model_id,
+                    full_set_id = full_set_id,
                     bill_id = bill_id
                 )
                 db.session.add(ins_bill_pred)

@@ -23,33 +23,25 @@
            <table class="table table-hover">
                <thead>
                <tr>
-                   <th>NAME</th>
-                   <th>CONTACT INFO</th>
-                   <th>STATE</th>
-                   <th>PARTY</th>
-                   <th>POSITION</th>
-                   <th>BIRTH DATE</th>
-                   <th>GENDER</th>
-                   <th>DISTRICT</th>
+                   <th>BILL</th>
+                   <th>LATEST ACTION</th>
+                   <th>COMMITTEE</th>
+                   <th>INTRODUCED DATE</th>
+                   <th>PRIMARY_SUBJECT</th>
+                   <th>NUMBER OF COSPONSORS</th>
+                   <th></th>
               </tr>
             </thead>
             <tbody id="myTable">
-              {%- for member in members %}
+              {%- for bill in bills %}
                <tr>
-                   <td><a href="{{ url_for('find.find_page', member_id=member.member_id) }}">{{ member.first_name}} {{ member.last_name }}</a></td>
-                   <td>
-                     <a href="https://twitter.com/@{{ member.twitter }}">Twitter</a> | 
-                     <a href="https://facebook.com/{{ member.facebook }}">Facebook</a> |
-                     <a href="{{ member.contact_form }}">Contact</a>
-                     <br>
-                     Phone: {{ member.phone }}
-                   </td>
-                   <td>{{ member.state_abbrev }}</td>
-                   <td>{{ member.party }}</td>
-                   <td>{{ member.mem_type }}</td>
-                   <td>{{ member.birth_date.strftime('%m/%d/%Y') }}</td>
-                   <td>{{ member.gender }}</td>
-                   <td>{{ member.district }}</td>
+                   <td><a href="{{ url_for('track.track_page', bill_id=bill.bill_id) }}">{{ bill.title }}</a></td>
+                   <td>{{ bill.latest_major_action }}</td>
+                   <td>{{ bill.committee }}</td>
+                   <td>{{ bill.introduced_date.strftime('%m/%d/%Y') }}</td>
+                   <td>{{ bill.primary_subject }}</td>
+                   <td>{{ bill.num_cosponsors }}</td>
+                   <td><a href="{{ bill.url }}">View Full Bill</a></td>
                </tr>
                {%- endfor %}
              </tbody>

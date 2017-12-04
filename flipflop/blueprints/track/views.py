@@ -2,6 +2,8 @@ from flask import Blueprint, render_template, request
 from flipflop.blueprints.track.models import Bill, BillVote, BillPrediction, Model
 from flipflop.blueprints.find.models import Member
 from flipflop.extensions import db
+from sqlalchemy import func
+import re
 
 track = Blueprint('track', __name__, template_folder='templates', url_prefix='/track')
 
@@ -21,8 +23,29 @@ def track_page(bill_id=None):
 		# - sponsor with link
 		# - cosponsors with links
 		# - billpredictions and member info (top swappers only with link to engage detail page)
-		# - 
-		return bill_id
+
+		bill_info = Bill.query.filter(Bill.bill_id==bill_id).all()
+		sponsor = Member.query.filter(Member.member_id==bill_info[0].sponsor_id).all()
+		cosponsor_ids = bill_info[0].cosponsors.split(',')
+
+		if cosponsor_ids != ['']:
+			cosponsors = Member.query.filter(Member.member_id == func.any(cosponsor_ids)).all()
+		else:
+			cosponsors = {'-'}
+		
+		top_predictions = BillVote.query.filter(BillVote.bill_id==bill_id).join(BillPrediction).join(Member).join(Model).order(BillPrediction.pred_probs).limit(20).all()
+
+		print(bill_info[0])
+		print(sponsor[0])
+		print(cosponsors)
+		print(len(top_predictions))
+		print(top_predictions[0])
+
+		return render_template('track/track_detail.html', 
+								bill_info=bill_info[0],
+								sponsor=sponsor[0],
+								cosponsors=cosponsors,
+								top_predictions=top_predictions)
 	else:
-		bills = Bills.query.filter(Bills.sample==1).all()
+		bills = Bill.query.filter(Bill.sample==1).all()
 		return render_template('track/track.html', bills=bills)

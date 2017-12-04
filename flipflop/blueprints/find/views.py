@@ -26,7 +26,7 @@ def find_page(zipcode=None, member_id=None):
         if re.match('\d{5}', zipcode):
             # Correctly formatted zipcode
             zip_dict = {'zip': zipcode}
-            members = Member.query.join(State).join(District).filter(District.zip_code==int(zipcode)).all()#.join(State).join(Member).all()
+            members = Member.query.join(State).join(District).filter(District.zip_code==int(zipcode)).all()
             return render_template('find/find.html', members=members, zipcode=zip_dict)
         # Incorrectly formatted zipcode
         return render_template('find/find_base.html', form=form)

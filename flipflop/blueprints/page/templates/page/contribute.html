@@ -17,16 +17,34 @@
           </div>
         </div>
       <!-- search -->
-          <div class="row spacer-30">
+          <div class="row spacer-10">
             <div class="col-sm-12">
               <ol>
-                <li>Download our data:</li>
                 <li>Add your work and ideas:</li>
-                <li>Fund us:</li>
-                <li>Share us via:</li>
+                  <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+                    <li style="margin-left:2em">Fork our <a href="https://github.com/winlingit/mids-w210-capstone">Github Repo</a></li>
+                    <li style="margin-left:2em; padding-bottom: 0;"><a href="{{ url_for('page.about') }}">Contact Us</a></li>
+                  </ol>
+                <li>Share us via Facebook, Twitter, Napster (jkjk..)</li>
                 <li>Support our partners:</li>
               </ol>
             </div>
+        </div>
+        <div class="row spacer-30">
+          <div class="col-sm-6">
+            <img src="{{ url_for('static', filename='images/propublica-logo.svg') }}" width="300" >
+          </div>
+          <div class="col-sm-6">
+            <img src="{{ url_for('static', filename='images/votesmart-logo.jpg') }}" width="300">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="{{ url_for('static', filename='images/opensecrets-logo.svg') }}" width="300">
+          </div>
+          <div class="col-sm-6">
+            <img src="{{ url_for('static', filename='images/govtrack-logo.png') }}" width="300">
+          </div>
         </div>
       </div>
       <!-- /.container -->

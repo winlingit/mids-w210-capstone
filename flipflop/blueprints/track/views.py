@@ -35,15 +35,6 @@ def track_page(bill_id=None):
 		
 		top_predictions = db.session.query(BillVote, BillPrediction, Member, Model).filter(BillVote.bill_id==bill_id).join(BillPrediction).join(Member).join(Model).order_by(desc(BillPrediction.pred_probs)).limit(20).all()
 
-		print(bill_info[0])
-		print(sponsor[0])
-		print(cosponsors)
-		print(len(top_predictions))
-		print(top_predictions[0])
-		print(top_predictions[0].Member.first_name)
-		print(top_predictions[0].BillPrediction.pred_probs)
-		print(top_predictions[0].Model.model)
-
 		return render_template('track/track_detail.html', 
 								bill_info=bill_info[0],
 								sponsor=sponsor[0],

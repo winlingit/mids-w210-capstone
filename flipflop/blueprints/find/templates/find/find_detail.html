@@ -22,11 +22,13 @@
       <div class="col-md-6">
         <h3>Member Details</h3>
         <ul class="lead">
-          <li><b>Member Source: </b><p><a href="{{ member.url }}">{{ member.url }}</a></p></li>
-          <li><b></b><p>{{ member.party }}, {{ member.state_abbrev }}
+          <li><b>Representing:</b> {{ member.state_abbrev }}
           {%- if member.district %}
-            , District {{ member.district }}
-          {%- endif %}</p></li>
+             - District {{ member.district }}
+          {%- endif %}</li>
+          <li><b>Party:</b> {{ member.party }}</li>
+          <li><b>Phone:</b> {{ member.phone }}</li>
+          <li><b>Website:</b> <a href="{{ member.url }}">{{ member.url }}</a></li>
         </ul>
         <h3>Recent Votes</h3>
           <table class="table table-hover">

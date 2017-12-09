@@ -27,23 +27,22 @@
           {%- if member.district %}
             , District {{ member.district }}
           {%- endif %}</p></li>
-          <li><b>Recent Votes: </b>
-            <table class="table table-hover">
-            {%- for vote in votes %}
-              <tr>
-                <td>
-                {{ vote.vote_position|upper }} on 
-                {%- for bill in bills %}
-                  {%- if vote.bill_id == bill.bill_id %}
-                    <a href="{{ bill.url }}">{{ vote.bill_id|upper }}</a>:<br>{{ bill.title }}
-                  {%- endif %}
-                {%- endfor %}
-                </td>
-              </tr>
-            {%- endfor %}
-          </table>
-          </li>
         </ul>
+        <h3>Recent Votes</h3>
+          <table class="table table-hover">
+          {%- for vote in votes %}
+            <tr>
+              <td>
+              {{ vote.vote_position|upper }} on 
+              {%- for bill in bills %}
+                {%- if vote.bill_id == bill.bill_id %}
+                  <a href="{{ bill.url }}">{{ vote.bill_id|upper }}</a>:<br>{{ bill.title }}
+                {%- endif %}
+              {%- endfor %}
+              </td>
+            </tr>
+          {%- endfor %}
+        </table>
       </div>
       <div class="col-md-6">
         <h3>Predicted Votes on Upcoming Bills</h3>

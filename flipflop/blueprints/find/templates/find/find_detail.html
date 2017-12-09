@@ -33,10 +33,10 @@
           {%- for vote in votes %}
             <tr>
               <td>
-              {{ vote.vote_position|upper }} on 
+              <b>{{ vote.vote_position|upper }}</b> on 
               {%- for bill in bills %}
                 {%- if vote.bill_id == bill.bill_id %}
-                  <a href="{{ bill.url }}">{{ vote.bill_id|upper }}</a>:<br>{{ bill.title }}
+                  <b><a href="{{ bill.url }}">{{ vote.bill_id|upper }}</a></b>: {{ bill.title }}
                 {%- endif %}
               {%- endfor %}
               </td>

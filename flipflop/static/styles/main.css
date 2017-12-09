@@ -25,11 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-header {
   padding-top: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
   background: url(../images/us_capitol_building2.jpg) no-repeat center top;
-  background-size: auto;
+  background-size: cover;
 }
 
 .intro-message {

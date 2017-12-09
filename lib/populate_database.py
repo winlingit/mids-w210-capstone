@@ -43,7 +43,7 @@ def populate(app):
         print('Number of districts: %s' % str(db.session.query(District.district).count()))
         
         # Populate db with members
-        with open('data/propublica/sample_members.csv') as f:
+        with open('data/app/sample_members.csv') as f:
             next(f)
             for line in f:
                 res = line.strip().split(',')
@@ -99,7 +99,7 @@ def populate(app):
         print('Number of members: %s' % str(db.session.query(Member.member_id).count()))
 
         # Populate db with sample bills
-        with open('data/propublica/sample_bills.csv') as f:
+        with open('data/app/sample_bills.csv') as f:
             next(f)
             bill_reader = csv.reader(f, delimiter=',', quotechar='"')
             for line in bill_reader:
@@ -152,7 +152,7 @@ def populate(app):
         print('Number of models: %s' % str(db.session.query(Model.model_id).count()))
 
         # Populate db with bill_votes
-        with open('data/propublica/sample_bill_votes.csv') as f:
+        with open('data/app/sample_bill_votes.csv') as f:
             next(f)
             vote_reader = csv.reader(f, delimiter=',', quotechar='"')
             for line in vote_reader:
@@ -173,7 +173,7 @@ def populate(app):
         print('Number of sample bill votes: %s' % str(db.session.query(BillVote.full_set_id).count()))
 
         # Populate db with bill predictions
-        with open('data/propublica/sample_pac_predictions.csv') as f:
+        with open('data/app/sample_pac_predictions.csv') as f:
             next(f)
             predict_reader = csv.reader(f, delimiter=',', quotechar='"')
             for line in predict_reader:

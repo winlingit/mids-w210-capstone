@@ -11,23 +11,37 @@
     <div class="row">
        <div class="col-sm-12 spacer-10">
           <a href="{{ url_for('find.find_page') }}"><< Back to Engage Your Legislators</a>
-          <h2>{{ member_info.mem_type }} {{ member_info.first_name }} {{ member_info.last_name }}</h2>
+          <h2>{{ member.mem_type }} {{ member.first_name }} {{ member.last_name }}</h2>
+          <a class="dark" href="https://twitter.com/@{{ member.twitter }}"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+          <a class="dark" href="https://facebook.com/{{ member.facebook }}"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+          <a class="dark" href="{{ member.contact_form }}"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+          <a class="dark" href="tel:{{ member.phone }}"><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a>
        </div>
      </div>
      <div class="row spacer-10">
       <div class="col-md-6">
         <h3>Member Details</h3>
         <ul class="lead">
-          <li><b>Member Source: </b><p><a href="{{ member_info.url }}">{{ member_info.url }}</a></p></li>
-          <li><b></b><p>{{ member_info.party }}, {{ member_info.state_abbrev }}, District {{ member_info.district }}</p></li>
+          <li><b>Member Source: </b><p><a href="{{ member.url }}">{{ member.url }}</a></p></li>
+          <li><b></b><p>{{ member.party }}, {{ member.state_abbrev }}
+          {%- if member.district %}
+            , District {{ member.district }}
+          {%- endif %}</p></li>
           <li><b>Recent Votes: </b>
-          	<p>
+            <table class="table table-hover">
             {%- for vote in votes %}
-              <a href="{{ vote.url }}">
-              Voted {{ vote.vote_position }} on {{ vote.bill_id}}
-              </a>
-          </p>
+              <tr>
+                <td>
+                {{ vote.vote_position|upper }} on 
+                {%- for bill in bills %}
+                  {%- if vote.bill_id == bill.bill_id %}
+                    <a href="{{ bill.url }}">{{ vote.bill_id|upper }}</a>:<br>{{ bill.title }}
+                  {%- endif %}
+                {%- endfor %}
+                </td>
+              </tr>
             {%- endfor %}
+          </table>
           </li>
         </ul>
       </div>

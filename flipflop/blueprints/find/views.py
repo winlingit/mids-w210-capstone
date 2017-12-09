@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request
 from flipflop.blueprints.find.forms import ZipCodeForm
 from flipflop.blueprints.find.models import State, District, Member
-from flipflop.blueprints.track.models import BillVote
+from flipflop.blueprints.track.models import Bill, BillVote
 from flipflop.extensions import db
 import re
 
@@ -24,10 +24,11 @@ def find_page(zipcode=None, member_id=None):
         # PAC funding, SIG ratings
         member_info = Member.query.filter(Member.member_id==member_id).all()
         votes = BillVote.query.filter(BillVote.member_id==member_id).all()
+        bills = Bill.query.filter(Bill.bill_id.in_([vote.bill_id for vote in votes])).all()
         predictions = []
         influencers = []
 
-        return render_template('find/find_detail.html', member_info=member_info[0], votes=votes, predictions=predictions)
+        return render_template('find/find_detail.html', member=member_info[0], votes=votes, bills=bills, predictions=predictions)
     elif zipcode:
         if re.match('\d{5}', zipcode):
             # Correctly formatted zipcode

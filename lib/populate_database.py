@@ -105,7 +105,7 @@ def populate(app):
             for line in bill_reader:
                 bill_id = line[3]
                 session = line[2]
-                title = line[12]
+                short_title = line[18]
                 bill_number = line[11]
                 sponsor_id = line[10]
                 # Extract number of cosponsors
@@ -128,7 +128,7 @@ def populate(app):
                 ins_bill = Bill(
                     bill_id = bill_id,
                     session = session,
-                    title = title,
+                    title = short_title,
                     bill_number = bill_number,
                     sponsor_id = sponsor_id,
                     cosponsors = cosponsors,

@@ -25,17 +25,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-header {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../images/us_capitol_building.jpg) no-repeat center center;
-  background-size: cover;
+  background: url(../images/us_capitol_building2.jpg) no-repeat center top;
+  background-size: auto;
 }
 
 .intro-message {
   position: relative;
-  padding-top: 10%;
-  padding-bottom: 40%;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .intro-message>h1 {
@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 75px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 0%;
 }
 
 .section-heading {

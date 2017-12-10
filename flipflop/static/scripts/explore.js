@@ -62,15 +62,16 @@ function makeGraphs(error, data, statesJson) {
   var industryChart = dc.rowChart("#industry-chart");
 
   //Chart Specifications
-  mapChart.width(1000)
-    .height(330)
+  mapChart.width(800)
+    .height(400)
     .dimension(stateDim)
     .group(averageDwByState)
     .valueAccessor(function (p) {
     return p.value.avg;
     })
-    .colors(["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"])
+    .colors(["#2166ac","#4393c3","#92c5de","#d1e5f0","#f7f7f7","#fddbc7","#f4a582","#d6604d","#d6604d"])
     .colorDomain([-0.4, 0.6])
+    .legend(dc.legend())
     .overlayGeoJson(statesJson["features"], "state", function (d) {
       return d.properties.name;
     })
@@ -114,7 +115,12 @@ function makeGraphs(error, data, statesJson) {
     .height(700)
     .margins({top: 10, right: 50, bottom: 30, left: 50})
     .dimension(industryDim)
-    .group(totalDonationsByIndustry);
+    .group(totalDonationsByIndustry)
+    .xAxis()
+    .ticks(5)
+    .tickFormat( function (v) {
+      return "$" + Math.round(v / 1000000) + 'M'; 
+    });
 
   dc.renderAll();
 };

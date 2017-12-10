@@ -1,18 +1,18 @@
 //Queue performs series of asynchronous tasks
 //In this case, loading multiple JSON files, then trying to make graphs
 queue()
-.defer(d3.json, "/explore/data")
+//.defer(d3.json, "/explore/data")
+.defer(d3.json, "/static/scripts/data_viz_limited.json")
 .defer(d3.json, "/static/scripts/vendor/us-states.json")
 .await(makeGraphs);
 
 
 function makeGraphs(error, data, statesJson) {
-	if (error) throw error;
+	//if (error) throw error;
 	console.log(data);
 
   // Crossfilter instance
   var cf = crossfilter(data);
-  var all = cf.groupAll();
 
   //Define Dimensions
   var industryDim = cf.dimension(function(d) { return d["Industry"]; });
@@ -57,7 +57,6 @@ function makeGraphs(error, data, statesJson) {
   
   //Charts
   var mapChart = dc.geoChoroplethChart("#map-chart");
-  var tableChart = dc.dataTable("#test");
   var repChart = dc.pieChart("#rep-chart");
   var partyChart = dc.pieChart("#party-chart");
   var industryChart = dc.rowChart("#industry-chart");
@@ -71,7 +70,7 @@ function makeGraphs(error, data, statesJson) {
     return p.value.avg;
     })
     .colors(["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"])
-    .colorDomain([-0.685, 0.921])
+    .colorDomain([-0.4, 0.6])
     .overlayGeoJson(statesJson["features"], "state", function (d) {
       return d.properties.name;
     })
@@ -81,47 +80,41 @@ function makeGraphs(error, data, statesJson) {
     .title(function (p) {
       return "State: " + p["key"]
           + "\n"
-          + "DW Nominate Score: " + Math.round(p["value"]) + " $";
+          + "DW Nominate Score: " + p.value;
     });
 
-  tableChart
-    .width(768)
-    .height(480)
-    .dimension(stateDim)
-    .group(averageDwByState)
-    .columns([function (d) { return d.value.avg }]);
 
   repChart
-    .width(400)
-    .height(400)
+    .width(250)
+    .height(250)
     .dimension(repTypeDim)
     .group(totalDonationsByType)
     .legend(dc.legend())
-    .on('pretransition', function(chart) {
-        chart.selectAll('text.pie-slice').text(function(d) {
-            return d.data.key + ' ' + dc.utils.printSingleValue((d.endAngle - d.startAngle) / (2*Math.PI) * 100) + '%';
-        })
+    .label(function(d) {
+      return d.data.key + ' ' + Math.round((d.endAngle - d.startAngle) / Math.PI * 50) + '%';
     });
 
+  var colorScale = d3.scale.ordinal()
+   .domain(["Democrat", "Republican"])
+   .range(["#1357c4", "#9b1511"]);
+
   partyChart
-    .width(400)
-    .height(400)
+    .width(250)
+    .height(250)
     .dimension(partyDim)
     .group(totalDonationsByParty)
+    //.colors(function(d){ return colorScale(d.data.key); })
     .legend(dc.legend())
-    .on('pretransition', function(chart) {
-        chart.selectAll('text.pie-slice').text(function(d) {
-            return d.data.key + ' ' + dc.utils.printSingleValue((d.endAngle - d.startAngle) / (2*Math.PI) * 100) + '%';
-        })
+    .label(function(d) {
+      return d.data.key + ' ' + Math.round((d.endAngle - d.startAngle) / Math.PI * 50) + '%';
     });
-  
+
   industryChart
     .width(500)
-    .height(800)
+    .height(700)
     .margins({top: 10, right: 50, bottom: 30, left: 50})
     .dimension(industryDim)
-    .group(totalDonationsByIndustry)
-    .transitionDuration(200);
+    .group(totalDonationsByIndustry);
 
   dc.renderAll();
 };

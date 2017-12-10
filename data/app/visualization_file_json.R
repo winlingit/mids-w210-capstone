@@ -67,10 +67,12 @@ limited = df[Industry %in% top_inds,]
 
 # Write to JSON
 
+write.csv(df, "data_viz.csv")
+write.csv(limited, "data_viz_limited.csv")
 
-out = toJSON(unname(split(df, 1:nrow(df))))
-cat(out, file="data_viz.json")
+#out = toJSON(unname(split(df, 1:nrow(df))))
+#cat(out, file="data_viz.json")
 
-out = toJSON(unname(split(limited, 1:nrow(limited))))
-cat(out, file="data_viz_limited.json")
+#out = toJSON(unname(split(limited, 1:nrow(limited))))
+#cat(out, file="data_viz_limited.json")
 

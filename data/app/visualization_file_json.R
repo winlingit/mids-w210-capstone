@@ -43,7 +43,7 @@ ft = ft[ft$opensecrets_id!="",]
 
 cd = unique(pac_data[,.(opensecrets_id,state, party, type, dw_nominate)])
 cd = cd[,.(dw_nominate = mean(dw_nominate)), by=list(opensecrets_id, state, party, type)]
-names(cd) = c("opensecrets_id", "State", "Party", "Rep Type", "DW_Nominate")
+names(cd) = c("opensecrets_id", "State", "Party", "Rep_Type", "DW_Nominate")
 
 df = merge(ft, cd, on="opensecrets_id")
 
@@ -53,6 +53,9 @@ members$last_name = NULL
 members$first_name = NULL
 
 df = merge(df, members)
+
+df$Rep_Type[df$Rep_Type=="rep"] = "Representative"
+df$Rep_Type[df$Rep_Type=="sen"] = "Senator"
 
 # Find top 20 industries by PAC spending
 # Create two separate files for it

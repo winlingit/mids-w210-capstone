@@ -52,9 +52,7 @@
     <script
       src="{{ url_for('static', filename='scripts/vendor/bootstrap.bundle.min.js') }}">
     </script>
-    <script 
-     src="{{ url_for('static', filename='scripts/engage.js') }}">
-    </script>
+    {% block scripts %}{% endblock %}
 
   </body>
 </html>

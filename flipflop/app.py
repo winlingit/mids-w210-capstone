@@ -3,7 +3,7 @@ from flask import Flask
 from lib.populate_database import populate
 
 from flipflop.blueprints.page import page
-from flipflop.blueprints.api import api
+from flipflop.blueprints.explore import explore
 from flipflop.blueprints.find import find
 from flipflop.blueprints.track import track
 
@@ -29,7 +29,7 @@ def create_app(settings_override=None):
         app.config.update(settings_override)
 
     app.register_blueprint(page)
-    app.register_blueprint(api)
+    app.register_blueprint(explore)
     app.register_blueprint(find)
     app.register_blueprint(track)
     extensions(app)

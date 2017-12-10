@@ -36,3 +36,10 @@
 	</div>
 </section>
 {% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='scripts/vendor/crossfilter.js') }}"></script> 
+<script src="{{ url_for('static', filename='scripts/vendor/d3.v3.min.js') }}"></script> 
+<script src="{{ url_for('static', filename='scripts/vendor/dc.js') }}"></script> 
+<script src="{{ url_for('static', filename='scripts/vendor/queue.js') }}"></script> 
+<script src="{{ url_for('static', filename='scripts/explore.js') }}"></script> 
+{% endblock %}

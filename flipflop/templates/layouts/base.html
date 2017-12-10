@@ -41,18 +41,15 @@
       </div>
     </footer>
     <script 
-      src=" url_for('static', filename='scripts/vendor/popper.min.js') }}">
+      src="{{ url_for('static', filename='scripts/vendor/popper.min.js') }}">
     </script>
     <script
       src="{{ url_for('static', filename='scripts/vendor/jquery.min.js') }}">
     </script>
-    <script
-      src="{{ url_for('static', filename='scripts/vendor/bootstrap.min.js') }}">
-    </script>
+
     <script
       src="{{ url_for('static', filename='scripts/vendor/bootstrap.bundle.min.js') }}">
     </script>
     {% block scripts %}{% endblock %}
-
   </body>
 </html>

@@ -18,5 +18,5 @@ def explore_data(dataset=None):
     """
 
     data = get_data(dataset)
-    return data.to_json()
+    return data.to_json(orient='index')
 

@@ -116,7 +116,6 @@ function makeGraphs(error, data, statesJson) {
     .height(250)
     .dimension(repTypeDim)
     .group(totalDonationsByType)
-    .legend(dc.legend())
     .label(function(d) {
       return d.data.key + ' ' + Math.round((d.endAngle - d.startAngle) / Math.PI * 50) + '%';
     });
@@ -127,7 +126,6 @@ function makeGraphs(error, data, statesJson) {
     .height(250)
     .dimension(partyDim)
     .group(totalDonationsByParty)
-    .legend(dc.legend())
     .label(function(d) {
       return d.data.key + ' ' + Math.round((d.endAngle - d.startAngle) / Math.PI * 50) + '%';
     });

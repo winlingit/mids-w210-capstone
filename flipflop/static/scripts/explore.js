@@ -56,13 +56,14 @@ function makeGraphs(error, data, statesJson) {
   );
   
   //Charts
-  var mapChart = dc.geoChoroplethChart("#map-chart");
+  var dwMapChart = dc.geoChoroplethChart("#dw-map-chart");
+  var contribMapChart = dc.geoChoroplethChart("#contrib-map-chart")
   var repChart = dc.pieChart("#rep-chart");
   var partyChart = dc.pieChart("#party-chart");
   var industryChart = dc.rowChart("#industry-chart");
 
   //Chart Specifications
-  mapChart.width(800)
+  dwMapChart.width(1000)
     .height(400)
     .dimension(stateDim)
     .group(averageDwByState)
@@ -85,6 +86,31 @@ function makeGraphs(error, data, statesJson) {
     });
 
 
+    contribMapChart.width(700)
+    .height(400)
+    .dimension(stateDim)
+    .group(totalDonationsByState)
+    .colors(["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"])
+    .legend(dc.legend())
+    .overlayGeoJson(statesJson["features"], "state", function (d) {
+      return d.properties.name;
+    })
+    .projection(d3.geo.albersUsa()
+            .scale(600)
+            .translate([340, 150]))
+    .title(function (p) {
+      return "State: " + p["key"]
+          + "\n"
+          + "Total Donations: $" + p.value;
+    })
+    .on("preRender", function(chart) {
+      chart.colorDomain(d3.extent(chart.group().all(), chart.valueAccessor()));
+    })
+    .on("preRedraw", function(chart) {
+      chart.colorDomain(d3.extent(chart.group().all(), chart.valueAccessor()));
+    });
+
+
   repChart
     .width(250)
     .height(250)
@@ -95,16 +121,12 @@ function makeGraphs(error, data, statesJson) {
       return d.data.key + ' ' + Math.round((d.endAngle - d.startAngle) / Math.PI * 50) + '%';
     });
 
-  var colorScale = d3.scale.ordinal()
-   .domain(["Democrat", "Republican"])
-   .range(["#1357c4", "#9b1511"]);
 
   partyChart
     .width(250)
     .height(250)
     .dimension(partyDim)
     .group(totalDonationsByParty)
-    //.colors(function(d){ return colorScale(d.data.key); })
     .legend(dc.legend())
     .label(function(d) {
       return d.data.key + ' ' + Math.round((d.endAngle - d.startAngle) / Math.PI * 50) + '%';

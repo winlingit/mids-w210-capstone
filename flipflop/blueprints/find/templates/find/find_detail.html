@@ -41,24 +41,20 @@
               <th>DESCRIPTION</th>
             </tr>
             </thead>
-          {%- for vote in votes %}
-            <tr>
-              <td>
-                {%- for bill in bills %}
-                  {%- if vote.bill_id == bill.bill_id %}
+          {%- for bill in bills|sort(attribute='latest_major_action_date', reverse=True) %}
+            {%- for vote in votes %}
+              {%- if vote.bill_id == bill.bill_id %}
+                <tr>
+                  <td>
                     {{ bill.latest_major_action_date.strftime('%b. %d, %Y') }}
-                  {%- endif %}
-                {%- endfor %}
-              </td>
-              <td>
-              <b>{{ vote.vote_position|upper }}</b> on 
-              {%- for bill in bills %}
-                {%- if vote.bill_id == bill.bill_id %}
-                  <b><a href="{{ url_for('track.track_page', bill_id=vote.bill_id) }}">{{ vote.bill_id|upper }}</a></b>: {{ bill.title }}
-                {%- endif %}
-              {%- endfor %}
-              </td>
-            </tr>
+                  </td>
+                  <td>
+                    <b>{{ vote.vote_position|upper }}</b> on 
+                <b><a href="{{ url_for('track.track_page', bill_id=vote.bill_id) }}">{{ vote.bill_id|upper }}</a></b>: {{ bill.title }}
+                  </td>
+                </tr>
+              {%- endif %}
+            {%- endfor %}
           {%- endfor %}
         </table>
       </div>
@@ -74,30 +70,25 @@
           </tr>
           </thead>
           <tbody id="myTable">
-            {%- for prediction in predictions %}
-            <tr>
-              <td>
-                {%- for bill in bills %}
-                  {%- if prediction.bill_id == bill.bill_id %}
-                    {{ bill.latest_major_action_date.strftime('%b. %d, %Y') }}
-                  {%- endif %}
-                {%- endfor %}
-              </td>
-              <td>
-                <b>{%- for vote in votes %}
-                    {%- if vote.full_set_id == prediction.full_set_id %}
-                      {{ vote.vote_position|upper }}
-                    {%- endif %}
-                  {%- endfor %}</b> on 
-                {%- for bill in bills %}
-                  {%- if bill.bill_id == prediction.bill_id %}
-                    <b><a href="{{ url_for('track.track_page', bill_id=prediction.bill_id) }}">{{ prediction.bill_id|upper }}</a></b>: {{ bill.title }}
-                  {%- endif %}
-                {%- endfor %}
-              </td>
-              <!-- <td>{{ votes|selectattr("full_set_id", prediction.full_set_id)|attr("vote_position") }}</td> -->
-              <td>{{ 100*prediction.pred_probs|round }}%</td>
-            </tr>
+            {%- for bill in bills|sort(attribute='latest_major_action_date') %}
+              {%- for prediction in predictions %}
+                {%- if prediction.bill_id == bill.bill_id %}
+                  <tr>
+                    <td>
+                      {{ bill.latest_major_action_date.strftime('%b. %d, %Y') }}
+                    </td>
+                    <td>
+                      <b>{%- for vote in votes %}
+                          {%- if vote.full_set_id == prediction.full_set_id %}
+                            {{ vote.vote_position|upper }}
+                          {%- endif %}
+                        {%- endfor %}</b> on 
+                          <b><a href="{{ url_for('track.track_page', bill_id=prediction.bill_id) }}">{{ prediction.bill_id|upper }}</a></b>: {{ bill.title }}
+                    </td>
+                    <td>{{ 100*prediction.pred_probs|round }}%</td>
+                  </tr>
+                {%- endif %}
+              {%- endfor %}
             {%- endfor %}
           </tbody>
         </table>

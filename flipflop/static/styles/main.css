@@ -299,7 +299,7 @@ a.dark:hover {
 }
 
 .dc-chart .deselected path {
-    strok: none;
+    stroke: none;
     fill-opacity: .5;
     fill: #ccc;
 }
@@ -378,7 +378,7 @@ a.dark:hover {
 }
 
 .dc-chart .deselected circle {
-    strok: none;
+    stroke: none;
     fill-opacity: .5;
     fill: #ccc;
 }
@@ -454,7 +454,7 @@ a.dark:hover {
 }
 
 .dc-chart g.row text {
-    fill: white;
+    fill: dark-grey;
     font-size: 12px;
     cursor: pointer;
 }
@@ -492,4 +492,3 @@ a.dark:hover {
     fill-opacity: 0.2;
     stroke-opacity: 0.2;
 }
-style

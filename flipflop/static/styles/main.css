@@ -253,6 +253,11 @@ a.dark:hover {
   text-decoration: underline;
 }
 
+img.side {
+  margin-top: 50px;
+  max-width: 400px;
+}
+
 
 .dc-chart {
     float: left;

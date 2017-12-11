@@ -21,3 +21,7 @@ def about():
 @page.route('/contribute')
 def contribute():
 	return render_template('page/contribute.html')
+
+@page.route('/methodology')
+def methodology():
+    return render_template('page/methodology.html')

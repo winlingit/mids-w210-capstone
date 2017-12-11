@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request
 from flipflop.blueprints.find.forms import ZipCodeForm
 from flipflop.blueprints.find.models import State, District, Member
-from flipflop.blueprints.track.models import Bill, BillVote
+from flipflop.blueprints.track.models import Bill, BillVote, BillPrediction
 from flipflop.extensions import db
 import re
 
@@ -25,7 +25,7 @@ def find_page(zipcode=None, member_id=None):
         member_info = Member.query.filter(Member.member_id==member_id).all()
         votes = BillVote.query.filter(BillVote.member_id==member_id).all()
         bills = Bill.query.filter(Bill.bill_id.in_([vote.bill_id for vote in votes])).all()
-        predictions = []
+        predictions = BillPrediction.query.filter(BillPrediction.full_set_id.in_([vote.full_set_id for vote in votes])).all()
         influencers = []
 
         return render_template('find/find_detail.html', member=member_info[0], votes=votes, bills=bills, predictions=predictions)

@@ -26,6 +26,8 @@ class Member(db.Model):
     facebook = db.Column(db.String(100))
     member_id = db.Column(db.String(100), primary_key=True, unique=True)
     sample = db.Column(db.Integer, nullable=False)
+    votes_with_party_pct = db.Column(db.Float)
+    dw_nominate = db.Column(db.Float)
     #opensecrets_id = db.Column(db.String(20), primary_key=True)
     #votesmart_id = db.Column(db.Integer)
 

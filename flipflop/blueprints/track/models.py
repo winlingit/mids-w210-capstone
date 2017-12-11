@@ -37,5 +37,6 @@ class Bill(db.Model):
     primary_subject = db.Column(db.String(100))
     url = db.Column(db.String(500))
     latest_major_action = db.Column(db.String(1000))
+    latest_major_action_date = db.Column(db.DateTime, nullable=False)
     sample = db.Column(db.Integer, nullable=False)
 

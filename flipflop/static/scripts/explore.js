@@ -63,8 +63,8 @@ function makeGraphs(error, data, statesJson) {
   var industryChart = dc.rowChart("#industry-chart");
 
   //Chart Specifications
-  dwMapChart.width(1000)
-    .height(400)
+  dwMapChart.width(700)
+    .height(300)
     .dimension(stateDim)
     .group(averageDwByState)
     .valueAccessor(function (p) {
@@ -87,7 +87,7 @@ function makeGraphs(error, data, statesJson) {
 
 
     contribMapChart.width(700)
-    .height(400)
+    .height(300)
     .dimension(stateDim)
     .group(totalDonationsByState)
     .colors(["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"])

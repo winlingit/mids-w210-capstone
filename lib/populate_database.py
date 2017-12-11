@@ -70,6 +70,14 @@ def populate(app):
                 facebook = res[12]
                 member_id = res[13]
                 sample = res[14]
+                if res[15] == '':
+                    votes_with_party_pct = None
+                else:
+                    votes_with_party_pct = res[15]
+                if res[16] == '':
+                    dw_nominate = None
+                else:
+                    dw_nominate = res[16]
                 #opensecrets_id = res[19]
                 #if res[23] == '':
                 #    votesmart_id = None
@@ -90,7 +98,9 @@ def populate(app):
                     twitter = twitter,
                     facebook = facebook,
                     member_id = member_id,
-                    sample = sample
+                    sample = sample,
+                    votes_with_party_pct = votes_with_party_pct,
+                    dw_nominate = dw_nominate
                 	#opensecrets_id = opensecrets_id,
                 	#votesmart_id = votesmart_id
                 )
@@ -122,6 +132,7 @@ def populate(app):
                 primary_subject = line[9]
                 url = line[24]
                 latest_major_action = line[33]
+                latest_major_action_date = datetime.strptime(re.sub('"','',line[4]), '%m/%d/%Y')
                 sample = line[34]
                 if primary_subject == '':
                     primary_subject = '-'
@@ -139,6 +150,7 @@ def populate(app):
                     primary_subject = primary_subject,
                     url = url,
                     latest_major_action = latest_major_action,
+                    latest_major_action_date = latest_major_action_date,
                     sample = sample
                 )
                 db.session.add(ins_bill)
@@ -178,9 +190,9 @@ def populate(app):
             predict_reader = csv.reader(f, delimiter=',', quotechar='"')
             for line in predict_reader:
                 bill_pred_id = line[0]
-                model_id = line[3]
-                pred_probs = line[2]
                 full_set_id = line[1]
+                pred_probs = line[2]
+                model_id = line[3]
                 bill_id = line[4]
                 ins_bill_pred = BillPrediction(
                     bill_pred_id = bill_pred_id,

@@ -9,16 +9,14 @@
       <div class="container">
 
         <div class="row spacer-10">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <h2>METHODOLOGY</h2>
             <br>
           </div>
-          <div class="col-sm-5"></div>
+          <div class="col-sm-7"></div>
         </div>
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <h4>Problem Background</h4>
             <p>Today's political climate is the most polarized it has ever been with Congress members voting with their party 95% of the time, up 12 percentage points in the past 17 years. This leads to a situation where the fate of import legislation typically lies in just a handful of representatives. 
             </p>
@@ -33,11 +31,10 @@
             </ul>
           </p>
           </div>
-          <div class="col-sm-5"><img src="{{ url_for('static', filename='images/vote_polarization.png') }}" class="side"></div>
+          <div class="col-sm-7"><img src="{{ url_for('static', filename='images/vote_polarization.png') }}" class="side"></div>
         </div>
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <h4>Data Sources</h4>
             <p>We collected data from <a href="{{ url_for('page.contribute') }}">publicly available data sources</a> for the following areas:</p>
             <div class="row">
@@ -63,20 +60,18 @@
             <p>We framed the machine learning problem in terms of predicting legislators who vote against their party rather than predicting votes outright overall, as this approach has not received extensive research in the literature. By treating it as an anomaly detection problem, we hope to have better predictive power than raw voting results.
             </p>
           </div>
-          <div class="col-sm-5"><img src="{{ url_for('static', filename='images/data_sources.png') }}" class="side"></div>
+          <div class="col-sm-7"><img src="{{ url_for('static', filename='images/data_sources.png') }}" class="side"></div>
         </div>
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <h5>Ensemble Models</h5>
             <p>Similarly, although there was significant research done on this topic, research was often limited to one particular feature set, i.e. voting history, PAC funding, etc., and we believe that combining models trained on each of these individual features into an ensemble model will provide greater predictive power and generalization than any one model on its own. An overview of the model approach can be seen to the right.
             </p>
           </div>
-          <div class="col-sm-5"><img src="{{ url_for('static', filename='images/ensemble_model.png') }}" class="side"></div>
+          <div class="col-sm-7"><img src="{{ url_for('static', filename='images/ensemble_model.png') }}" class="side"></div>
         </div>
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <h4>Model Performance</h4>
             <p>The results of modeling had a wide range of scores, although all individual feature models outperformed our baseline method of randomly assigning the number of legislators who voted against their party for each vote.</p>
             <p>M ember ideology performed the best out of any of the individual feature models, which was expected given that it is based on the industry standard. 
@@ -84,7 +79,7 @@
             <p>The ensemble method performed better than the individual feature including member ideology. Although the improvement was not as large as we would have hoped, the ability to outperform the industry standard and expert inputs through a naive combination of models is encouraging and could further be refined through model tuning and increasing the amount of data.
             </p>
           </div>
-          <div class="col-sm-5"><img src="{{ url_for('static', filename='images/model_performance.png') }}" class="side"></div>
+          <div class="col-sm-7"><img src="{{ url_for('static', filename='images/model_performance.png') }}" class="side"></div>
       </div>
       <!-- /.container -->
     </section>

@@ -72,11 +72,17 @@
         </div>
         <div class="row">
           <div class="col-sm-5">
-            <h4>Model Performance</h4>
-            <p>The results of modeling had a wide range of scores, although all individual feature models outperformed our baseline method of randomly assigning the number of legislators who voted against their party for each vote.</p>
-            <p>M ember ideology performed the best out of any of the individual feature models, which was expected given that it is based on the industry standard. 
+            <h4>Model Results</h4>
+            <h5>Overall Performance</h5>
+            <p>The overall model is able to faithfully identify congress members who vote against their own party. Setting a probability threshold at 80% identifies the vast majority (90%) of this population. Unfortunately, due to the frequency at which members vote with their party, such a threshold results in an unacceptable number of false positives. Despite its impressive performance over baseline, additional work is needed to maximize the predictions of the ensemble model.
             </p>
-            <p>The ensemble method performed better than the individual feature including member ideology. Although the improvement was not as large as we would have hoped, the ability to outperform the industry standard and expert inputs through a naive combination of models is encouraging and could further be refined through model tuning and increasing the amount of data.
+          </div>
+          <div class="col-sm-7"><img src="{{ url_for('static', filename='images/probabilities.png') }}" class="side"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <h5>Relative Performance</h5>
+            <p>All of the featureset models perform better than their baseline. Member ideology, which is typically the most common approach used to explain voting patterns, performed the best. We obtained a small, yet reliable gain in performance by combining the results of these models with an ensemble approach.
             </p>
           </div>
           <div class="col-sm-7"><img src="{{ url_for('static', filename='images/model_performance.png') }}" class="side"></div>

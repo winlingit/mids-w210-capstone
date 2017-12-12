@@ -109,17 +109,17 @@ def populate(app):
         print('Number of members: %s' % str(db.session.query(Member.member_id).count()))
 
         # Populate db with sample bills
-        with open('data/app/sample_bills.csv') as f:
+        with open('data/app/recent_bills.csv') as f:
             next(f)
             bill_reader = csv.reader(f, delimiter=',', quotechar='"')
             for line in bill_reader:
-                bill_id = line[3]
-                session = line[2]
-                short_title = line[18]
-                bill_number = line[11]
-                sponsor_id = line[10]
+                bill_id = line[4]
+                session = line[3]
+                short_title = line[19]
+                bill_number = line[12]
+                sponsor_id = line[11]
                 # Extract number of cosponsors
-                cosponsors = re.sub('[\[\]]','',line[8])
+                cosponsors = re.sub('[\[\]]','',line[9])
                 if len(cosponsors) == 0:
                     num_cosponsors = 0
                 else:
@@ -127,13 +127,13 @@ def populate(app):
                 summary = line[14]
                 if len(summary) > 2000:
                     summary = summary[0:1999]
-                committee = line[15]
-                introduced_date = line[26]
-                primary_subject = line[9]
-                url = line[24]
-                latest_major_action = line[33]
-                latest_major_action_date = datetime.strptime(re.sub('"','',line[4]), '%m/%d/%Y')
-                sample = line[34]
+                committee = line[17]
+                introduced_date = line[27]
+                primary_subject = line[10]
+                url = line[25]
+                latest_major_action = line[34]
+                latest_major_action_date = datetime.strptime(re.sub('"','',line[5]), '%m/%d/%Y')
+                sample = line[35]
                 if primary_subject == '':
                     primary_subject = '-'
                 ins_bill = Bill(

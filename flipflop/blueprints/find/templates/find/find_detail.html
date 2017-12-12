@@ -71,24 +71,21 @@
           </thead>
           <tbody id="myTable">
             {%- for bill in bills|sort(attribute='latest_major_action_date') %}
-              {%- for prediction in predictions %}
-                {%- if prediction.bill_id == bill.bill_id %}
-                  <tr>
-                    <td>
-                      {{ bill.latest_major_action_date.strftime('%b. %d, %Y') }}
-                    </td>
-                    <td>
-                      <b>{%- for vote in votes %}
-                          {%- if vote.full_set_id == prediction.full_set_id %}
-                            {{ vote.vote_position|upper }}
-                          {%- endif %}
-                        {%- endfor %}</b> on 
-                          <b><a href="{{ url_for('track.track_page', bill_id=prediction.bill_id) }}">{{ prediction.bill_id|upper }}</a></b>: {{ bill.title }}
-                    </td>
-                    <td>{{ 100*prediction.pred_probs|round }}%</td>
-                  </tr>
-                {%- endif %}
-              {%- endfor %}
+              <tr>
+                <td>
+                  {{ bill.latest_major_action_date.strftime('%b. %d, %Y') }}
+                </td>
+                <td>
+                  <b><a href="{{ url_for('track.track_page', bill_id=bill.bill_id) }}">{{ bill.bill_id|upper }}</a></b>: {{ bill.title }}
+                </td>
+                <td>
+                  {%- for prediction in predictions %}
+                    {%- if prediction.bill_id == bill.bill_id and prediction.model_id == 1 %}
+                      {{ 100*prediction.pred_probs|round }}% 
+                    {%- endif %}
+                  {%- endfor %}
+                </td>
+              </tr>
             {%- endfor %}
           </tbody>
         </table>

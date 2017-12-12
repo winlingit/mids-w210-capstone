@@ -3,6 +3,7 @@ from flipflop.blueprints.find.forms import ZipCodeForm
 from flipflop.blueprints.find.models import State, District, Member
 from flipflop.blueprints.track.models import Bill, BillVote, BillPrediction, Model
 from flipflop.extensions import db
+from sqlalchemy import func, desc
 import re
 
 find = Blueprint('find', __name__, template_folder='templates', url_prefix='/engage')
@@ -23,12 +24,11 @@ def find_page(zipcode=None, member_id=None):
         # Pull same demographic details, voting against party stats, 
         # PAC funding, SIG ratings
         member_info = Member.query.filter(Member.member_id==member_id).all()
-        votes = BillVote.query.filter(BillVote.member_id==member_id).all()
-        bills = Bill.query.filter(Bill.bill_id.in_([vote.bill_id for vote in votes])).all()
-        predictions = BillPrediction.query.filter(BillPrediction.full_set_id.in_([vote.full_set_id for vote in votes])).all()
-        models = Model.query.filter(Model.model_id.in_([prediction.model_id for prediction in predictions])).all()
-
-        return render_template('find/find_detail.html', member=member_info[0], votes=votes, bills=bills, predictions=predictions, models=models)
+        votes = db.session.query(BillVote, Bill).filter(BillVote.member_id==member_id).join(Bill).order_by(desc(Bill.latest_major_action_date)).all()
+        predictions = db.session.query(BillPrediction, Bill).filter(BillPrediction.member_id==member_id).join(Model).filter(Model.model=="Ensemble").join(Bill).order_by(desc(Bill.latest_major_action_date)).all()
+  
+        return render_template('find/find_detail.html', member=member_info[0], 
+            votes=votes, predictions=predictions)
     elif zipcode:
         if re.match('\d{5}', zipcode):
             # Correctly formatted zipcode

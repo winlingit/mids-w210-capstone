@@ -41,21 +41,19 @@
               <th>DESCRIPTION</th>
             </tr>
             </thead>
-          {%- for bill in bills|sort(attribute='latest_major_action_date', reverse=True) %}
-            {%- for vote in votes %}
-              {%- if vote.bill_id == bill.bill_id %}
+            <tbody>
+                {%- for vote in votes %}
                 <tr>
                   <td>
-                    {{ bill.latest_major_action_date.strftime('%b. %d, %Y') }}
+                    {{ vote.Bill.latest_major_action_date.strftime('%b. %d, %Y') }}
                   </td>
                   <td>
-                    <b>{{ vote.vote_position|upper }}</b> on 
-                <b><a href="{{ url_for('track.track_page', bill_id=vote.bill_id) }}">{{ vote.bill_id|upper }}</a></b>: {{ bill.title }}
+                    <b>{{ vote.BillVote.vote_position|upper }}</b> on 
+                <b><a href="{{ url_for('track.track_page', bill_id=vote.Bill.bill_id) }}">{{ vote.Bill.bill_id|upper }}</a></b>: {{ vote.Bill.title }}
                   </td>
                 </tr>
-              {%- endif %}
-            {%- endfor %}
-          {%- endfor %}
+                {%- endfor %}
+          </tbody>
         </table>
       </div>
       <div class="col-md-6">
@@ -70,20 +68,16 @@
           </tr>
           </thead>
           <tbody id="myTable">
-            {%- for bill in bills|sort(attribute='latest_major_action_date') %}
+            {%- for prediction in predictions %}
               <tr>
                 <td>
-                  {{ bill.latest_major_action_date.strftime('%b. %d, %Y') }}
+                  {{ prediction.Bill.latest_major_action_date.strftime('%b. %d, %Y') }}
                 </td>
                 <td>
-                  <b><a href="{{ url_for('track.track_page', bill_id=bill.bill_id) }}">{{ bill.bill_id|upper }}</a></b>: {{ bill.title }}
+                  <b><a href="{{ url_for('track.track_page', bill_id=prediction.Bill.bill_id) }}">{{ prediction.Bill.bill_id|upper }}</a></b>: {{ prediction.Bill.title }}
                 </td>
                 <td>
-                  {%- for prediction in predictions %}
-                    {%- if prediction.bill_id == bill.bill_id and prediction.model_id == 1 %}
-                      {{ 100*prediction.pred_probs|round }}% 
-                    {%- endif %}
-                  {%- endfor %}
+                  {{ 100*prediction.BillPrediction.pred_probs|round }}% 
                 </td>
               </tr>
             {%- endfor %}

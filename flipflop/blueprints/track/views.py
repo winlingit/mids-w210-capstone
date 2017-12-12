@@ -33,7 +33,7 @@ def track_page(bill_id=None):
 		else:
 			cosponsors = {'-'}
 		
-		top_predictions = db.session.query(BillVote, BillPrediction, Member, Model).filter(BillVote.bill_id==bill_id).join(BillPrediction).join(Member).join(Model).order_by(desc(BillPrediction.pred_probs)).limit(20).all()
+		top_predictions = db.session.query(BillPrediction, Member, Model).filter(BillPrediction.bill_id==bill_id).filter(Model.model=="Ensemble").join(Member).join(Model).order_by(desc(BillPrediction.pred_probs)).limit(20).all()
 
 		return render_template('track/track_detail.html', 
 								bill_info=bill_info[0],
@@ -41,5 +41,5 @@ def track_page(bill_id=None):
 								cosponsors=cosponsors,
 								top_predictions=top_predictions)
 	else:
-		bills = Bill.query.filter(Bill.sample==1).all()
+		bills = Bill.query.join(BillPrediction).all()
 		return render_template('track/track.html', bills=bills)

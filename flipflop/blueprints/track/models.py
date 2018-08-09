@@ -13,7 +13,7 @@ class BillPrediction(db.Model):
     __tablename__ = 'billprediction'
     bill_pred_id = db.Column(db.Integer, primary_key=True)
     bill_id = db.Column(db.String(20), db.ForeignKey('bill.bill_id'), nullable=False)
-    full_set_id = db.Column(db.Integer, db.ForeignKey('billvote.full_set_id'), nullable=False)
+    member_id = db.Column(db.String(100), db.ForeignKey('member.member_id'), nullable=False)
     pred_probs = db.Column(db.Float, nullable=False)
     model_id = db.Column(db.Integer, db.ForeignKey('model.model_id'), nullable=False)
 

@@ -127,7 +127,7 @@ def populate(app):
                 summary = line[14]
                 if len(summary) > 2000:
                     summary = summary[0:1999]
-                committee = line[17]
+                committee = line[16]
                 introduced_date = line[27]
                 primary_subject = line[10]
                 url = line[25]
@@ -158,8 +158,19 @@ def populate(app):
         print('Number of sample bills: %s' % str(db.session.query(Bill.bill_id).count()))
 
         # Populate db with models
-        db.session.add(Model(model_id=1, model='PAC Industry'))
-        db.session.add(Model(model_id=2, model='PAC General'))
+        db.session.add(Model(model_id=1, model='Amendment Votes'))
+        db.session.add(Model(model_id=2, model='Bill Info'))
+        db.session.add(Model(model_id=3, model='Bill Involvement'))
+        db.session.add(Model(model_id=4, model='District Econ'))
+        db.session.add(Model(model_id=5, model='District Geo'))
+        db.session.add(Model(model_id=6, model='Ideology'))
+        db.session.add(Model(model_id=7, model='Member Demos'))
+        db.session.add(Model(model_id=8, model='PAC General'))
+        db.session.add(Model(model_id=9, model='PAC Industry'))
+        db.session.add(Model(model_id=10, model='Votes Party'))
+        db.session.add(Model(model_id=11, model='Ensemble'))
+
+
         db.session.commit()
         print('Number of models: %s' % str(db.session.query(Model.model_id).count()))
 
@@ -172,7 +183,7 @@ def populate(app):
                 member_id = line[2]
                 vote_position = line[3]
                 bill_id = line[4]
-                broke_from_party = line[7]
+                broke_from_party = line[5]
                 ins_bill_vote = BillVote(
                     full_set_id = full_set_id,
                     member_id = member_id,
@@ -184,24 +195,56 @@ def populate(app):
             db.session.commit()
         print('Number of sample bill votes: %s' % str(db.session.query(BillVote.full_set_id).count()))
 
+        def addPrediction(bill_pred_id, member_id, bill_id,  model_id, pred_probs):
+            if (pred_probs != "NA"):
+                db.session.add(BillPrediction(
+                        bill_pred_id = bill_pred_id,
+                        pred_probs = pred_probs,
+                        model_id = model_id,
+                        bill_id = bill_id,
+                        member_id = member_id,))
         # Populate db with bill predictions
-        with open('data/app/sample_pac_predictions.csv') as f:
+        with open('data/app/sample_predictions.csv') as f:
             next(f)
             predict_reader = csv.reader(f, delimiter=',', quotechar='"')
+            count = 0
             for line in predict_reader:
                 bill_pred_id = line[0]
-                full_set_id = line[1]
-                pred_probs = line[2]
-                model_id = line[3]
-                bill_id = line[4]
-                ins_bill_pred = BillPrediction(
-                    bill_pred_id = bill_pred_id,
-                    pred_probs = pred_probs,
-                    model_id = model_id,
-                    full_set_id = full_set_id,
-                    bill_id = bill_id
-                )
-                db.session.add(ins_bill_pred)
+                member_id = line[2]
+                bill_id = line[3]
+                # Amendment votes
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 1, line[5])
+                # Bill Info
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 2, line[6])
+                # Bill Involvement
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 3, line[7])
+                # District Econ
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 4, line[8])
+                # District Geo
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 5, line[9])
+                # Ideology
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 6, line[10])
+                # Member Demos
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 7, line[11])
+                # PAC General
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 8, line[12])
+                # PAC Industry
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 9, line[13])
+                # Votes Party
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 10, line[14])
+                # Ensemble
+                count = count + 1
+                addPrediction(count, member_id, bill_id, 11, line[15])
             db.session.commit()
         print('Number of sample bill predictions: %s' % str(db.session.query(BillPrediction.bill_pred_id).count()))
 
